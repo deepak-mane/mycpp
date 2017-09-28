@@ -17,6 +17,7 @@ Web Resources
 -   [*The Linux Programming Interface* by Kerrisk](http://man7.org/tlpi/)
 -   [*Linux Application Development (2nd ed)* by Johnson and Troan](http://www.ladweb.net/)
 -   [*Advanced Linux Programming*](http://www.advancedlinuxprogramming.com/) (free online ebook)
+-   [*Advanced Linux Programming*](http://www.makelinux.net/alp/) (HTML version of above book)
 -   [*Understanding Unix/Linux Programming* by Molay](http://wps.prenhall.com/esm_molay_UNIXProg_1/0,6678,522376-,00.html)
 -   [*Advanced UNIX Programming* by Rochkind](http://www.basepath.com/aup/)
 -   [*Advanced Programming in the UNIX Environment*, 2ed, by Stevens and Rago](http://www.apuebook.com/)
