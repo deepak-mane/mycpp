@@ -7,7 +7,7 @@ Level 5 is looking for doers and creative problem solvers to join us in developi
 As part of the AV Maps Team, you will be interacting on a daily basis with other software engineers to tackle advanced AI challenges. Eventually we expect all Autonomy Team members to work on a variety of problems across the autonomy space, however, with a generalist focus, your work will initially involve contributing across the different problems and sub teams to ensure extremely high-quality, high-performance code is used in all of our mission critical AI systems. For this position, we are looking for a software engineer with a strong interest in developing the next generation of autonomous vehicles and a deep knowledge of C++ and computational thinking, but without a specific background in AI or Machine Learning.
 
 ### Responsibilities
-- 1. Work with artificial intelligence and machine learning engineers to develop core algorithms that will power Lyft's self-driving cars
+ 1. Work with artificial intelligence and machine learning engineers to develop core algorithms that will power Lyft's self-driving cars
 - 2. Raise the bar across Level 5 on code quality, design, and architecture
 - 3. Implement high-performance, mission-critical code that will run on the car and in the cloud
 - 4. Lead designs of major software components, systems, and features across multiple teams
