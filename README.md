@@ -8,44 +8,45 @@ As part of the AV Maps Team, you will be interacting on a daily basis with other
 
 ### Responsibilities
  1. Work with artificial intelligence and machine learning engineers to develop core algorithms that will power Lyft's self-driving cars
-- 2. Raise the bar across Level 5 on code quality, design, and architecture
-- 3. Implement high-performance, mission-critical code that will run on the car and in the cloud
-- 4. Lead designs of major software components, systems, and features across multiple teams
-- 5. Design, develop, test, deploy, maintain and improve software.
-- 6. Manage individual projects priorities, deadlines and deliverables with your technical expertise.
-- 7. Mentor and train other team members on design techniques, and coding standards
-- 8. Work with AV sensor data to build HD maps for self-driving vehicles
-- 9. Design and develop efficient, scalable algorithms and pipelines to quickly process large-scale sensor data from an autonomous fleet
+ 2. Raise the bar across Level 5 on code quality, design, and architecture
+ 3. Implement high-performance, mission-critical code that will run on the car and in the cloud
+ 4. Lead designs of major software components, systems, and features across multiple teams
+ 5. Design, develop, test, deploy, maintain and improve software.
+ 6. Manage individual projects priorities, deadlines and deliverables with your technical expertise.
+ 7. Mentor and train other team members on design techniques, and coding standards
+ 8. Work with AV sensor data to build HD maps for self-driving vehicles
+ 9. Design and develop efficient, scalable algorithms and pipelines to quickly process large-scale sensor data from an autonomous fleet
 
 ### Requirements
-- 1. BS degree in Computer Science or related field, MS or PhD is a plus
-- 2. 1+ years working experience in Linux C++ software development
-- 3. Good organization and communication skills and team player
-- 4. Experience with Java, Python, Protobuf language programming is a plus
-- 5. Experience with point cloud data or other self-driving car sensor data is a plus
-- 6. GIS or map development experience is a plus
+ 1. BS degree in Computer Science or related field, MS or PhD is a plus
+ 2. 1+ years working experience in Linux C++ software development
+ 3. Good organization and communication skills and team player
+ 4. Experience with Java, Python, Protobuf language programming is a plus
+ 5. Experience with point cloud data or other self-driving car sensor data is a plus
+ 6. GIS or map development experience is a plus
 
 ### Responsibilities:
-- 1. Design, implement and optimize routing algorithms
-- 2. Experience in large-scale maps and routing is a strong plus
-- 3. Hands on experience in 3D computer vision, point clouds, etc.
-- 4. Machine Learning, Deep Neural Networks; applying ML and CNN/DNN techniques to handle different tasks related to mapping.
-- 5. Familiarity with maps, loop closure, map datums, and projections.
-- 6. C, C++, Python experience
+ 1. Design, implement and optimize routing algorithms
+ 2. Experience in large-scale maps and routing is a strong plus
+ 3. Hands on experience in 3D computer vision, point clouds, etc.
+ 4. Machine Learning, Deep Neural Networks; applying ML and CNN/DNN techniques to handle different tasks related to mapping.
+ 5. Familiarity with maps, loop closure, map datums, and projections.
+ 6. C, C++, Python experience
 
 ### Experience & Skills
-- 1. Ability to produce production-quality C++
-- 2. Advanced working knowledge of C++11 and STL
-- 3. Ability to deal with complex algorithms and data structures
-- 4. Ability to write testable, modular code for safety-critical systems
-- 5. Bachelor's degree or higher in Computer Science, Electrical Engineering, or related field
-- 6. Ability to work in a fast-paced environment and collaborate across teams and disciplines
-- 7. Openness to new/different ideas. Ability to evaluate multiple approaches and choose the best one based on first principle
+ 1. Ability to produce production-quality C++
+ 2. Advanced working knowledge of C++11 and STL
+ 3. Ability to deal with complex algorithms and data structures
+ 4. Ability to write testable, modular code for safety-critical systems
+ 5. Bachelor's degree or higher in Computer Science, Electrical Engineering, or related field
+ 6. Ability to work in a fast-paced environment and collaborate across teams and disciplines
+ 7. Openness to new/different ideas. Ability to evaluate multiple approaches and choose the best one based on first principle
 
 ### Nice To Have
-- 1. 5+ years developing production quality C++
-- 2. Experience with multi-threading and concurrency in complex software
-- 3. Experience with GPU programming in CUDA or OpenCL
-- 4. Deep knowledge of Linux operating system
-- 5. Advanced understanding of debugging, profiling, and monitoring complex C++ software
+ 1. 5+ years developing production quality C++
+ 2. Experience with multi-threading and concurrency in complex software
+ 3. Experience with GPU programming in CUDA or OpenCL
+ 4. Deep knowledge of Linux operating system
+ 5. Advanced understanding of debugging, profiling, and monitoring complex C++ software
 
+# END
