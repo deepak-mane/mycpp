@@ -50,7 +50,7 @@ We are all familiar with the famous Undo option, which is present in almost ever
 A real-life example of Stack could be a pile of books placed in a vertical order. In order to get the book that’s somewhere in the middle, you will need to remove all the books placed on top of it. This is how the LIFO (Last In First Out) method works.
 
 Here’s an image of stack containing three data elements (1, 2 and 3), where 3 is at the top and will be removed first:
-
+![Alt text](./images/STACK.png?raw=true "Title")
 
 Basic operations of stack:
 
@@ -69,7 +69,7 @@ Similar to Stack, Queue is another linear data structure that stores the element
 A perfect real-life example of Queue: a line of people waiting at a ticket booth. If a new person comes, they will join the line from the end, not from the start — and the person standing at the front will be the first to get the ticket and hence leave the line.
 
 Here’s an image of Queue containing four data elements (1, 2, 3 and 4), where 1 is at the top and will be removed first:
-
+![Alt text](./images/QUEUE.png?raw=true "Title")
 
 Basic operations of Queue
 Enqueue() — Inserts element to the end of the queue
@@ -89,7 +89,7 @@ A linked list is like a chain of nodes, where each node contains information lik
 Linked lists are used to implement file systems, hash tables, and adjacency lists.
 
 Here’s a visual representation of the internal structure of a linked list:
-
+![Alt text](./images/LINKEDLIST.png?raw=true "Title")
 
 Following are the types of linked lists:
 
@@ -110,7 +110,7 @@ Remove duplicates from a linked list
 
 ### Graphs
 A graph is a set of nodes that are connected to each other in the form of a network. Nodes are also called vertices. A pair(x,y) is called an edge, which indicates that vertex x is connected to vertex y. An edge may contain weight/cost, showing how much cost is required to traverse from vertex x to y.
-
+![Alt text](./images/GRAPHS.png?raw=true "Title")
 
 Types of Graphs:
 
@@ -120,8 +120,8 @@ In a programming language, graphs can be represented using two forms:
 
 Adjacency Matrix
 Adjacency List
-Common graph traversing algorithms:
 
+Common graph traversing algorithms:
 Breadth First Search
 Depth First Search
 Commonly asked Graph interview questions
@@ -136,7 +136,7 @@ A tree is a hierarchical data structure consisting of vertices (nodes) and edges
 Trees are extensively used in Artificial Intelligence and complex algorithms to provide an efficient storage mechanism for problem-solving.
 
 Here’s an image of a simple tree, and basic terminologies used in tree data structure:
-
+![Alt text](./images/TREES.png?raw=true "Title")
 
 The following are the types of trees:
 
@@ -174,7 +174,7 @@ Build a T9 dictionary
 Hashing is a process used to uniquely identify objects and store each object at some pre-calculated unique index called its “key.” So, the object is stored in the form of a “key-value” pair, and the collection of such items is called a “dictionary.” Each object can be searched using that key. There are different data structures based on hashing, but the most commonly used data structure is the hash table.
 
 Hash tables are generally implemented using arrays.
-
+![Alt text](./images/HASH_TABLE.png?raw=true "Title")
 The performance of hashing data structure depends upon these three factors:
 
 Hash Function
