@@ -53,14 +53,14 @@ Here’s an image of stack containing three data elements (1, 2 and 3), where 3 
 ![Alt text](./images/STACK.png?raw=true "Title")
 
 Basic operations of stack:
-    Push — Inserts an element at the top
-    Pop — Returns the top element after removing from the stack
-    isEmpty — Returns true if the stack is empty
-    Top — Returns the top element without removing from the stack
+  -  Push — Inserts an element at the top
+  -  Pop — Returns the top element after removing from the stack
+  -  isEmpty — Returns true if the stack is empty
+  -  Top — Returns the top element without removing from the stack
 Commonly asked Stack interview questions
-    Evaluate postfix expression using a stack
-    Sort values in a stack
-    Check balanced parentheses in an expression
+  -  Evaluate postfix expression using a stack
+  -  Sort values in a stack
+  -  Check balanced parentheses in an expression
 
 ### Queues
 Similar to Stack, Queue is another linear data structure that stores the element in a sequential manner. The only significant difference between Stack and Queue is that instead of using the LIFO method, Queue implements the FIFO method, which is short for First in First Out.
@@ -71,14 +71,14 @@ Here’s an image of Queue containing four data elements (1, 2, 3 and 4), where 
 ![Alt text](./images/QUEUE.png?raw=true "Title")
 
 Basic operations of Queue
-    Enqueue() — Inserts element to the end of the queue
-    Dequeue() — Removes an element from the start of the queue
-    isEmpty() — Returns true if queue is empty
-    Top() — Returns the first element of the queue
+  -  Enqueue() — Inserts element to the end of the queue
+  -  Dequeue() — Removes an element from the start of the queue
+  -  isEmpty() — Returns true if queue is empty
+  -  Top() — Returns the first element of the queue
 Commonly asked Queue interview questions
-    Implement stack using a queue
-    Reverse first k elements of a queue
-    Generate binary numbers from 1 to n using a queue
+  -  Implement stack using a queue
+  -  Reverse first k elements of a queue
+  -  Generate binary numbers from 1 to n using a queue
 
 ### Linked List
 A linked list is another important linear data structure which might look similar to arrays at first but differs in memory allocation, internal structure and how basic operations of insertion and deletion are carried out.
@@ -91,20 +91,20 @@ Here’s a visual representation of the internal structure of a linked list:
 ![Alt text](./images/LINKEDLIST.png?raw=true "Title")
 
 Following are the types of linked lists:
-    Singly Linked List (Unidirectional)
-    Doubly Linked List (Bi-directional)
-    Basic operations of Linked List:
-    InsertAtEnd — Inserts given element at the end of the linked list
-    InsertAtHead — Inserts given element at the start/head of the linked list
-    Delete — Deletes given element from the linked list
-    DeleteAtHead — Deletes first element of the linked list
-    Search — Returns the given element from a linked list
-    isEmpty — Returns true if the linked list is empty
+  -  Singly Linked List (Unidirectional)
+  -  Doubly Linked List (Bi-directional)
+  -  Basic operations of Linked List:
+  -  InsertAtEnd — Inserts given element at the end of the linked list
+  -  InsertAtHead — Inserts given element at the start/head of the linked list
+  -  Delete — Deletes given element from the linked list
+  -  DeleteAtHead — Deletes first element of the linked list
+  -  Search — Returns the given element from a linked list
+  -  isEmpty — Returns true if the linked list is empty
 Commonly asked Linked List interview questions
-    Reverse a linked list
-    Detect loop in a linked list
-    Return Nth node from the end in a linked list
-    Remove duplicates from a linked list
+  -  Reverse a linked list
+  -  Detect loop in a linked list
+  -  Return Nth node from the end in a linked list
+  -  Remove duplicates from a linked list
 
 ### Graphs
 A graph is a set of nodes that are connected to each other in the form of a network. Nodes are also called vertices. A pair(x,y) is called an edge, which indicates that vertex x is connected to vertex y. An edge may contain weight/cost, showing how much cost is required to traverse from vertex x to y.
@@ -119,13 +119,13 @@ In a programming language, graphs can be represented using two forms:
 2.  Adjacency List
 
 Common graph traversing algorithms:
-    Breadth First Search
-    Depth First Search
+  -  Breadth First Search
+  -  Depth First Search
 Commonly asked Graph interview questions
-    Implement Breadth and Depth First Search
-    Check if a graph is a tree or not
-    Count number of edges in a graph
-    Find the shortest path between two vertices
+  -  Implement Breadth and Depth First Search
+  -  Check if a graph is a tree or not
+  -  Count number of edges in a graph
+  -  Find the shortest path between two vertices
 
 ### Trees
 A tree is a hierarchical data structure consisting of vertices (nodes) and edges that connect them. Trees are similar to graphs, but the key point that differentiates a tree from the graph is that a cycle cannot exist in a tree.
@@ -147,25 +147,25 @@ The following are the types of trees:
 Out of the above, Binary Tree and Binary Search Tree are the most commonly used trees.
 
 Commonly asked Tree interview questions
-    Find the height of a binary tree
-    Find kth maximum value in a binary search tree
-    Find nodes at “k” distance from the root
-    Find ancestors of a given node in a binary tree
+  -  Find the height of a binary tree
+  -  Find kth maximum value in a binary search tree
+  -  Find nodes at “k” distance from the root
+  -  Find ancestors of a given node in a binary tree
 
 ### Trie
 Trie, which is also known as “Prefix Trees”, is a tree-like data structure which proves to be quite efficient for solving problems related to strings. It provides fast retrieval, and is mostly used for searching words in a dictionary, providing auto suggestions in a search engine, and even for IP routing.
 
 Here’s an illustration of how three words “top”, “thus”, and “their” are stored in Trie:
-
+![Alt text](./images/TRIE.png?raw=true "Title")
 
 The words are stored in the top to the bottom manner where green colored nodes “p”, “s” and “r” indicates the end of “top”, “thus”, and “their” respectively.
 
 Commonly asked Trie interview questions:
-    Count total number of words in Trie
-    Print all words stored in Trie
-    Sort elements of an array using Trie
-    Form words from a dictionary using Trie
-    Build a T9 dictionary
+  -  Count total number of words in Trie
+  -  Print all words stored in Trie
+  -  Sort elements of an array using Trie
+  -  Form words from a dictionary using Trie
+  -  Build a T9 dictionary
 
 ### Hash Table
 Hashing is a process used to uniquely identify objects and store each object at some pre-calculated unique index called its “key.” So, the object is stored in the form of a “key-value” pair, and the collection of such items is called a “dictionary.” Each object can be searched using that key. There are different data structures based on hashing, but the most commonly used data structure is the hash table.
@@ -181,10 +181,10 @@ Here’s an illustration of how the hash is mapped in an array. The index of thi
 
 
 Commonly asked Hashing interview questions
-    Find symmetric pairs in an array
-    Trace complete path of a journey
-    Find if an array is a subset of another array
-    Check if given arrays are disjoint
+  -  Find symmetric pairs in an array
+  -  Trace complete path of a journey
+  -  Find if an array is a subset of another array
+  -  Check if given arrays are disjoint
 The above are the top eight data structures that you should definitely know before walking into a coding interview.
 
 If you are looking for resources on data structures for coding interviews, look at the interactive & challenge based courses: Data Structures for Coding Interviews (Python, Java, or JavaScript).
