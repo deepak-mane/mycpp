@@ -28,22 +28,21 @@ Here’s an image of a simple array of size 4, containing elements (1, 2, 3 and 
 
 Each data element is assigned a positive numerical value called the Index, which corresponds to the position of that item in the array. The majority of languages define the starting index of the array as 0.
 
-  - The following are the two types of arrays:
-
-One-dimensional arrays (as shown above)
-Multi-dimensional arrays (arrays within arrays)
+The following are the two types of arrays:
+1. One-dimensional arrays (as shown above)
+2. Multi-dimensional arrays (arrays within arrays)
 
 Basic Operations on Arrays
-    Insert — Inserts an element at given index
-    Get — Returns the element at given index
-    Delete — Deletes an element at given index
-    Size — Get the total number of elements in array
+  -  Insert — Inserts an element at given index
+  -  Get — Returns the element at given index
+  -  Delete — Deletes an element at given index
+  -  Size — Get the total number of elements in array
 
 Commonly asked Array interview questions
-    Find the second minimum element of an array
-    First non-repeating integers in an array
-    Merge two sorted arrays
-    Rearrange positive and negative values in an array
+  -  Find the second minimum element of an array
+  -  First non-repeating integers in an array
+  -  Merge two sorted arrays
+  -  Rearrange positive and negative values in an array
 
 ### Stacks
 We are all familiar with the famous Undo option, which is present in almost every application. Ever wondered how it works? The idea: you store the previous states of your work (which are limited to a specific number) in the memory in such an order that the last one appears first. This can’t be done just by using arrays. That is where the Stack comes in handy.
