@@ -11,7 +11,7 @@ Based on different scenarios, data needs to be stored in a specific format. We h
 ## Commonly used Data Structures
 Let’s first list the most commonly used data structures, and then we’ll cover them one by one:
 
-- Arrays
+- Arrays [c++ program to implement](./programs/arrays.cpp)
 - Stacks
 - Queues
 - Linked Lists
@@ -91,9 +91,10 @@ Here’s a visual representation of the internal structure of a linked list:
 ![Alt text](./images/LINKEDLIST.png?raw=true "Title")
 
 Following are the types of linked lists:
-  -  Singly Linked List (Unidirectional)
-  -  Doubly Linked List (Bi-directional)
-  -  Basic operations of Linked List:
+1. Singly Linked List (Unidirectional)
+2. Doubly Linked List (Bi-directional)
+
+Basic operations of Linked List:
   -  InsertAtEnd — Inserts given element at the end of the linked list
   -  InsertAtHead — Inserts given element at the start/head of the linked list
   -  Delete — Deletes given element from the linked list
