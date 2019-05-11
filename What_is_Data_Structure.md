@@ -1,4 +1,4 @@
-# What is a Data Structure?
+# What is a Data Structure? [Reference](https://medium.freecodecamp.org/the-top-data-structures-you-should-know-for-your-next-coding-interview-36af0831f5e3)
 A data structure is a container that stores data in a specific layout. This “layout” allows a data structure to be efficient in some operations and inefficient in others. Your goal is to understand data structures so that you can pick the data structure that’s most optimal for the problem at hand.
 
 ## Why do we need Data Structures?
@@ -11,7 +11,7 @@ Based on different scenarios, data needs to be stored in a specific format. We h
 ## Commonly used Data Structures
 Let’s first list the most commonly used data structures, and then we’ll cover them one by one:
 
-- Arrays [c++ program to implement](./programs/arrays.cpp)
+- Arrays [c++ program to implement](./datastructures-programs/ForArray/arrays/src/arrays.cpp)
 - Stacks
 - Queues
 - Linked Lists
