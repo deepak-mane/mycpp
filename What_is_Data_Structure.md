@@ -24,7 +24,7 @@ Let’s first list the most commonly used data structures, and then we’ll cove
 An array is the simplest and most widely used data structure. Other data structures like stacks and queues are derived from arrays.
 
 Here’s an image of a simple array of size 4, containing elements (1, 2, 3 and 4).
-![Alt text](./images/ARRAYS.png?raw=true "Title")
+![Alt text](./images/ARRAY.png?raw=true "Title")
 
 Each data element is assigned a positive numerical value called the Index, which corresponds to the position of that item in the array. The majority of languages define the starting index of the array as 0.
 
