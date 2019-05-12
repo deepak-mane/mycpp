@@ -1,4 +1,4 @@
-# Issues Resultions C++
+# Issues Resolutions C++
 
 ### 1. Eclipse CDT project built but “Launch Failed. Binary Not Found”
 Projects do compile executables generated, but Eclipse can't see them; therefore 'Run' fails. Executables are placed in Debug directory. Double click or command prompt call on compiled executable works without problem.
