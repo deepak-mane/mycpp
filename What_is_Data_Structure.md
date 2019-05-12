@@ -20,6 +20,9 @@ Let’s first list the most commonly used data structures, and then we’ll cove
 - Tries (they are effectively trees, but it’s still good to call them out separately).
 - Hash Tables
 
+[For Advanced Data Structures](https://www.geeksforgeeks.org/data-structures/#AdvancedDataStructure)
+
+
 ### Arrays
 An array is the simplest and most widely used data structure. Other data structures like stacks and queues are derived from arrays.
 
