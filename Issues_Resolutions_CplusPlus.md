@@ -8,7 +8,7 @@ Projects do compile executables generated, but Eclipse can't see them; therefore
 This happened to me and I found a solution, see if this works for you:
 Once you have built your project with the hammer icon:
 
-1. select "Run".
+1. Select "Run".
 2. Run Configurations.
 3. Choose "C++ Application".
 4. Click on the "New Launch Configuration" icon on the top left of the open window.
