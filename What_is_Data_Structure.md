@@ -196,3 +196,16 @@ If you are looking for resources on data structures for coding interviews, look 
 For more advanced questions, look at Coderust 3.0: Faster Coding Interview Preparation with Interactive Challenges & Visualizations.
 
 If you are preparing for a software engineering interviews, here’s a comprehensive roadmap to prepare for coding Interviews.
+
+
+
+| FUNDAMENTAL DATA TYPES	| DERIVED DATA TYPES| 
+|  --- |  --- | 
+| Fundamental data type is also called primitive data type. These are the basic data types.	| Derived data type is the aggregation of fundamental data type.| 
+| character, integer, float, and void are fundamental data types.	| Pointers, arrays, structures and unions are derived data types.| 
+| Character is used for characters. It can be classified as
+char, Signed char, Unsigned char.	| Pointers are used for storing address of variables.| 
+| Integer is used for integers( not having decimal digits). It can be classified as signed and unsigned. Further classified as int, short int and long int.	| Array is used to contain similar type of data.| 
+| float is used for decimal numbers. These are classified as float, double and long double.	| structure is used to group items of possibly different types into a single type.| 
+| void is used where there is no return value required.	| It is like structure but all members in union share the same memory location| 
+
