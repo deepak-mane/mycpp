@@ -22,6 +22,24 @@ Let’s first list the most commonly used data structures, and then we’ll cove
 
 [For Advanced Data Structures](https://www.geeksforgeeks.org/data-structures/#AdvancedDataStructure)
 
+| Set 1 (Linear Data Structures) | Set 2 (Binary Tree, BST, Heap and Hash) | Set 3 (Graph, Trie, Segment Tree and Suffix Tree)|
+| --- | --- | --- |
+|
+1. Array
+2. Linked List
+3. Stack
+4. Queue
+|
+5. Binary Tree
+6. Binary Search Tree
+7. Binary Heap
+9. Hashing
+|
+9. Graph
+10. Trie
+11. Segment Tree
+12. Suffix Tree
+|
 
 ### Arrays
 An array is the simplest and most widely used data structure. Other data structures like stacks and queues are derived from arrays.
