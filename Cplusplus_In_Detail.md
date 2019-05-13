@@ -274,8 +274,9 @@ C++ is a general purpose programming language and widely used now a days for com
     Searching
 
 ### Containers:
- - Pair (Practice)
-  - Vector (Practice)
+
+- [Pair](#pair)
+	- [Vector](#vector)
         Ways to copy a vector in C++
         Sorting 2D Vector in C++ | Set 3 (By number of columns),(Sort in descending order by first and second)
         Sorting 2D Vector in C++ | Set 2 (In descending order by row and column)
@@ -288,35 +289,35 @@ C++ is a general purpose programming language and widely used now a days for com
         Initialize a vector; Different ways
         Sorting 2D Vector in C++ | Set 1 (By row and column), (Sort by first and second)
         Computing index using pointers returned by STL functions in C++
-  - List
-        List in C++ | Set 2 (Some Useful Functions)
-        Forward List in C++ | Set 1 (Introduction and Important Functions)
-        Forward List in C++ | Set 2 (Manipulating Functions)
-        list::remove() and list::remove_if() in C++ STL
-        Forward_list::front() and forward_list::empty() in C++ STL
-        Forward_list :: remove() and forward_list :: remove_if() in C++ STL
-        forward_list::unique() in C++ STL
-        forward_list::reverse() in C++ STL
-        forward_list::max_size() in C++ STL
-        forward_list::before_begin() in C++ STL
-        forward_list::cbefore_begin() in C++ STL
-        forward_list::unique() in C++ STL
-        forward_list::before_begin() in C++ STL
-        forward_list::cbefore_begin() in C++ STL
-        forward_list::reverse() in C++ STL
-        forward_list::max_size() in C++ STL
-        forward_list::splice_after() in C++ STL
-        list::empty() and list::size() in C++ STL
-        list::front() and list::back() in C++ STL
-        list::pop_front() and list::pop_back() in C++ STL
-        list::push_front() and list::push_back() in C++ STL
-        list push_front() function in C++ STL
-        list pop_back() function in C++ STL
-        list pop_front() function in C++ STL
-        list reverse function in C++ STL
-        list resize() function in C++ STL
-        list size() function in C++ STL
-        list max_size() function in C++ STL
+	- [List](#list)
+    List in C++ | Set 2 (Some Useful Functions)
+    Forward List in C++ | Set 1 (Introduction and Important Functions)
+    Forward List in C++ | Set 2 (Manipulating Functions)
+    list::remove() and list::remove_if() in C++ STL
+    Forward_list::front() and forward_list::empty() in C++ STL
+    Forward_list :: remove() and forward_list :: remove_if() in C++ STL
+    forward_list::unique() in C++ STL
+    forward_list::reverse() in C++ STL
+    forward_list::max_size() in C++ STL
+    forward_list::before_begin() in C++ STL
+    forward_list::cbefore_begin() in C++ STL
+    forward_list::unique() in C++ STL
+    forward_list::before_begin() in C++ STL
+    forward_list::cbefore_begin() in C++ STL
+    forward_list::reverse() in C++ STL
+    forward_list::max_size() in C++ STL
+    forward_list::splice_after() in C++ STL
+    list::empty() and list::size() in C++ STL
+    list::front() and list::back() in C++ STL
+    list::pop_front() and list::pop_back() in C++ STL
+    list::push_front() and list::push_back() in C++ STL
+    list push_front() function in C++ STL
+    list pop_back() function in C++ STL
+    list pop_front() function in C++ STL
+    list reverse function in C++ STL
+    list resize() function in C++ STL
+    list size() function in C++ STL
+    list max_size() function in C++ STL
   - Dequeue
         Deque::empty() and deque::size() in C++ STL
         Deque::pop_front() and deque::pop_back() in C++ STL
