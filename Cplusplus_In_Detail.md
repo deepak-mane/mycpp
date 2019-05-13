@@ -320,67 +320,68 @@ C++ is a general purpose programming language and widely used now a days for com
 	- list size() function in C++ STL
 	- list max_size() function in C++ STL
 - Dequeue
-- Deque::empty() and deque::size() in C++ STL
-- Deque::pop_front() and deque::pop_back() in C++ STL
-- Deque::clear() and deque::erase() in C++ STL
-- Queue (Practice)
-- Queue::front() and queue::back() in C++ STL
-- Queue::push() and queue::pop() in C++ STL
-- queue::empty() and queue::size() in C++ STL
-- Priority Queue
+	- Deque::empty() and deque::size() in C++ STL
+	- Deque::pop_front() and deque::pop_back() in C++ STL
+	- Deque::clear() and deque::erase() in C++ STL
+	- Queue (Practice)
+	- Queue::front() and queue::back() in C++ STL
+	- Queue::push() and queue::pop() in C++ STL
+	- queue::empty() and queue::size() in C++ STL
+	- Priority Queue
 - Stack (Practice)
-- Stack::push() and stack::pop() in C++ STL
-- Forward_list :: push_front() and forward_list :: pop_front() in C++ STL
-- Stack::top() in C++ STL
-- Stack::empty() and stack::size() in C++ STL
+	- Stack::push() and stack::pop() in C++ STL
+	- Forward_list :: push_front() and forward_list :: pop_front() in C++ STL
+	- Stack::top() in C++ STL
+	- Stack::empty() and stack::size() in C++ STL
 - Set (Practice)
-- Count number of unique Triangles using STL | Set 1 (Using set)
-- std::istream_iterator and std::ostream_iterator in C++ STL
-- Std::next_permutation and prev_permutation in C++
-- Std::stoul and std::stoull in C++
-- Shuffle vs random_shuffle in C++
-- Difference between set, multiset, unordered_set, unordered_multiset
-- Check if a key is present in a C++ map or unordered_map
-- Std::stable_partition in C++
-- Valarray slice selector
-- Std::memchr in C++
-- Std::strncmp() in C++
-- Stable_sort() in C++ STL
-- Std::memcmp() in C++
-- Std::memset in C++
-- Std::bucket_count and std::bucket_size in unordered_map in C++
+	- Count number of unique Triangles using STL | Set 1 (Using set)
+	- std::istream_iterator and std::ostream_iterator in C++ STL
+	- Std::next_permutation and prev_permutation in C++
+	- Std::stoul and std::stoull in C++
+	- Shuffle vs random_shuffle in C++
+	- Difference between set, multiset, unordered_set, unordered_multiset
+	- Check if a key is present in a C++ map or unordered_map
+	- Std::stable_partition in C++
+	- Valarray slice selector
+	- Std::memchr in C++
+	- Std::strncmp() in C++
+	- Stable_sort() in C++ STL
+	- Std::memcmp() in C++
+	- Std::memset in C++
+	- Std::bucket_count and std::bucket_size in unordered_map in C++
 - Map of pairs in STL
-- Range-based for loop in C++
-- Std::includes() in C++ STL
-- Std::set_symmetric_difference in C++
-- Std::sort_heap in C++
-- Map vs unordered_map in C++
+	- Range-based for loop in C++
+	- Std::includes() in C++ STL
+	- Std::set_symmetric_difference in C++
+	- Std::sort_heap in C++
+	- Map vs unordered_map in C++
 - Round() in C++
 - Modulus of two float or double numbers
 - Multiset
 - Map (Practice)
 - Heap using STL C++
-- - Multimap
-- Multimap in C++ Standard Template Library (STL)
-- multimap::find() in C++ STL
-- multimap::erase() in C++ STL
-- map emplace() in C++ STL
-- multimap::emplace_hint() in C++ STL
-- multimap::emplace() in C++ STL
-- multimap::count() in C++ STL
-- multimap::find() in C++ STL
-- multimap::erase() in C++ STL
-- multimap::begin() and multimap::end() in C++ STL
-- multimap::cbegin() and multimap::cend() in C++ STL
-- map cbegin() and cend() function in C++ STL
-- multimap::crbegin() and multimap::crend() in C++ STL
-- multimap size() function in C++ STL
-- multimap lower_bound() function in C++ STL
-- multimap swap() function in C++ STL
-- multimap upper_bound() function in C++ STL
-- multimap maxsize() in C++ STL
-- multimap insert() in C++ STL
-- multimap equal_range() in C++ STL
+
+- [Multimap](#Multimap)
+	- Multimap in C++ Standard Template Library (STL)
+	- multimap::find() in C++ STL
+	- multimap::erase() in C++ STL
+	- map emplace() in C++ STL
+	- multimap::emplace_hint() in C++ STL
+	- multimap::emplace() in C++ STL
+	- multimap::count() in C++ STL
+	- multimap::find() in C++ STL
+	- multimap::erase() in C++ STL
+	- multimap::begin() and multimap::end() in C++ STL
+	- multimap::cbegin() and multimap::cend() in C++ STL
+	- map cbegin() and cend() function in C++ STL
+	- multimap::crbegin() and multimap::crend() in C++ STL
+	- multimap size() function in C++ STL
+	- multimap lower_bound() function in C++ STL
+	- multimap swap() function in C++ STL
+	- multimap upper_bound() function in C++ STL
+	- multimap maxsize() in C++ STL
+	- multimap insert() in C++ STL
+	- multimap equal_range() in C++ STL
 
 - CPP-Math
 	- sinh() function in C++ STL
