@@ -277,19 +277,18 @@ C++ is a general purpose programming language and widely used now a days for com
 
 - [Pair](#pair)
 	- [Vector](#vector)
-	
-        Ways to copy a vector in C++
-        Sorting 2D Vector in C++ | Set 3 (By number of columns),(Sort in descending order by first and second)
-        Sorting 2D Vector in C++ | Set 2 (In descending order by row and column)
-        2D vector in C++ with user defined size
-        Vector::clear() and vector::erase() in C++ STL
-        Passing vector to a function in C++
-        Vector::push_back() and vector::pop_back() in C++ STL
-        Vector::empty() and vector::size() in C++ STL
-        vector::front() and vector::back() in C++ STL
-        Initialize a vector; Different ways
-        Sorting 2D Vector in C++ | Set 1 (By row and column), (Sort by first and second)
-        Computing index using pointers returned by STL functions in C++
+		- Ways to copy a vector in C++
+		- Sorting 2D Vector in C++ | Set 3 (By number of columns),(Sort in descending order by first and second)
+		- Sorting 2D Vector in C++ | Set 2 (In descending order by row and column)
+		- 2D vector in C++ with user defined size
+		- Vector::clear() and vector::erase() in C++ STL
+		- Passing vector to a function in C++
+		- Vector::push_back() and vector::pop_back() in C++ STL
+		- Vector::empty() and vector::size() in C++ STL
+		- vector::front() and vector::back() in C++ STL
+		- Initialize a vector; Different ways
+		- Sorting 2D Vector in C++ | Set 1 (By row and column), (Sort by first and second)
+		- Computing index using pointers returned by STL functions in C++
 	
 	- [List](#list)
     List in C++ | Set 2 (Some Useful Functions)
