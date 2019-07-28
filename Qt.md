@@ -10,3 +10,5 @@ Error while parsing file D:\APP\workspace-qt\qtcb4-5\qtcb4-5.pro. Giving up.
 Project ERROR: Cannot run compiler 'cl'. Output:
 ```
 - <b>Solution:</b>
+Added Qt Home in PATH variable
+D:\APP\Qt
