@@ -1,5 +1,7 @@
 # Learning Qt
-- <b></b>
+- <b>Points</b>
+  - Knowledge Articles
+  - Issues-Resoltion when using Qt
 
 ### Issues-Resoultion when using Qt
 1. Project ERROR: Cannot run compiler 'cl'. Output:
