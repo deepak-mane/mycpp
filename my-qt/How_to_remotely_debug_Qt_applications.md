@@ -2,21 +2,21 @@
 [How_to_remotely_debug_Qt_applications](https://wiki.qt.io/How_to_remotely_debug_Qt_applications)
 
 Contents
-1	Introduction
-1.1	Master
-1.2	Target
-2	Setting up the virtual machines
-2.1	download needed files
-2.2	Install Virtualbox
-2.3	Create the virtual machines, with a virtual network between them
-2.4	Install Ubuntu on the virtual machine
-2.5	Clone the master virual machine to create the target
-2.6	Testing the Virtual Lan connection
-3	Install Qt on the master PC
-4	remote debug the application
-4.1	Create a new project on the master
-4.2	Connect to the target
-4.3	Deploy to the target
+1.	Introduction
+    1.1	Master
+    1.2	Target
+2.	Setting up the virtual machines
+    2.1	download needed files
+    2.2	Install Virtualbox
+    2.3	Create the virtual machines, with a virtual network between them
+    2.4	Install Ubuntu on the virtual machine
+    2.5	Clone the master virual machine to create the target
+    2.6	Testing the Virtual Lan connection
+3.	Install Qt on the master PC
+4.	remote debug the application
+    4.1	Create a new project on the master
+    4.2	Connect to the target
+    4.3	Deploy to the target
 
 Introduction
 This is a guide to write a Qt program on one virtual PC, and deploy and debug it on another virtual PC. As a first step, both virtual PC's are running linux. This guide assumes a windows 7 host system, but this should work on each platform that can run Virtualbox.
