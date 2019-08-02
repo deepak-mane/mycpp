@@ -3,6 +3,10 @@
   - Knowledge Articles
   - Issues-Resoltion when using Qt
 
+### Installation
+- [Qt for Linux/X11](https://doc.qt.io/qt-5/linux.html)
+- []()
+
 ### *Issues-Resoultion when using Qt*
 1. Project ERROR: Cannot run compiler 'cl'. Output:
 - <b>Issue:</b>
