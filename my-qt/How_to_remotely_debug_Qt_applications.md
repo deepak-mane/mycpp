@@ -3,8 +3,8 @@
 
 Contents
 1. Introduction
-   1.1.	Master
-    1.2	Target
+   - Master
+   - Target
 2. Setting up the virtual machines
     2.1	download needed files
     2.2	Install Virtualbox
