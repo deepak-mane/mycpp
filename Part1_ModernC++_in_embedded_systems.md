@@ -27,7 +27,7 @@ We will not discuss the uses and subtleties of the C++ language or object-orient
 C++11 and C++14 features are discussed separately in sections towards the end. The bulk of the article applies to the C++03 version of the language. C++11 is backward compatible with C++03 and C++14 is backward compatible with C++11. This helps the reader to ignore advanced features on a first reading and come back to them later.
 
 ### Myths about C++. Some of the perceptions that discourage the use of C++ in embedded systems are:
-- - C++ is slow.
+- C++ is slow.
 - C++ produces bloated machine code.
 - Objects are large.
 - Virtual functions are slow.
@@ -51,7 +51,7 @@ A less obvious front end feature is ‘function name overloading’. Function na
 Name mangling modifies the label generated for a function using the types of the function arguments, or function signature. So a call to a function void my_function(int) generates a label like ?my_function@@YAXH@Z and a call to a function void my_function(my_class*) generates a label like ?my_function@@YAXPAUmy_class@@@Z. Name mangling ensures that functions are not called with the wrong argument types and it also allows the same name to be used for different functions provided their argument types are different.
 
 Listing 1 shows a C++ code fragment with function name overloading. There are two functions called my_function, one taking an int argument, the other taking a char const* argument.
-```
+
      // C++ function name overload example
      void my_function(int i) {
        // ...
@@ -68,9 +68,9 @@ Listing 1 shows a C++ code fragment with function name overloading. There are tw
      }
 
 Listing 1: Function name overloading
-```
+
 Listing 2 shows how this would be implemented in C. Function names are altered to add argument types, so that the two functions have different names.
-```
+
      /* C substitute for function name overload */
 
      void my_function_int(int i) {
@@ -87,33 +87,33 @@ Listing 2 shows how this would be implemented in C. Function names are altered t
      }
 
 Listing 2: Function name overloading in C
-```
+
 ### References
 A reference in C++ is physically identical to a pointer. Only the syntax is different. References are safer than pointers because they can’t be null, they can’t be uninitialized, and they can’t be changed to point to something else. The closest thing to a reference in C is a const pointer. Note that this is not a pointer to a const value, but a pointer that can’t be modified. Listing 3 shows a C++ code fragment with a reference. 
-```
+
      // C++ reference example
      void accumulate(int& i, int j) {
          i += j;
      }
 
 Listing 3: C++ reference
-```
+
 Listing 4 shows how this would be implemented in C. 
-```
+
      /* C substitute for reference example */
      void accumulate(int* const i_ptr, int j) {
          *i_ptr += j;
      }
 
 Listing 4: Reference in C
-```
+
 ### Classes, member functions and objects
 Classes and member functions are the most important new concept in C++. Unfortunately, they are usually introduced without explanation of how they are implemented, which tends to disorient C programmers from the start. In the subsequent struggle to come to terms with object-oriented design, hope of understanding code generation quickly recedes.
 
 But a class is almost the same as a C struct. Indeed, in C++, a struct is defined to be a class whose members are public by default. A member function is a function that takes a pointer to an object of its class as an implicit parameter. So a C++ class with a member function is equivalent, in terms of code generation, to a C struct and a function that takes that struct as an argument.
 
 Listing 5 shows a trivial class A with one member variable x and one member function f().
-```
+
      // A trivial class
 
      class A {
@@ -128,11 +128,11 @@ Listing 5 shows a trivial class A with one member variable x and one member func
      }
 
 Listing 5: A trivial class with member function
-```
+
 Parts of a class are declared as private, protected, or public. This allows the programmer to prevent misuse of interfaces. There is no physical difference between private, protected, and public members. These specifiers allow the programmer to prevent misuse of data or interfaces through compiler enforced restrictions.
 
 Listing 6 shows the C substitute for Listing 5. Struct A has the same member variable as class A and the member function A::f() is replaced with a function f_A(struct A*). Note that the name of the argument of f_A(struct A*) has been chosen as “this”, which is a keyword in C++, but not in C. The choice is made deliberately to highlight the point that in C++, an object pointer named this is implicitly passed to a member function.
-```
+
      /* C substitute for trivial class A */
 
      struct A {
@@ -144,7 +144,7 @@ Listing 6 shows the C substitute for Listing 5. Struct A has the same member var
      }
 
 Listing 6: C substitute for trivial class with member function
-```
+
 An object in C++ is simply a variable whose type is a C++ class. It corresponds to a variable in C whose type is a struct. A class is little more than the group of member functions that operate on objects belonging to the class. When an object-oriented application written in C++ is compiled, data is mostly made up of objects and code is mostly made up of class member functions.
 
 Clearly, arranging code into classes and data into objects is a powerful organizing principle. Clearly also, dealing in classes and objects is inherently no less efficient than dealing with functions and data.
@@ -158,7 +158,7 @@ The insertion of constructor and destructor calls by the compiler outside the co
 
 ### Namespaces
 C++ namespaces allow the same name to be used in different contexts. The compiler adds the namespace to the definition and to name references at compile time. This means that names don’t have to be unique in the application, just in the namespace in which they are declared. This means that we can use short, descriptive names for functions, global variables, classes, etc. without having to keep them unique in the entre application. Listing 7 shows an example using the same function name in two namespaces.
-```
+
      // Namespace example
      namespace n1 {
          void f() {
@@ -184,9 +184,9 @@ C++ namespaces allow the same name to be used in different contexts. The compile
 
 
 Listing 7: Namespaces
-```
+
 When large applications are written in C, which lacks namespaces, this is often achieved by adding prefixes to names to ensure uniqueness. See Listing 8.
-```
+
      /* C substitute for namespace */
 
      void n1_f() {
@@ -210,7 +210,7 @@ When large applications are written in C, which lacks namespaces, this is often 
      }
 
 Listing 8: C substitute for namespaces using prefixes
-```
+
 ### Inline functions
 Inline functions are available in C99, but tend to be used more in C++ because they help achieve abstraction without a performance penalty.
 
@@ -228,7 +228,7 @@ In C++, new and delete do the same job as malloc() and free() in C, except that 
 To illustrate the implementation of a class with the features we have discussed, let us consider an example of a simplified C++ class and its C alternative.
 
 Listing 9 shows a (not very useful) container class for integers featuring a constructor and destructor, operator overloading, new and delete. It makes a copy of an int array and provides access to array values using the operator[], returning 0 for an out of bounds index. It uses the (nothrow) variant of new to make it easier to compare to the C alternative.
-```
+
      #include <iostream>
      #include <new>
 
@@ -260,9 +260,9 @@ Listing 9 shows a (not very useful) container class for integers featuring a con
      }
 
 Listing 9: A simple integer container class featuring constructor, destructor, operator overloading, new and delete
-```
+
 Listing 10 is a C substitute for the class in Listing 9. Operator overload int_container::operator[](int) is replaced with function int_container_value(…). The constructor and destructor are replaced with int_container_create(…) and int_container_destroy(…). These must be called by the user of the class, rather than calls being added automatically by the compiler. 
-```
+
      #include <stdio.h>
      #include <stdlib.h>
 
@@ -295,7 +295,7 @@ Listing 10 is a C substitute for the class in Listing 9. Operator overload int_c
      }
 
 Listing 10: C substitute for simple string class
-```
+
 Note how much easier to read main() is in Listing 9 than in Listing 10. It is also safer, more coherent, more maintainable, and just as fast. Consider which version of main() is more likely to contain bugs. Consider how much bigger the difference would be for a more realistic container class. This is why C++ and the object paradigm are safer than C and the procedural paradigm for partitioning applications.
 
 * All C++ features so far discussed confer substantial benefits at no runtime cost.*
@@ -310,7 +310,7 @@ We know from the previous discussion what the internal structure of an A is. But
 What we don’t usually learn in OOD is that the ‘is a’ relationship in C++ has a physical as well as a conceptual basis. In C++, an object of derived class B is made up of an object of base class A, with the member data of B tacked on at the end. The result is the same as if the B contains an A as its first member. So any pointer to a B is also a pointer to an A. Any member functions of class A called on an object of class B will work properly. When an object of class B is constructed, the class A constructor is called before the class B constructor and the reverse happens with destructors.
 
 Listing 11 shows an example of inheritance. Class B inherits from class A and adds the member function B::g() and the member variable B::secondValue. 
-```
+
      // Simple example of inheritance
 
      class A {
@@ -353,9 +353,9 @@ Listing 11 shows an example of inheritance. Class B inherits from class A and ad
      }
 
 Listing 11: Inheritance
-```
+
 Listing 12 shows how this would be achieved in C. Struct B contains a struct A as its first member, to which it adds a variable secondValue. The function BConstructor(struct B*) calls AConstructor to ensure initialization of its ‘base class’. Where the function main() calls b.f() in Listing 11, f_A(struct A*) is called in Listing 12 with a cast.
-```
+
      /* C Substitute for inheritance */
 
      struct A {
@@ -393,7 +393,7 @@ Listing 12 shows how this would be achieved in C. Struct B contains a struct A a
      }
 
 Listing 12: C Substitute for inheritance
-```
+
 It is startling to discover that the rather abstract concept of inheritance corresponds to such a straightforward mechanism. The result is that well-designed inheritance relationships have no runtime cost in terms of size or speed.
 
 Inappropriate inheritance, however, can make objects larger than necessary. This can arise in class hierarchies, where a typical class has several layers of base class, each with its own member variables, possibly with redundant information.
@@ -410,7 +410,7 @@ Virtual functions are implemented using an array of function pointers, called a 
 When a virtual member function is called on an object, the generated code uses the object’s vtable pointer to access the vtable for that class and extract the correct function pointer. That pointer is then called.
 
 Listing 13 shows an example using virtual member functions. Class A has a virtual member function f(), which is overridden in class B. Class A has a constructor and a member variable, which are actually redundant, but are included to show what happens to vtables during object construction. 
-```
+
      // Classes with virtual functions
 
      class A {
@@ -450,9 +450,9 @@ Listing 13 shows an example using virtual member functions. Class A has a virtua
      }
 
 Listing 13: Virtual Functions
-```
+
 Listing 14 shows what a C substitute would look like. The second last line in main() is a dangerous combination of casting and function pointer usage.
-```
+
      /* C substitute for virtual functions */
 
      struct A {
@@ -508,7 +508,7 @@ Listing 14 shows what a C substitute would look like. The second last line in ma
      }
 
 Listing 14: C substitute for virtual functions
-```
+
 This is the first language feature we have seen that entails a runtime cost. So let us quantify the costs of virtual functions.
 
 The first cost is that it makes objects bigger. Every object of a class with virtual member functions contains a vtable pointer. So each object is one pointer bigger than it would be otherwise. If a class inherits from a class that already has virtual functions, the objects already contain vtable pointers, so there is no additional cost. But adding a virtual function can have a disproportionate effect on a small object. An object can be as small as one byte and if a virtual function is added and the compiler enforces four-byte alignment, the size of the object becomes eight bytes. But for objects that contain a few member variables, the cost in size of a vtable pointer is marginal.
@@ -525,7 +525,7 @@ C++ templates are powerful, as shown by their use in the Standard C++ Library. A
 Used appropriately, templates can save a lot of effort at little or no cost. After all, it’s a lot easier and probably more efficient to use complex<float> from the Standard C++ Library, rather than write your own class.
 
 Listing 15 shows a simple template class A<T>. An object of class A<T> has a member variable of type T, a constructor to initialize and a member function A::f() to retrieve it.
-```
+
      // Sample template class
 
      template<typename T> class A {
@@ -551,9 +551,9 @@ Listing 15 shows a simple template class A<T>. An object of class A<T> has a mem
      }
 
 Listing 15: A C++ template
-```
+
 The macro A(T) in Listing 16 approximates a template class in C. It expands to a struct declaration and function definitions for functions corresponding to the constructor and the member function. We can see that although it is possible to approximate templates in C, it is impractical for any significant functionality.
-```
+
      /* C approximation of template class */
 
      #define A(T)                                               \
@@ -579,7 +579,7 @@ The macro A(T) in Listing 16 approximates a template class in C. It expands to a
      }
 
 Listing 16: A C ‘template’
-```
+
 ### Exceptions
 Exceptions are to setjmp() and longjmp() what structured programming is to goto. They impose strong typing, guarantee that destructors are called, and prevent jumping to a disused stack frame.
 
@@ -590,7 +590,7 @@ The use of exceptions also causes a set of tables to be added to the memory foot
 For detailed information on the costs of exceptions with different compilers, see Effective C++ in an Embedded Environment. 
 
 Because of the cost of exception support, some compilers have a ‘no exceptions’ option, which eliminates exception support and its associated costs.
-```
+
      // C++ Exception example
 
      #include <iostream>
@@ -615,9 +615,9 @@ Because of the cost of exception support, some compilers have a ‘no exceptions
      }
 
 Listing 17: A C++ exception example
-```
+
 Listing 17 above shows an example of an exception and Listing 18 below shows a C substitute that has several shortcomings. It uses global variables. It allows longjmp(ConstCharStarException) to be called either before it is initialized by setjmp(ConstCharStarException) or after main() has returned. In addition, substitutes for destructor calls must be done by the programmer before a longjmp(). There is no mechanism to ensure that these calls are made.
-```
+
      /* C approximation of exception handling */
 
      #include <stdio.h>
@@ -647,7 +647,7 @@ Listing 17 above shows an example of an exception and Listing 18 below shows a C
      }
 
 Listing 18: A C ‘exception’ example
-```
+
 For language features discussed up to this point, it has been possible to entertain the possibility of a C substitute as a practical proposition. In this case of exceptions, however, the additional complexity and opportunities for error make a C substitute impractical. So if you’re writing C, the merits of exception-safe programming are a moot point. 
 
 ### Runtime type information
@@ -656,7 +656,7 @@ The term ‘runtime type information’ suggests an association with purer objec
 To measure the memory footprint of a type_info object, the code in Listing 19 was compiled to assembly. The output was put through the name demangler at www.demangler.com and the result was annotated to highlight the size of the type_info object and the class name string. The result was 30 bytes. This is about the cost of adding a one line member function to each class.
 
 Many compilers have an option to disable runtime type information, which avoids this cost for an application that does not use type_info objects.
-```
+
      // type_info test classes /////////////////
      class Base {
      public:
@@ -681,8 +681,8 @@ _typeinfo name for MoreDerived:
     .ascii "11MoreDerived\0"                                     /*14 bytes */
 
 Listing 19: type_info Memory Footprint Measurement 
-```
 
-[Part 2: Modern C++ in Embedded Systems: Evaluating C++]()
+
+[Part 2: Modern C++ in Embedded Systems: Evaluating C++](Part2_ModernC++_in_embedded_systems.md)
 
 Dominic Herity is a Principal Software Engineer at Faz Technology Ltd. He has 30 years’ experience writing software for platforms from 8 bit to 64 bit with full life cycle experience in several commercially successful products. He served as Technology Leader with Silicon & Software Systems and Task Group Chair in the Network Processing Forum. He has contributed to research into Distributed Operating Systems and High Availability at Trinity College Dublin. He has publications on various aspects of Embedded Systems design and has presented at several conferences in Europe and North America. He can be contacted at dherity@gmail.com.
