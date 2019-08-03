@@ -4,15 +4,17 @@
 
 Having discussed the implementation of the main C++ language features in Part 1 of this series, we can now evaluate C++ in terms of the machine code it generates. Embedded system programmers are particularly concerned about code and data size; we need to discuss C++ in these terms.
 
-How big is a class? In C++, most code is in class member functions and most data is in objects belonging to these classes. C++ classes tend to have many more member functions than a C programmer would expect to use. This is because well-designed classes are complete and contain member functions to do anything with objects belonging to the class that might legitimately be needed. For a well-conceptualized class, this number will be reasonably small, but nevertheless larger than what the C programmer is accustomed to.
+### How big is a class? 
+In C++, most code is in class member functions and most data is in objects belonging to these classes. C++ classes tend to have many more member functions than a C programmer would expect to use. This is because well-designed classes are complete and contain member functions to do anything with objects belonging to the class that might legitimately be needed. For a well-conceptualized class, this number will be reasonably small, but nevertheless larger than what the C programmer is accustomed to.
 
 When calculating code size, bear in mind that modern linkers can extract from object files only those functions that are actually called, not the entire object files. In essence, they treat each object file like a library. This means that unused non-virtual class member functions have no code size penalty. So a class that seems to have a lot of baggage in terms of unused member functions may be quite economical in practice.
 
 Although class completeness need not cause code bloat for non-virtual functions, it is reasonable to assume that all virtual functions of all classes used in a system will be linked into the binary. 
 
-How big is an object? The size of an object can be calculated by examining its class (and all its base classes). Ignore member functions and treat the data the same as for a struct. Then add the size of a pointer if there are any virtual functions in the class or base classes. You can confirm your result by using the sizeof operator. It will become apparent that the combined size of objects in a system need be no greater than the size of data in a C-based procedural model. This is because the same amount of state is needed to model a system regardless of whether it is organized into objects. 
+### How big is an object? 
+The size of an object can be calculated by examining its class (and all its base classes). Ignore member functions and treat the data the same as for a struct. Then add the size of a pointer if there are any virtual functions in the class or base classes. You can confirm your result by using the sizeof operator. It will become apparent that the combined size of objects in a system need be no greater than the size of data in a C-based procedural model. This is because the same amount of state is needed to model a system regardless of whether it is organized into objects. 
 
-C++ and the heap
+### C++ and the heap
 Heap usage is much more common in C++ than in C. This is because of encapsulation. In C, where a function requires an unknown amount of memory, it is common to externalize the memory as an input parameter and leave the caller with the problem. This is at least safer than mallocing an area and relying on the user to free it. But C++, with its encapsulation and destructors, gives class designers the possibility (and responsibility) of managing the memory used by objects of that class.
 
 This difference in philosophy is evident in the difference between C strings and a C++ string class. In C, you get a char array. You have to decide in advance how long your string can be and you have to continuously make sure it doesn’t get any bigger. A C++ string class, however, uses ‘new’ and ‘delete’ to allow a string to be any size and to grow if necessary. It also makes sure that the heap is restored when the string is destroyed.
@@ -27,19 +29,19 @@ Heap fragmentation can be avoided by using a non-fragmenting allocator. One solu
 
 Another alternative to banning heap usage outright is to allow it during initialization, but ban it once the system is running. This way, STL containers and other objects that use the heap can be modified and configured during initialization, but must not be modified once initialization is complete. With this policy, we know that if the system starts up, it won’t run out of memory no matter how long it runs. For some applications, this level of flexibility is enough.
 
-ROMable objects
+### ROMable objects
 Linkers for embedded systems allow const static data to be kept in ROM. For a system written in C, this means that all the non-varying data known at compile time can be specified by static initializers, compiled to be stored in ROM and left there.
 
 In C++, we can do the same, but we tend not to. In well-designed C++ code, most data is encapsulated in objects. Objects belong to classes and most classes have constructors. The natural object-oriented equivalent to const initialized data is a const object. A const static object that has a constructor must be stored in RAM for its constructor to initialize it. So where in C a const static object occupies cheap and plentiful ROM, its natural heir in C++ occupies expensive and scarce RAM. Initialization is performed by start-up code that calls static constructors with parameters specified in declarations. This start-up code occupies more ROM than the static initializer would have.
 
 So if a system includes a lot of data that can be kept in ROM, special attention to class design is needed to ensure that the relevant objects are ROMable. For an object to be ROMable, it must be capable of initialization by a static initializer like a C struct. Although the easy way to do this is to make it a simple C struct (without member functions), it is possible to make such a class a bit more object-oriented.
 
-The criteria for a static initializer to be allowed for a class are:
+### The criteria for a static initializer to be allowed for a class are:
 
 The class must have no base classes.
-It must have no constructor.
-It must have no virtual functions.
-It must have no private or protected members.
+- It must have no constructor.
+- It must have no virtual functions.
+- It must have no private or protected members.
 Any classes it contains must obey the same rules.
 
 In addition, we should also require that all member functions of a ROMable class be const. A C struct meets these criteria, but so does a class that has member functions.
@@ -84,7 +86,8 @@ To illustrate this discussion, let us consider a simplified example of a handhel
 
 Listing 20: A C ROMable dictionary 
 
-A Dict is an array of DictEntry. A DictEntry is a pair of const char* pointers, the first to the English word, the second to the foreign word. The end of a Dict is marked by a DictEntry containing a pair of NULL pointers. To complete the design, we add a pair of functions that perform translation from and to English using a dictionary. This is a simple design. The two dictionaries and the strings to which they point reside in ROM.
+### A Dict is an array of DictEntry. 
+A DictEntry is a pair of const char* pointers, the first to the English word, the second to the foreign word. The end of a Dict is marked by a DictEntry containing a pair of NULL pointers. To complete the design, we add a pair of functions that perform translation from and to English using a dictionary. This is a simple design. The two dictionaries and the strings to which they point reside in ROM.
 
 Let us now consider what happens if we produce a naïve object-oriented design in C++. Looking at Listing 20 through object-oriented glasses, we identify a class Dict with two member functions: const char* Dict::fromEnglish(const char*, and const char* Dict::toEnglish(const char*). We have a clean and simple interface. Unfortunately, Listing 21 won’t compile. The static initializers for frenchDict and germanDict try to access private members of the objects. 
 
@@ -247,7 +250,7 @@ Listing 23: A clean C++ ROMable dictionary
 
 So to make the best use of object-oriented design for data on ROM, special class design is needed.
 
-Reality check
+### Reality check
 Having minutely examined the costs of C++ features, it is only fair to see how C stands up to the same degree of scrutiny. Consider the C code in Listing 24. One line contains a floating point value, which will pull in parts of the floating point library and have a disproportionate effect on code size if floating point is not needed. The next line will have a similar effect, if printf has been avoided elsewhere. The next line calls strlen(s) strlen(s) times, rather than once, which has a serious impact on execution time.
 
      /* Reality check - some things to avoid in C */
@@ -272,7 +275,7 @@ Listing 24: C reality check
 
 But who would argue that these mistakes are reasons to not use C in embedded systems? Similarly, it is wrong to brand C++ as unsuitable for embedded systems because it can be misused.
 
-Class libraries and embedded systems
+### Class libraries and embedded systems
 A major benefit of using C++ is the availability of class libraries. Object-oriented design makes class libraries easier to use (and harder to misuse) then their procedural predecessors. But, as with procedural libraries, some class libraries cause excessive code bloat for the functionality they provide. If memory footprint is a concern, it is wise to evaluate a library before committing to it and measure what happens to memory footprint when the library is used.
 
 The Standard C++ Library includes several components that are of use in a variety of embedded systems. STL containers and algorithms support handling of collections of data. The std::string class supports strings of variable length. 
@@ -285,7 +288,7 @@ Another valuable library for embedded systems is the boost library. The library 
 
 But building boost for an embedded system is not a trivial undertaking, unless it is supported by the toolchain provider. Instructions are provided on the boost web site, including compilation with different compilers.
 
-C++11 in embedded systems
+### C++11 in embedded systems
 Everything said so far applies to C++11 (and C++14). Now let us examine the major new language features in C++11 from the point of view of runtime cost, both memory consumption and execution time. We won’t discuss additions to the Standard C++ Library, which is outside the scope of this article. We will list features that have no runtime cost, features that offer improvements in either speed or size and finally, features that have a runtime cost in either size or speed associated with their use. The following new features in C++11 have no runtime cost:
 
 auto The auto keyword has a new meaning in C++11 that is different from its meaning in C. It means ‘automatic’ variable type determination. So ‘auto x = y;’ means that the type of x is the same as the type of y.
@@ -323,7 +326,7 @@ Lambda Lambda expressions are equivalent to a locally-defined function object cl
 
 initializer_list STL containers support initialization from an ‘initializer list’, specifically template<typename T> std::initializer_list<T>. An initializer list can be stored in ROM, so, although the STL container occupies RAM, the data to populate it can have a compact representation in ROM.
 
-Features that can increase speed or reduce size
+### Features that can increase speed or reduce size
 Move constructors This feature transfers the state of one object to another object while removing it from the original object. Move constructors are provided by the class programmer and called by the compiler instead of a copy constructor where it is known that the original object state will no longer be needed. A common example is when a function returns an object by value. Without a move constructor, this would result in the object being copied and then the original object being destroyed, both potentially expensive operations. 
 
 The Standard C++ Library exploits move constructors, so using C++11 may yield significant performance improvements over C++03 in STL containers and std::strings without any changes to application code.
@@ -340,7 +343,7 @@ noexcept The noexcept specifier guarantees that a function won’t throw an exce
 
 Speed or size penalties As explained above, using constexpr functions without checking the code generation can result in inefficient runtime evaluation instead of compile time evaluation.
 
-More about lambdas
+### More about lambdas
 For most C++11 features, once you understand what they do, it isn’t a big deal to understand how they do it. But lambdas are not so easy. 
 
 To explore what lambdas do and how they do it, consider the following coding problem. We need to write a function that counts the number of values in the array that are less than a parameter. In C, we might write something like this.
@@ -437,7 +440,7 @@ As shown in Listing 32, when the code from the previous three listings was compi
 
 Listing 32: Machine code for Listing 29, Listing 30 and Listing 31
 
-C++14 in embedded systems
+### C++14 in embedded systems
 C++14 is a ‘maintenance upgrade’ of C++11 with minor extensions and bug fixes. For an explanation of the major features and links to information on compiler support, see The C++14 standard and what you need to know. 
 
 As we did for C++11, we will examine the major features in C++14 from the point of view of runtime cost, both memory consumption and execution time. Compiler support for these features is still patchy, but hopefully will improve quickly. 
@@ -457,7 +460,7 @@ Variable templates Previously, templates were used only for generating classes a
 
 Listing 33: Variable template
 
-Features that can increase speed or reduce size
+### Features that can increase speed or reduce size
 Generic lambdas As shown in Listing 34, generic lambdas are like templates, but with a clearer, more elegant, syntax. Their size and speed trade-offs are similar to templates.
 
      // Generic lambda with "auto" parameters
@@ -480,7 +483,8 @@ Here are some things to check when choosing a toolchain for embedded C++ develop
 
 What size is ‘Hello World’? The memory footprint of ‘Hello world’ – the C++ version, not the C version – may be surprisingly large.
 
-How do strings and STL containers affect memory footprint? Add string and STL container operations to ‘Hello world’ and see if the increase in memory footprint is reasonable. Although STL containers are template instantiations, skilful library design can minimize the amount of code unique to each instance. So, for example, an std::map<std::string, int> can share a lot of code with an std::map<std::string, unsigned> because they share the same key type std::string and a lot of the code in std::map depends only on the key type, not the value type. Does the std::map supplied with the compiler exploit this?
+### How do strings and STL containers affect memory footprint? 
+Add string and STL container operations to ‘Hello world’ and see if the increase in memory footprint is reasonable. Although STL containers are template instantiations, skilful library design can minimize the amount of code unique to each instance. So, for example, an std::map<std::string, int> can share a lot of code with an std::map<std::string, unsigned> because they share the same key type std::string and a lot of the code in std::map depends only on the key type, not the value type. Does the std::map supplied with the compiler exploit this?
 
 Does the debugger work well for C++? Can you set a breakpoint in an inline function or in a template? Does it actually work if you do? Can you easily look at the state of an object?
 
@@ -488,7 +492,7 @@ How well does it support C++11/14? You can get by perfectly well using C++03, bu
 
 Is boost available for/with the toolchain? Boost is a valuable library, but cross-compiling it isn’t for the faint-hearted. If the vendor has done it already, that’s a measure of the vendor’s commitment and saves a lot of work.
 
-Conclusion
+### Conclusion
 Most C++ features have no impact on code size or on speed. Others have a small impact that is generally worth paying for. To use C++ effectively in embedded systems, you need to be aware of what is going on at the machine code level, just as in C. Armed with that knowledge, the embedded systems programmer can produce code that smaller, faster, and safer than is possible without C++.
 
 Part 1: Modern C++ in Embedded Systems - Myth and Reality
