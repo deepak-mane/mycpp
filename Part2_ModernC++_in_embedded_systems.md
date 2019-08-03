@@ -495,7 +495,7 @@ Is boost available for/with the toolchain? Boost is a valuable library, but cros
 ### Conclusion
 Most C++ features have no impact on code size or on speed. Others have a small impact that is generally worth paying for. To use C++ effectively in embedded systems, you need to be aware of what is going on at the machine code level, just as in C. Armed with that knowledge, the embedded systems programmer can produce code that smaller, faster, and safer than is possible without C++.
 
-Part 1: Modern C++ in Embedded Systems - Myth and Reality
+[Part 1: Modern C++ in Embedded Systems - Myth and Reality](Part1_ModernC++_in_embedded_systems.md)
 
 Further information
 The C++ Programming Language, 4th Edition by Bjarne Stroustrup is a very readable reference book for C++11. 
