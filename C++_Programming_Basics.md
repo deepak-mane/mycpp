@@ -2,11 +2,9 @@
 
 ## Fundamental Types
 
-| Category	| Type	| Description	| Bytes
-(Typical)	| Minimum
-(Typical)	| Maximum
-(Typical) | 
+| Category	| Type	| Description	| Bytes (Typical)	| Minimum (Typical)	| Maximum (Typical) |  
 | --- | --- | --- | --- | --- | --- |
+||||||
 
 Integers	int
 (or signed int)	Signed integer (of at least 16 bits)	4 (2)	-2147483648	2147483647
