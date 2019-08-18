@@ -2,12 +2,8 @@
 To be a proficient programmer, you need to master two things: 
 - (1) the syntax of the programming language, and 
 - (2) the core libraries (i.e., API) associated with the language.
+
 ## Fundamental Types
-
-| Category	| Type	| Description	| Bytes (Typical)	| Minimum (Typical)	| Maximum (Typical) |  
-| --- | --- | --- | --- | --- | --- |
-||||||
-
 <p>The table below shows the <em>typical</em> size, minimum, maximum for the primitive types. Again, take note that the sizes are implementation dependent.</p>
 
 <table class="table-zebra">
@@ -166,3 +162,145 @@ To be a proficient programmer, you need to master two things:
 </table>
 
 <p>In addition, many C++ library functions use a type called <code>size_t</code>, which is equivalent (<code>typedef</code>) to a <code>unsigned int</code>, meant for counting, size or length, with 0 and positive integers.</p>
+
+
+<h5>*The <span class="font-code">sizeof</span> Operator</h5>
+
+<p>C/C++ provides an unary <code>sizeof</code> operator to get the size of the operand (in bytes). The following program uses <code>sizeof</code> operator to print the size of the fundamental types.</p>
+
+<table class="table-program">
+<col class="col-line-number" />
+<col class="col-program" />
+<tbody>
+<tr>
+<td>
+<pre class="text-right">
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18</pre>
+</td>
+<td>
+<pre>
+<span class="color-comment">/*
+ * Print Size of Fundamental Types (SizeofTypes.cpp).
+ */</span>
+#include &lt;iostream&gt;
+using namespace std;
+ 
+int main() {
+   cout &lt;&lt; &quot;sizeof(char) is &quot; &lt;&lt; sizeof(char) &lt;&lt; &quot; bytes &quot; &lt;&lt; endl;
+   cout &lt;&lt; &quot;sizeof(short) is &quot; &lt;&lt; sizeof(short) &lt;&lt; &quot; bytes &quot; &lt;&lt; endl;
+   cout &lt;&lt; &quot;sizeof(int) is &quot; &lt;&lt; sizeof(int) &lt;&lt; &quot; bytes &quot; &lt;&lt; endl;
+   cout &lt;&lt; &quot;sizeof(long) is &quot; &lt;&lt; sizeof(long) &lt;&lt; &quot; bytes &quot; &lt;&lt; endl;
+   cout &lt;&lt; &quot;sizeof(long long) is &quot; &lt;&lt; sizeof(long long) &lt;&lt; &quot; bytes &quot; &lt;&lt; endl;
+   cout &lt;&lt; &quot;sizeof(float) is &quot; &lt;&lt; sizeof(float) &lt;&lt; &quot; bytes &quot; &lt;&lt; endl;
+   cout &lt;&lt; &quot;sizeof(double) is &quot; &lt;&lt; sizeof(double) &lt;&lt; &quot; bytes &quot; &lt;&lt; endl;
+   cout &lt;&lt; &quot;sizeof(long double) is &quot; &lt;&lt; sizeof(long double) &lt;&lt; &quot; bytes &quot; &lt;&lt; endl;
+   cout &lt;&lt; &quot;sizeof(bool) is &quot; &lt;&lt; sizeof(bool) &lt;&lt; &quot; bytes &quot; &lt;&lt; endl;
+   return 0;
+}</pre>
+</td>
+</tr>
+</tbody>
+</table>
+
+<pre class="output">
+sizeof(char) is 1 bytes
+sizeof(short) is 2 bytes
+sizeof(int) is 4 bytes
+sizeof(long) is 4 bytes
+sizeof(long long) is 8 bytes
+sizeof(float) is 4 bytes
+sizeof(double) is 8 bytes
+sizeof(long double) is 12 bytes
+sizeof(bool) is 1 bytes</pre>
+
+<p>The results may vary among different systems.</p>
+
+<h5>*Header <span class="font-code">&lt;climits&gt;</span></h5>
+
+<p>The <code>climits</code> header (ported to C++ from C's <code>limits.h</code>) contains information about limits of integer type. For example,</p>
+
+<table class="table-program">
+<col class="col-line-number" />
+<col class="col-program" />
+<tbody>
+<tr>
+<td>
+<pre class="text-right">
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20</pre>
+</td>
+<td>
+<pre>
+<span class="color-comment">/* Test integer limits in &lt;climits&gt; header */</span>
+#include &lt;iostream&gt;
+#include &lt;climits&gt;  <span class="color-comment"> // integer limits</span>
+using namespace std;
+ 
+int main() {
+   cout &lt;&lt; &quot;int max = &quot; &lt;&lt; INT_MAX &lt;&lt; endl;
+   cout &lt;&lt; &quot;int min = &quot; &lt;&lt; INT_MIN &lt;&lt; endl;
+   cout &lt;&lt; &quot;unsigned int max = &quot; &lt;&lt; UINT_MAX &lt;&lt; endl;
+   cout &lt;&lt; &quot;long long max = &quot; &lt;&lt; LLONG_MAX &lt;&lt; endl;
+   cout &lt;&lt; &quot;long long min = &quot; &lt;&lt; LLONG_MIN &lt;&lt; endl;
+   cout &lt;&lt; &quot;unsigned long long max = &quot; &lt;&lt; ULLONG_MAX &lt;&lt; endl;
+   cout &lt;&lt; &quot;Bits in char = &quot; &lt;&lt; CHAR_BIT &lt;&lt; endl;
+   cout &lt;&lt; &quot;char max = &quot; &lt;&lt; CHAR_MAX &lt;&lt; endl;
+   cout &lt;&lt; &quot;char min = &quot; &lt;&lt; CHAR_MIN &lt;&lt; endl;
+   cout &lt;&lt; &quot;signed char max = &quot; &lt;&lt; SCHAR_MAX &lt;&lt; endl;
+   cout &lt;&lt; &quot;signed char min = &quot; &lt;&lt; SCHAR_MIN &lt;&lt; endl;
+   cout &lt;&lt; &quot;unsigned char max = &quot; &lt;&lt; UCHAR_MAX &lt;&lt; endl;
+   return 0;
+}</pre>
+</td>
+</tr>
+</tbody>
+</table>
+
+<pre class="output">
+int max = 2147483647
+int min = -2147483648
+unsigned int max = 4294967295
+long long max = 9223372036854775807
+long long min = -9223372036854775808
+unsigned long long max = 18446744073709551615
+Bits in char = 8
+char max = 127
+char min = -128
+signed char max = 127
+signed char min = -128
+unsigned char max = 255</pre>
