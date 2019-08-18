@@ -1,5 +1,7 @@
 # C++ Programming Language Basics
-
+To be a proficient programmer, you need to master two things: 
+- (1) the syntax of the programming language, and 
+- (2) the core libraries (i.e., API) associated with the language.
 ## Fundamental Types
 
 | Category	| Type	| Description	| Bytes (Typical)	| Minimum (Typical)	| Maximum (Typical) |  
