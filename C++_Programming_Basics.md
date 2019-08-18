@@ -1,4 +1,5 @@
-# C++ Programming Language Basics
+# C++ Programming Language Basics 
+[Reference](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/cp1_Basics.html)
 To be a proficient programmer, you need to master two things: 
 - (1) the syntax of the programming language, and 
 - (2) the core libraries (i.e., API) associated with the language.
@@ -173,27 +174,6 @@ To be a proficient programmer, you need to master two things:
 <col class="col-program" />
 <tbody>
 <tr>
-<td>
-<pre class="text-right">
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18</pre>
-</td>
 <td>
 <pre>
 <span class="color-comment">/*
