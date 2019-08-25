@@ -30,7 +30,7 @@ public:
 	~Rectangle();
 };
 
-
+// Functions
 Rectangle::Rectangle(int l, int b) {
 	length = l;
 	breadth = b;
@@ -43,13 +43,17 @@ int Rectangle::area() {
 int Rectangle::perimeter() {
 	return 2 * (length + breadth);
 }
-Rectangle::Rectangle(int l, int b) {
+
+Rectangle::~Rectangle() {
 
 }
-Rectangle::Rectangle(int l, int b) {
 
-}
+// Main Function
 int main() {
-	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	Rectangle r(10,5);
+	cout<< r.area() <<endl;
+	cout<< r.perimeter()<<endl;
+	r.setlength(20);
+	cout<<r.getlength()<<endl;
 	return 0;
 }
