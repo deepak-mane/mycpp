@@ -14,6 +14,7 @@
 1. [Graphs](https://en.wikipedia.org/wiki/Graph_(abstract_data_type))
 1. [Graph Traversal](https://en.wikipedia.org/wiki/Graph_traversal)
 1. [Dijkstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
-1. [Dynamic Programming](https://en.wikipedia.org/wiki/Dynamic_programming)
+1. [Dynamic Programming](https://en.wikipedia.org/wiki/Dynamic_programming) -  developed by Richard Bellman in the 1950s
+   - [Longest Common Subsequence problem](https://en.wikipedia.org/wiki/Longest_common_subsequence_problem)
 1. []()
 1. []()
