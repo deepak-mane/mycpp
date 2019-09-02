@@ -1,10 +1,7 @@
-# Algorithms
+# Algorithms And DataStructures
 
 
-
-
-
-1. [Recursion](https://en.wikipedia.org/wiki/Recursion){:target="_blank"}
+1. [Recursion](https://en.wikipedia.org/wiki/Recursion)
 1. [Searching Algorithm](https://en.wikipedia.org/wiki/Search_algorithm)
 1. [Sorting Algorithm](https://en.wikipedia.org/wiki/Sorting_algorithm)
 1. [Linked Lists](https://en.wikipedia.org/wiki/Linked_list)
@@ -12,11 +9,11 @@
 1. [Queues](https://en.wikipedia.org/wiki/Queue_(abstract_data_type))
 1. [Binary Search Trees](https://en.wikipedia.org/wiki/Binary_search_tree)
 1. [Tree Traversal](https://en.wikipedia.org/wiki/Tree_traversal)
-1. []()
-1. []()
-1. []()
-1. []()
-1. []()
-1. []()
+1. [Binary Heaps](https://en.wikipedia.org/wiki/Binary_heap)
+1. [Hash Tables](https://en.wikipedia.org/wiki/Hash_table)
+1. [Graphs](https://en.wikipedia.org/wiki/Graph_(abstract_data_type))
+1. [Graph Traversal](https://en.wikipedia.org/wiki/Graph_traversal)
+1. [Dijkstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
+1. [Dynamic Programming](https://en.wikipedia.org/wiki/Dynamic_programming)
 1. []()
 1. []()
