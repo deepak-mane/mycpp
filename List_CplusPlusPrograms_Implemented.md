@@ -139,7 +139,6 @@
 1. [C Program to find the number of islands](./OnMatrix/the_number_of_islands.md)
 1. [C Program to find maximum size square sub-matrix with all 1s](./OnMatrix/maximum_size_square_sub-matrix_with_all_1s.md)
 1. [C/C++ program for the celebrity problem](./OnMatrix/the_celebrity_problem.md)
-1. [C/C++ Program for Print a given matrix in spiral form](./OnMatrix/Print_a_given_matrix_in_spiral_form.md)
 
 ## [3.] String C/C++ Programs
 1. [C program to swap two Strings](./OnStrings/swap_two_Strings.md)
