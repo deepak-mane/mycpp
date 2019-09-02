@@ -15,15 +15,14 @@
 1. [Graph Traversal](https://en.wikipedia.org/wiki/Graph_traversal)
 1. [Dijkstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
 1. [Dynamic Programming](https://en.wikipedia.org/wiki/Dynamic_programming) -  developed by Richard Bellman in the 1950s
-   1. [Many string algorithms including ]()
+   1. [Many string algorithms including]()
       - [Longest_common_subsequence_problem](https://en.wikipedia.org/wiki/Longest_common_subsequence_problem)
       - [Longest_increasing_subsequence](https://en.wikipedia.org/wiki/Longest_increasing_subsequence)
       - [Longest_common_substring_problem](https://en.wikipedia.org/wiki/Longest_common_substring_problem)
-   1. [Many string algorithms including ]()
-      - [Longest_common_subsequence_problem](https://en.wikipedia.org/wiki/Longest_common_subsequence_problem)
-      - [Longest_increasing_subsequence](https://en.wikipedia.org/wiki/Longest_increasing_subsequence)
-      - [Longest_common_substring_problem](https://en.wikipedia.org/wiki/Longest_common_substring_problem)
-      
+   1. [Many algorithmic problems on graphs can be solved efficiently using dynamic programming on a tree decomposition of the graph](https://en.wikipedia.org/wiki/Tree_decomposition)
+      - [graphs of bounded treewidth](https://en.wikipedia.org/wiki/Treewidth)
+      - [graphs of bounded clique-width](https://en.wikipedia.org/wiki/Clique-width)
+   1. [Knuth's word wrapping algorithm that minimizes raggedness when word wrapping text](https://en.wikipedia.org/wiki/Line_wrap_and_word_wrap)
       
 1. []()      
    - [1]()
