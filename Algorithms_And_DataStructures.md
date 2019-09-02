@@ -15,17 +15,17 @@
 1. [Graph Traversal](https://en.wikipedia.org/wiki/Graph_traversal)
 1. [Dijkstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
 1. [Dynamic Programming](https://en.wikipedia.org/wiki/Dynamic_programming) -  developed by Richard Bellman in the 1950s
-   - [Longest Common Subsequence problem](https://en.wikipedia.org/wiki/Longest_common_subsequence_problem)
+   
+   
    - []()
    - []()
    - []()
    - []()
    - []()
-   - []()
-1. []()
-   - [1]()
-     - [2]()
-       - [3]()
+1. [Many string algorithms including ]()
+   - [Longest_common_subsequence_problem](https://en.wikipedia.org/wiki/Longest_common_subsequence_problem)
+     - [Longest_increasing_subsequence](https://en.wikipedia.org/wiki/Longest_increasing_subsequence)
+       - [Longest_common_substring_problem](https://en.wikipedia.org/wiki/Longest_common_substring_problem)
    - [1]()
      - [2]()
        - [3]()     
@@ -33,3 +33,24 @@
      - [2]()
        - [3]()              
 1. []()
+
+
+Many string algorithms including longest common subsequence,longest increasing subsequence, longest common substring, 
+Levenshtein distance (edit distance)
+Many algorithmic problems on graphs can be solved efficiently for graphs of bounded treewidth or bounded clique-width by using dynamic programming on a tree decomposition of the graph.
+The Viterbi algorithm (used for hidden Markov models, and particularly in part of speech tagging)
+The Earley algorithm (a type of chart parser)
+The Needleman–Wunsch algorithm and other algorithms used in bioinformatics, including sequence alignment, structural alignment, RNA structure prediction
+Floyd's all-pairs shortest path algorithm
+Optimizing the order for chain matrix multiplication
+Pseudo-polynomial time algorithms for the subset sum, knapsack and partition problems
+The dynamic time warping algorithm for computing the global distance between two time series
+The Selinger (a.k.a. System R) algorithm for relational database query optimization
+Duckworth–Lewis method for resolving the problem when games of cricket are interrupted
+The value iteration method for solving Markov decision processes
+Recursive least squares method
+Beat tracking in music information retrieval
+Adaptive-critic training strategy for artificial neural networks
+The Bellman–Ford algorithm for finding the shortest distance in a graph
+Some approximate solution methods for the linear search problem
+Kadane's algorithm for the maximum subarray problem
