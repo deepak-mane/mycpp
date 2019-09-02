@@ -593,7 +593,7 @@
 1. [C/C++ Program for Hamiltonian Cycle](./OnGreedyAlgo/Hamiltonian_Cycle.md)
 1. [C/C++ Program for Sudoku](./OnGreedyAlgo/Sudoku.md)
 1. [C/C++ Program for Tug of War](./OnGreedyAlgo/Tug_of_War.md)
-1. [C/C++ Program for (Solving Cryptarithmetic Puzzles](./OnGreedyAlgo/(Solving_Cryptarithmetic_Puzzles.md)
+1. [C/C++ Program for (Solving Cryptarithmetic Puzzles](./OnGreedyAlgo/Solving_Cryptarithmetic_Puzzles.md)
 1. [C/C++ Divide and Conquer Programs:](./OnGreedyAlgo/C/C++_Divide_and_Conquer_Programs:.md)
 1. [C/C++ Program for Write a C program to calculate pow(x,n)](./OnGreedyAlgo/Write_a_calculate_pow(x,n).md)
 1. [C/C++ Program for Median of two sorted arrays](./OnGreedyAlgo/Median_of_two_sorted_arrays.md)
