@@ -477,7 +477,7 @@
 1. [C/C++ Program for How to swap two numbers without using a temporary variable?](./OnBitMagic/How_to_swap_two_numbers_without_using_a_temporary_variable?.md)
 1. [C/C++ Program for Check if a number is multiple of 9 using bitwise operators](./OnBitMagic/Check_if_a_number_is_multiple_of_9_using_bitwise_operators.md)
 
-1. [## [7.] C/C++ Mathematical Programs](./OnMaths/##_[7.]_C/C++_Mathematical_Programs.md)
+## [10.] C/C++ Mathematical Programs
 1. [C/C++ Program for Write an Efficient Method to Check if a Number is Multiple of 3](./OnMaths/Write_an_Efficient_Method_to_Check_if_a_Number_is_Multiple_of_3.md)
 1. [C Program to print first n Fibonacci Numbers](./OnMaths/print_first_n_Fibonacci_Numbers.md)
 1. [C program to find area of a circle](./OnMaths/area_of_a_circle.md)
