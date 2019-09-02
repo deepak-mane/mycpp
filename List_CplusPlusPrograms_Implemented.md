@@ -2,655 +2,655 @@
 [Reference](https://www.geeksforgeeks.org/cc-programs/)
 
 ## [1.] Array C/C++ Programs
-C Program to find sum of elements in a given array
-C program to find largest element in an array
-Recursive C program to linearly search an element in a given array
-C program to multiply two matrices
-C/C++ Program for Given an array A[] and a number x, check for pair in A[] with sum as x
-C/C++ Program for Majority Element
-C/C++ Program for Find the Number Occurring Odd Number of Times
-C/C++ Program for Largest Sum Contiguous Subarray
-C/C++ Program for Find the Missing Number
-C/C++ Program for Search an element in a sorted and pivoted array
-C/C++ Program for Merge an array of size n into another array of size m+n
-C/C++ Program for Median of two sorted arrays
-C/C++ Program for Write a program to reverse an array
-C/C++ Program for Program for array rotation
-C/C++ Program for Reversal algorithm for array rotation
-C/C++ Program for Block swap algorithm for array rotation
-C/C++ Program for Maximum sum such that no two elements are adjacent
-C/C++ Program for Leaders in an array
-C/C++ Program for Sort elements by frequency | Set 1
-C/C++ Program for Count Inversions in an array
-C/C++ Program for Two elements whose sum is closest to zero
-C/C++ Program for Find the smallest and second smallest element in an array
-C/C++ Program for Check for Majority Element in a sorted array
-C/C++ Program for Maximum and minimum of an array using minimum number of comparisons
-C/C++ Program for Segregate 0s and 1s in an array
-C/C++ Program for k largest(or smallest) elements in an array | added Min Heap method
-C/C++ Program for Maximum size square sub-matrix with all 1s
-C/C++ Program for Maximum difference between two elements such that larger element appears after the smaller number
-C/C++ Program for Union and Intersection of two sorted arrays
-C/C++ Program for Floor and Ceiling in a sorted array
-C/C++ Program for A Product Array Puzzle
-C/C++ Program for Segregate Even and Odd numbers
-C/C++ Program for Find the two repeating elements in a given array
-C/C++ Program for Sort an array of 0s, 1s and 2s
-C/C++ Program for Find the Minimum length Unsorted Subarray, sorting which makes the complete array sorted
-C/C++ Program for Find duplicates in O(n) time and O(1) extra space
-C/C++ Program for Equilibrium index of an array
-C/C++ Program for Which sorting algorithm makes minimum number of memory writes?
-C/C++ Program for Turn an image by 90 degree
-C/C++ Program for Search in a row wise and column wise sorted matrix
-C/C++ Program for Next Greater Element
-C/C++ Program for Check if array elements are consecutive | Added Method 3
-C/C++ Program for Find the smallest missing number
-C/C++ Program for Count the number of occurrences in a sorted array
-C/C++ Program for Binary Search
-C/C++ Program for Selection Sort
-C/C++ Program for Bubble Sort
-C/C++ Program for Insertion Sort
-C/C++ Program for Merge Sort
-C/C++ Program for Heap Sort
-C/C++ Program for QuickSort
-C/C++ Program for Given an array arr[], find the maximum j – i such that arr[j] > arr[i]
-C/C++ Program for Maximum of all subarrays of size k (Added a O(n) method)
-C/C++ Program for Find whether an array is subset of another array | Added Method 3
-C/C++ Program for Find the minimum distance between two numbers
-C/C++ Program for Find the repeating and the missing | Added 3 new methods
-C/C++ Program for Print a given matrix in spiral form
-C/C++ Program for A Boolean Matrix Question
-C/C++ Program for Median in a stream of integers (running integers)
-C/C++ Program for Find a Fixed Point in a given array
-C/C++ Program for Maximum Length Bitonic Subarray
-C/C++ Program for Find the maximum element in an array which is first increasing and then decreasing
-C/C++ Program for Count smaller elements on right side
-C/C++ Program for Minimum number of jumps to reach end
-C/C++ Program for Implement two stacks in an array
-C/C++ Program for Find subarray with given sum
-C/C++ Program for Dynamic Programming | Set 14 (Maximum Sum Increasing Subsequence)
-C/C++ Program for Longest Monotonically Increasing Subsequence Size (N log N)
-C/C++ Program for Find a triplet that sum to a given value
-C/C++ Program for Find the smallest positive number missing from an unsorted array
-C/C++ Program for Find the two numbers with odd occurrences in an unsorted array
-C/C++ Program for The Celebrity Problem
-C/C++ Program for Dynamic Programming | Set 15 (Longest Bitonic Subsequence)
-C/C++ Program for Find a sorted subsequence of size 3 in linear time
-C/C++ Program for Largest subarray with equal number of 0s and 1s
-C/C++ Program for Dynamic Programming | Set 18 (Partition problem)
-C/C++ Program for Maximum Product Subarray
-C/C++ Program for Find a pair with the given difference
-C/C++ Program for Replace every element with the next greatest
-C/C++ Program for Dynamic Programming | Set 20 (Maximum Length Chain of Pairs)
-C/C++ Program for Find four elements that sum to a given value | Set 1 (n^3 solution)
-C/C++ Program for Find four elements that sum to a given value | Set 2 ( O(n^2Logn) Solution)
-C/C++ Program for Sort a nearly sorted (or K sorted) array
-C/C++ Program for Maximum circular subarray sum
-C/C++ Program for Find the row with maximum number of 1s
-C/C++ Program for Median of two sorted arrays of different sizes
-C/C++ Program for Print unique rows in a given boolean matrix
-C/C++ Program for Shuffle a given array
-C/C++ Program for Count the number of possible triangles
-C/C++ Program for Iterative Quick Sort
-C/C++ Program for Inplace M x N size matrix transpose | Updated
-C/C++ Program for Find the number of islands
-C/C++ Program for Construction of Longest Monotonically Increasing Subsequence (N log N)
-C/C++ Program for Find the first circular tour that visits all petrol pumps
-C/C++ Program for Arrange given numbers to form the biggest number
-C/C++ Program for Dynamic Programming | Set 27 (Maximum sum rectangle in a 2D matrix)
-C/C++ Program for Pancake sorting
-C/C++ Program for A Pancake Sorting Problem
-C/C++ Program for Tug of War
-C/C++ Program for Print Matrix Diagonally
-C/C++ Program for Divide and Conquer | Set 3 (Maximum Subarray Sum)
-C/C++ Program for Counting Sort
-C/C++ Program for Merge Overlapping Intervals
-C/C++ Program for Find the maximum repeating number in O(n) time and O(1) extra space
-C/C++ Program for Stock Buy Sell to Maximize Profit
-C/C++ Program for Rearrange positive and negative numbers in O(n) time and O(1) extra space
-C/C++ Program for Sort elements by frequency | Set 2
-C/C++ Program for Find a peak element
-C/C++ Program for Print all possible combinations of r elements in a given array of size n
-C/C++ Program for Given an array of of size n and a number k, find all elements that appear more than n/k times
-C/C++ Program for Find the point where a monotonically increasing function becomes positive first time
-C/C++ Program for Find the Increasing subsequence of length three with maximum product
-C/C++ Program for Find the minimum element in a sorted and rotated array
-C/C++ Program for Stable Marriage Problem
-C/C++ Program for Merge k sorted arrays | Set 1
-C/C++ Program for Radix Sort
-C/C++ Program for Move all zeroes to end of array
-C/C++ Program for Find number of pairs such that x^y > y^x
-C/C++ Program for Count all distinct pairs with difference equal to k
-C/C++ Program for Count all possible paths from top left to bottom right of a mXn matrix
-C/C++ Program for Suffix Array | Set 1 (Introduction)
-C/C++ Program for Rearrange an array so that arr[i] becomes arr[arr[i]] with O(1) extra space
-C/C++ Program for Sort n numbers in range from 0 to n^2 – 1 in linear time
-C/C++ Program for Count all possible groups of size 2 or 3 that have sum as multiple of 3
-
+1. [C Program to find sum of elements in a given array](sum_of_elements_in_a_given_array.md)
+1. [C program to find largest element in an array](largest_element_in_an_array.md)
+1. [Recursive C program to linearly search an element in a given array](Recursive_linearly_search_an_element_in_a_given_array.md)
+1. [C program to multiply two matrices](multiply_two_matrices.md)
+1. [C/C++ Program for Given an array A[] and a number x, check for pair in A[] with sum as x](Given_an_array_a_number_check_for_pair_with_sum.md)
+1. [C/C++ Program for Majority Element](Majority_Element.md)
+1. [C/C++ Program for Find the Number Occurring Odd Number of Times](Find_the_Number_Occurring_Odd_Number_of_Times.md)
+1. [C/C++ Program for Largest Sum Contiguous Subarray](Largest_Sum_Contiguous_Subarray.md)
+1. [C/C++ Program for Find the Missing Number](Find_the_Missing_Number.md)
+1. [C/C++ Program for Search an element in a sorted and pivoted array](Search_an_element_in_a_sorted_and_pivoted_array.md)
+1. [C/C++ Program for Merge an array of size n into another array of size m+n](Merge_an_array_of_size_n_into_another_array_of_size_m+n.md)
+1. [C/C++ Program for Median of two sorted arrays](Median_of_two_sorted_arrays.md)
+1. [C/C++ Program for Write a program to reverse an array](Program_to_reverse_an_array.md)
+1. [C/C++ Program for Program for array rotation](Program_for_array_rotation.md)
+1. [C/C++ Program for Reversal algorithm for array rotation](Reversal_algorithm_for_array_rotation.md)
+1. [C/C++ Program for Block swap algorithm for array rotation](Block_swap_algorithm_for_array_rotation.md)
+1. [C/C++ Program for Maximum sum such that no two elements are adjacent](Maximum_sum_such_that_no_two_elements_are_adjacent.md)
+1. [C/C++ Program for Leaders in an array](Leaders_in_an_array.md)
+1. [C/C++ Program for Sort elements by frequency | Set 1](Sort_elements_by_frequency.md)
+1. [C/C++ Program for Count Inversions in an array](Count_Inversions_in_an_array.md)
+1. [C/C++ Program for Two elements whose sum is closest to zero](Two_elements_whose_sum_is_closest_to_zero.md)
+1. [C/C++ Program for Find the smallest and second smallest element in an array](Find_the_smallest_and_second_smallest_element_in_an_array.md)
+1. [C/C++ Program for Check for Majority Element in a sorted array](Check_for_Majority_Element_in_a_sorted_array.md)
+1. [C/C++ Program for Maximum and minimum of an array using minimum number of comparisons](Maximum_and_minimum_of_an_array_using_minimum_number_of_comparisons.md)
+1. [C/C++ Program for Segregate 0s and 1s in an array](Segregate_0s_and_1s_in_an_array.md)
+1. [C/C++ Program for k largest(or smallest) elements in an array | added Min Heap method](k_largest(or_smallest)_elements_in_an_array.md)
+1. [C/C++ Program for Maximum size square sub-matrix with all 1s](Maximum_size_square_sub-matrix_with_all_1s.md)
+1. [C/C++ Program for Maximum difference between two elements such that larger element appears after the smaller number](Maximum_difference_between_two_elements_such_that_larger_element_appears_after_the_smaller_number.md)
+1. [C/C++ Program for Union and Intersection of two sorted arrays](Union_and_Intersection_of_two_sorted_arrays.md)
+1. [C/C++ Program for Floor and Ceiling in a sorted array](Floor_and_Ceiling_in_a_sorted_array.md)
+1. [C/C++ Program for A Product Array Puzzle](A_Product_Array_Puzzle.md)
+1. [C/C++ Program for Segregate Even and Odd numbers](Segregate_Even_and_Odd_numbers.md)
+1. [C/C++ Program for Find the two repeating elements in a given array](Find_the_two_repeating_elements_in_a_given_array.md)
+1. [C/C++ Program for Sort an array of 0s, 1s and 2s](Sort_an_array_of_0s,_1s_and_2s.md)
+1. [C/C++ Program for Find the Minimum length Unsorted Subarray, sorting which makes the complete array sorted](Find_the_Minimum_length_Unsorted_Subarray,_sorting_which_makes_the_complete_array_sorted.md)
+1. [C/C++ Program for Find duplicates in O(n) time and O(1) extra space](Find_duplicates_in_O(n)_time_and_O(1)_extra_space.md)
+1. [C/C++ Program for Equilibrium index of an array](Equilibrium_index_of_an_array.md)
+1. [C/C++ Program for Which sorting algorithm makes minimum number of memory writes?](Which_sorting_algorithm_makes_minimum_number_of_memory_writes.md)
+1. [C/C++ Program for Turn an image by 90 degree](Turn_an_image_by_90_degree.md)
+1. [C/C++ Program for Search in a row wise and column wise sorted matrix](Search_in_a_row_wise_and_column_wise_sorted_matrix.md)
+1. [C/C++ Program for Next Greater Element](Next_Greater_Element.md)
+1. [C/C++ Program for Check if array elements are consecutive | Added Method 3](Check_if_array_elements_are_consecutive_|_Added_Method_3.md)
+1. [C/C++ Program for Find the smallest missing number](Find_the_smallest_missing_number.md)
+1. [C/C++ Program for Count the number of occurrences in a sorted array](Count_the_number_of_occurrences_in_a_sorted_array.md)
+1. [C/C++ Program for Binary Search](Binary_Search.md)
+1. [C/C++ Program for Selection Sort](Selection_Sort.md)
+1. [C/C++ Program for Bubble Sort](Bubble_Sort.md)
+1. [C/C++ Program for Insertion Sort](Insertion_Sort.md)
+1. [C/C++ Program for Merge Sort](Merge_Sort.md)
+1. [C/C++ Program for Heap Sort](Heap_Sort.md)
+1. [C/C++ Program for QuickSort](QuickSort.md)
+1. [C/C++ Program for Given an array arr[], find the maximum j – i such that arr[j] > arr[i]](find_the_maximum_j_–_i_such_that_arr[j]_>_arr[i].md)
+1. [C/C++ Program for Maximum of all subarrays of size k (Added a O(n) method)](Maximum_of_all_subarrays_of_size_k_(Added_a_O(n)_method).md)
+1. [C/C++ Program for Find whether an array is subset of another array | Added Method 3](Find_whether_an_array_is_subset_of_another_array.md)
+1. [C/C++ Program for Find the minimum distance between two numbers](Find_the_minimum_distance_between_two_numbers.md)
+1. [C/C++ Program for Find the repeating and the missing | Added 3 new methods](Find_the_repeating_and_the_missing.md)
+1. [C/C++ Program for Print a given matrix in spiral form](Print_a_given_matrix_in_spiral_form.md)
+1. [C/C++ Program for A Boolean Matrix Question](A_Boolean_Matrix_Question.md)
+1. [C/C++ Program for Median in a stream of integers (running integers)](Median_in_a_stream_of_integers_(running_integers).md)
+1. [C/C++ Program for Find a Fixed Point in a given array](Find_a_Fixed_Point_in_a_given_array.md)
+1. [C/C++ Program for Maximum Length Bitonic Subarray](Maximum_Length_Bitonic_Subarray.md)
+1. [C/C++ Program for Find the maximum element in an array which is first increasing and then decreasing](Find_the_maximum_element_in_an_array_which_is_first_increasing_and_then_decreasing.md)
+1. [C/C++ Program for Count smaller elements on right side](Count_smaller_elements_on_right_side.md)
+1. [C/C++ Program for Minimum number of jumps to reach end](Minimum_number_of_jumps_to_reach_end.md)
+1. [C/C++ Program for Implement two stacks in an array](Implement_two_stacks_in_an_array.md)
+1. [C/C++ Program for Find subarray with given sum](Find_subarray_with_given_sum.md)
+1. [C/C++ Program for Dynamic Programming | Set 14 (Maximum Sum Increasing Subsequence)](Dynamic_Programming_Maximum_Sum_Increasing_Subsequence.md)
+1. [C/C++ Program for Longest Monotonically Increasing Subsequence Size (N log N)](Longest_Monotonically_Increasing_Subsequence_Size_(N_log_N).md)
+1. [C/C++ Program for Find a triplet that sum to a given value](Find_a_triplet_that_sum_to_a_given_value.md)
+1. [C/C++ Program for Find the smallest positive number missing from an unsorted array](Find_the_smallest_positive_number_missing_from_an_unsorted_array.md)
+1. [C/C++ Program for Find the two numbers with odd occurrences in an unsorted array](Find_the_two_numbers_with_odd_occurrences_in_an_unsorted_array.md)
+1. [C/C++ Program for The Celebrity Problem](The_Celebrity_Problem.md)
+1. [C/C++ Program for Dynamic Programming | Set 15 (Longest Bitonic Subsequence)](Dynamic_Programming_|_Set_15_(Longest_Bitonic_Subsequence).md)
+1. [C/C++ Program for Find a sorted subsequence of size 3 in linear time](Find_a_sorted_subsequence_of_size_3_in_linear_time.md)
+1. [C/C++ Program for Largest subarray with equal number of 0s and 1s](Largest_subarray_with_equal_number_of_0s_and_1s.md)
+1. [C/C++ Program for Dynamic Programming | Set 18 (Partition problem)](Dynamic_Programming_|_Set_18_(Partition_problem).md)
+1. [C/C++ Program for Maximum Product Subarray](Maximum_Product_Subarray.md)
+1. [C/C++ Program for Find a pair with the given difference](Find_a_pair_with_the_given_difference.md)
+1. [C/C++ Program for Replace every element with the next greatest](Replace_every_element_with_the_next_greatest.md)
+1. [C/C++ Program for Dynamic Programming | Set 20 (Maximum Length Chain of Pairs)](Dynamic_Programming_|_Set_20_(Maximum_Length_Chain_of_Pairs).md)
+1. [C/C++ Program for Find four elements that sum to a given value | Set 1 (n^3 solution)](Find_four_elements_that_sum_to_a_given_value_|_Set_1_(n^3_solution).md)
+1. [C/C++ Program for Find four elements that sum to a given value | Set 2 ( O(n^2Logn) Solution)](Find_four_elements_that_sum_to_a_given_value_|_Set_2_(_O(n^2Logn)_Solution).md)
+1. [C/C++ Program for Sort a nearly sorted (or K sorted) array](Sort_a_nearly_sorted_(or_K_sorted)_array.md)
+1. [C/C++ Program for Maximum circular subarray sum](Maximum_circular_subarray_sum.md)
+1. [C/C++ Program for Find the row with maximum number of 1s](Find_the_row_with_maximum_number_of_1s.md)
+1. [C/C++ Program for Median of two sorted arrays of different sizes](Median_of_two_sorted_arrays_of_different_sizes.md)
+1. [C/C++ Program for Print unique rows in a given boolean matrix](Print_unique_rows_in_a_given_boolean_matrix.md)
+1. [C/C++ Program for Shuffle a given array](Shuffle_a_given_array.md)
+1. [C/C++ Program for Count the number of possible triangles](Count_the_number_of_possible_triangles.md)
+1. [C/C++ Program for Iterative Quick Sort](Iterative_Quick_Sort.md)
+1. [C/C++ Program for Inplace M x N size matrix transpose | Updated](Inplace_M_x_N_size_matrix_transpose_|_Updated.md)
+1. [C/C++ Program for Find the number of islands](Find_the_number_of_islands.md)
+1. [C/C++ Program for Construction of Longest Monotonically Increasing Subsequence (N log N)](Construction_of_Longest_Monotonically_Increasing_Subsequence_(N_log_N).md)
+1. [C/C++ Program for Find the first circular tour that visits all petrol pumps](Find_the_first_circular_tour_that_visits_all_petrol_pumps.md)
+1. [C/C++ Program for Arrange given numbers to form the biggest number](Arrange_given_numbers_to_form_the_biggest_number.md)
+1. [C/C++ Program for Dynamic Programming | Set 27 (Maximum sum rectangle in a 2D matrix)](Dynamic_Programming_|_Set_27_(Maximum_sum_rectangle_in_a_2D_matrix).md)
+1. [C/C++ Program for Pancake sorting](Pancake_sorting.md)
+1. [C/C++ Program for A Pancake Sorting Problem](A_Pancake_Sorting_Problem.md)
+1. [C/C++ Program for Tug of War](Tug_of_War.md)
+1. [C/C++ Program for Print Matrix Diagonally](Print_Matrix_Diagonally.md)
+1. [C/C++ Program for Divide and Conquer | Set 3 (Maximum Subarray Sum)](Divide_and_Conquer_|_Set_3_(Maximum_Subarray_Sum).md)
+1. [C/C++ Program for Counting Sort](Counting_Sort.md)
+1. [C/C++ Program for Merge Overlapping Intervals](Merge_Overlapping_Intervals.md)
+1. [C/C++ Program for Find the maximum repeating number in O(n) time and O(1) extra space](Find_the_maximum_repeating_number_in_O(n)_time_and_O(1)_extra_space.md)
+1. [C/C++ Program for Stock Buy Sell to Maximize Profit](Stock_Buy_Sell_to_Maximize_Profit.md)
+1. [C/C++ Program for Rearrange positive and negative numbers in O(n) time and O(1) extra space](Rearrange_positive_and_negative_numbers_in_O(n)_time_and_O(1)_extra_space.md)
+1. [C/C++ Program for Sort elements by frequency | Set 2](Sort_elements_by_frequency_|_Set_2.md)
+1. [C/C++ Program for Find a peak element](Find_a_peak_element.md)
+1. [C/C++ Program for Print all possible combinations of r elements in a given array of size n](Print_all_possible_combinations_of_r_elements_in_a_given_array_of_size_n.md)
+1. [C/C++ Program for Given an array of of size n and a number k, find all elements that appear more than n/k times](Given_an_array_of_of_size_n_and_a_number_k,_find_all_elements_that_appear_more_than_n/k_times.md)
+1. [C/C++ Program for Find the point where a monotonically increasing function becomes positive first time](Find_the_point_where_a_monotonically_increasing_function_becomes_positive_first_time.md)
+1. [C/C++ Program for Find the Increasing subsequence of length three with maximum product](Find_the_Increasing_subsequence_of_length_three_with_maximum_product.md)
+1. [C/C++ Program for Find the minimum element in a sorted and rotated array](Find_the_minimum_element_in_a_sorted_and_rotated_array.md)
+1. [C/C++ Program for Stable Marriage Problem](Stable_Marriage_Problem.md)
+1. [C/C++ Program for Merge k sorted arrays | Set 1](Merge_k_sorted_arrays_|_Set_1.md)
+1. [C/C++ Program for Radix Sort](Radix_Sort.md)
+1. [C/C++ Program for Move all zeroes to end of array](Move_all_zeroes_to_end_of_array.md)
+1. [C/C++ Program for Find number of pairs such that x^y > y^x](Find_number_of_pairs_such_that_x^y_>_y^x.md)
+1. [C/C++ Program for Count all distinct pairs with difference equal to k](Count_all_distinct_pairs_with_difference_equal_to_k.md)
+1. [C/C++ Program for Count all possible paths from top left to bottom right of a mXn matrix](Count_all_possible_paths_from_top_left_to_bottom_right_of_a_mXn_matrix.md)
+1. [C/C++ Program for Suffix Array | Set 1 (Introduction)](Suffix_Array_|_Set_1_(Introduction).md)
+1. [C/C++ Program for Rearrange an array so that arr[i] becomes arr[arr[i]] with O(1) extra space](Rearrange_an_array_so_that_arr[i]_becomes_arr[arr[i]]_with_O(1)_extra_space.md)
+1. [C/C++ Program for Sort n numbers in range from 0 to n^2 – 1 in linear time](Sort_n_numbers_in_range_from_0_to_n^2_–_1_in_linear_time.md)
+1. [C/C++ Program for Count all possible groups of size 2 or 3 that have sum as multiple of 3](Count_all_possible_groups_of_size_2_or_3_that_have_sum_as_multiple_of_3.md)
+.md)
 ## [2.] Matrix C/C++ Programs
-C Program to check if two given matrices are identical
-C program to find transpose of a matrix
-C program for subtraction of matrices
-C program for addition of two matrices
-C program to multiply two matrices
-C/C++ Program for Print a given matrix in spiral form
-C/C++ Program for A Boolean Matrix Question
-C/C++ Program for Print Matrix Diagonally
-C Program to find the number of islands
-C Program to find maximum size square sub-matrix with all 1s
-C/C++ program for the celebrity problem
-C/C++ Program for Print a given matrix in spiral form
-
-## [3.] String C/C++ Programs
-C program to swap two Strings
-C Program to Check if a Given String is Palindrome
-C Program to Sort an array of names or strings
-C/C++ Program for Return maximum occurring character in the input string
-C/C++ Program for Remove all duplicates from the input string.
-C/C++ Program for Print all the duplicates in the input string.
-C/C++ Program for Remove characters from the first string which are present in the second string
-C/C++ Program for A Program to check if strings are rotations of each other or not
-C/C++ Program for Print reverse of a string using recursion
-C/C++ Program for Write a C program to print all permutations of a given string
-C/C++ Program for Divide a string in N equal parts
-C/C++ Program for Given a string, find its first non-repeating character
-C/C++ Program for Print list items containing all characters of a given word
-C/C++ Program for Reverse words in a given string
-C/C++ Program for Run Length Encoding
-C/C++ Program for Find the smallest window in a string containing all characters of another string
-C/C++ Program for Searching for Patterns | Set 1 (Naive Pattern Searching)
-C/C++ Program for Searching for Patterns | Set 2 (KMP Algorithm)
-C/C++ Program for Searching for Patterns | Set 3 (Rabin-Karp Algorithm)
-C/C++ Program for Searching for Patterns | Set 4 (A Naive Pattern Searching Question)
-C/C++ Program for Length of the longest substring without repeating characters
-C/C++ Program for Print all permutations with repetition of characters
-C/C++ Program for Print all interleavings of given two strings
-C/C++ Program for Check whether a given string is an interleaving of two other given strings
-C/C++ Program for Check whether two strings are anagram of each other
-C/C++ Program for Searching for Patterns | Set 5 (Finite Automata)
-C/C++ Program for Pattern Searching | Set 6 (Efficient Construction of Finite Automata)
-C/C++ Program for Pattern Searching | Set 7 (Boyer Moore Algorithm – Bad Character Heuristic)
-C/C++ Program for Dynamic Programming | Set 17 (Palindrome Partitioning)
-C/C++ Program for Lexicographic rank of a string
-C/C++ Program for Print all permutations in sorted (lexicographic) order
-C/C++ Program for Longest Palindromic Substring | Set 1
-C/C++ Program for An in-place algorithm for String Transformation
-C/C++ Program for Longest Palindromic Substring | Set 2
-C/C++ Program for Given a sequence of words, print all anagrams together | Set 1
-C/C++ Program for Given a sequence of words, print all anagrams together | Set 2
-C/C++ Program for Count words in a given string
-C/C++ Program for String matching where one string contains wildcard characters
-C/C++ Program for Write your own atoi()
-C/C++ Program for Dynamic Programming | Set 29 (Longest Common Substring)
-C/C++ Program for Remove “b” and “ac” from a given string
-C/C++ Program for Dynamic Programming | Set 33 (Find if a string is interleaved of two other strings)
-C/C++ Program for Find the first non-repeating character from a stream of characters
-C/C++ Program for Recursively remove all adjacent duplicates
-C/C++ Program for Rearrange a string so that all same characters become d distance away
-C program to find second most frequent character
-
-## [3.] Linked List C/C++ Programs:
-C/C++ Program for Introduction to Linked List
-C/C++ Program for Linked List Insertion
-C/C++ Program for Write a function to get Nth node in a Linked List
-C/C++ Program for Given only a pointer to a node to be deleted in a singly linked list, how do you delete it?
-C/C++ Program to print the middle of a given linked list
-C/C++ Program for Nth node from the end of a Linked List
-C/C++ Program to delete a Linked List
-C/C++ Program to counts the number of times a given int occurs in a Linked List
-C/C++ Program for Given only a pointer to a node to be deleted in a singly linked list, how do you delete it?
-C/C++ Program to reverse a linked list
-C/C++ Program to detect loop in a linked list
-C/C++ Program to check if a singly linked list is palindrome
-C/C++ Program The Great Tree-List Recursion Problem.
-C/C++ Program to Copy a linked list with next and arbit pointer
-C/C++ Program for Given a linked list which is sorted, how will you insert in sorted way
-C/C++ Program for Write a function to get the intersection point of two Linked Lists.
-C/C++ Program for Write a recursive function to print reverse of a Linked List
-C/C++ Program for Remove duplicates from a sorted linked list
-C/C++ Program for Remove duplicates from an unsorted linked list
-C/C++ Program for Reverse a Doubly Linked List
-C/C++ Program for Split a Circular Linked List into two halves
-C/C++ Program for Practice questions for Linked List and Recursion
-C/C++ Program for Move last element to front of a given Linked List
-C/C++ Program for Pairwise swap elements of a given linked list
-C/C++ Program for Delete a node in a Doubly Linked List
-C/C++ Program for Intersection of two Sorted Linked Lists
-C/C++ Program for Delete alternate nodes of a Linked List
-C/C++ Program for Alternating split of a given Singly Linked List
-C/C++ Program for Merge two sorted linked lists
-C/C++ Program for Identical Linked Lists
-C/C++ Program for Merge Sort for Linked Lists
-C/C++ Program for Reverse a Linked List in groups of given size
-C/C++ Program for Sorted insert for circular linked list
-C/C++ Program for Reverse alternate K nodes in a Singly Linked List
-C/C++ Program for Delete nodes which have a greater value on right side
-C/C++ Program for Segregate even and odd nodes in a Linked List
-C/C++ Program for Detect and Remove Loop in a Linked List
-C/C++ Program for XOR Linked List – A Memory Efficient Doubly Linked List | Set 1
-C/C++ Program for Add two numbers represented by linked lists | Set 1
-C/C++ Program for How to write C functions that modify head pointer of a Linked List?
-C/C++ Program for Delete a given node in Linked List under given constraints
-C/C++ Program for Sorted Linked List to Balanced BST
-C/C++ Program for In-place conversion of Sorted DLL to Balanced BST
-C/C++ Program for Union and Intersection of two Linked Lists
-C/C++ Program for XOR Linked List – A Memory Efficient Doubly Linked List | Set 2
-C/C++ Program for Find a triplet from three linked lists with sum equal to a given number
-C/C++ Program for Rotate a Linked List
-C/C++ Program for Implement LRU Cache
-C/C++ Program for Flattening a Linked List
-C/C++ Program for Add two numbers represented by linked lists | Set 2
-C/C++ Program for Sort a linked list of 0s, 1s and 2s
-C/C++ Program for Flatten a multilevel linked list
-C/C++ Program for QuickSort on Doubly Linked List
-C/C++ Program for Swap Kth node from beginning with Kth node from end in a Linked List
-C/C++ Program for Design a stack with operations on middle element
-C/C++ Program for Delete N nodes after M nodes of a linked list
-C/C++ Program for QuickSort on Singly Linked List
-C/C++ Program for Merge a linked list into another linked list at alternate positions
-C/C++ Program for Pairwise swap elements of a given linked list by changing links
-C/C++ Program for Given a linked list, reverse alternate nodes and append at the end
-C Program for Bubble Sort on Linked List
-
-## [4.] Stack C/C++ Programs:
-C/C++ Program for Introduction to Stack
-C/C++ Program for Infix to Postfix Conversion using Stack
-C/C++ Program for Evaluation of Postfix Expression
-C/C++ Program for Reverse a Sting using Stack
-C/C++ Program for Implement two stacks in an array
-C/C++ Program for Check for balanced parentheses in an expression
-C/C++ Program for Next Greater Element
-C/C++ Program for Reverse a stack using recursion
-C/C++ Program for The Stock Span Problem
-C/C++ Program for Design and Implement Special Stack Data Structure
-C/C++ Program for Implement Stack using Queues
-C/C++ Program for Design a stack with operations on middle element
-
-## [5.] Queue C/C++ Programs:
-C/C++ Program for Queue Introduction and Array Implementation
-C/C++ Program for Linked List Implementation of Queue
-C/C++ Program for Implement Queue using Stacks
-C/C++ Program for Check whether a given Binary Tree is Complete or not
-C/C++ Program for Find the largest multiple of 3
-
-## [6.] Tree C/C++ Programs:
-C/C++ Program for Tree Traversals
-C/C++ Program for Write a C program to Calculate Size of a tree
-C/C++ Program for Write C Code to Determine if Two Trees are Identical
-C/C++ Program for Write a C Program to Find the Maximum Depth or Height of a Tree
-C/C++ Program for Write a C program to Delete a Tree.
-C/C++ Program for Write an Efficient C Function to Convert a Binary Tree into its Mirror Tree
-C/C++ Program for If you are given two traversal sequences, can you construct the binary tree?
-C/C++ Program for Given a binary tree, print out all of its root-to-leaf paths one per line.
-C/C++ Program for Lowest Common Ancestor in a Binary Search Tree.
-C/C++ Program for The Great Tree-List Recursion Problem.
-C/C++ Program for Find the node with minimum value in a Binary Search Tree
-C/C++ Program for Level Order Tree Traversal
-C/C++ Program for Program to count leaf nodes in a binary tree
-C/C++ Program for A program to check if a binary tree is BST or not
-C/C++ Program for Level order traversal in spiral form
-C/C++ Program for Check for Children Sum Property in a Binary Tree.
-C/C++ Program for Convert an arbitrary Binary Tree to a tree that holds Children Sum Property
-C/C++ Program for Diameter of a Binary Tree
-C/C++ Program for How to determine if a binary tree is height-balanced?
-C/C++ Program for Inorder Tree Traversal without Recursion
-C/C++ Program for Inorder Tree Traversal without recursion and without stack!
-C/C++ Program for Root to leaf path sum equal to a given number
-C/C++ Program for Construct Tree from given Inorder and Preorder traversals
-C/C++ Program for Given a binary tree, print all root-to-leaf paths
-C/C++ Program for Double Tree
-C/C++ Program for Maximum width of a binary tree
-C/C++ Program for Total number of possible Binary Search Trees with n keys
-C/C++ Program for Foldable Binary Trees
-C/C++ Program for Print nodes at k distance from root
-C++ Program for Inorder predecessor and successor of a given key in BST
-C/C++ Program for Sorted order printing of a given array that represents a BST
-C/C++ Program for Applications of tree data structure
-C/C++ Program for Inorder Successor in Binary Search Tree
-C/C++ Program for Find k-th smallest element in BST (Order Statistics in BST)
-C/C++ Program for Get Level of a node in a Binary Tree
-C/C++ Program for Print Ancestors of a given node in Binary Tree
-C/C++ Program for Print BST keys in the given range
-C/C++ Program for Tournament Tree (Winner Tree) and Binary Heap
-C/C++ Program for Check if a given Binary Tree is SumTree
-C/C++ Program for Decision Trees – Fake (Counterfeit) Coin Puzzle (12 Coin Puzzle)
-C/C++ Program for Check if a binary tree is subtree of another binary tree
-C/C++ Program for Trie | (Insert and Search)
-C/C++ Program for Trie | (Delete)
-C/C++ Program for Connect nodes at same level
-C/C++ Program for Connect nodes at same level using constant extra space
-C/C++ Program for Sorted Array to Balanced BST
-C/C++ Program for Populate Inorder Successor for all nodes
-C/C++ Program for Convert a given tree to its Sum Tree
-C/C++ Program for Find the largest BST subtree in a given Binary Tree
-C/C++ Program for AVL Tree | Set 1 (Insertion)
-C/C++ Program for Vertical Sum in a given Binary Tree
-C/C++ Program for AVL Tree | Set 2 (Deletion)
-C/C++ Program for Merge Two Balanced Binary Search Trees
-C/C++ Program for Find the maximum sum leaf to root path in a Binary Tree
-C/C++ Program for Merge two BSTs with limited extra space
-C/C++ Program for Binary Tree to Binary Search Tree Conversion
-C/C++ Program for Construct Special Binary Tree from given Inorder traversal
-C/C++ Program for Construct a special tree from given preorder traversal
-C/C++ Program for Check if each internal node of a BST has exactly one child
-C/C++ Program for Check whether a given Binary Tree is Complete or not
-C/C++ Program for Boundary Traversal of binary tree
-C/C++ Program for Two nodes of a BST are swapped, correct the BST
-C/C++ Program for Construct Full Binary Tree from given preorder and postorder traversals
-C/C++ Program for Construct BST from given preorder traversal | Set 1
-C/C++ Program for Construct BST from given preorder traversal | Set 2
-C/C++ Program for Floor and Ceil from a BST
-C/C++ Program for Iterative Preorder Traversal
-C/C++ Program for Convert a BST to a Binary Tree such that sum of all greater keys is added to every key
-C/C++ Program for Morris traversal for Preorder
-C/C++ Program for Linked complete binary tree & its creation
-C/C++ Program for Ternary Search Tree
-C/C++ Program for Segment Tree | Set 1 (Sum of given range)
-C/C++ Program for Segment Tree | Set 2 (Range Minimum Query)
-C/C++ Program for Dynamic Programming | Set 26 (Largest Independent Set Problem)
-C/C++ Program for Iterative Postorder Traversal | Set 1 (Using Two Stacks)
-C/C++ Program for Iterative Postorder Traversal | Set 2 (Using One Stack)
-C/C++ Program for Find if there is a triplet in a Balanced BST that adds to zero
-C/C++ Program for Find a pair with given sum in a Balanced BST
-C/C++ Program for Reverse Level Order Traversal
-C/C++ Program for Construct Complete Binary Tree from its Linked List Representation
-C/C++ Program for Remove BST keys outside the given range
-C/C++ Program for Convert a given Binary Tree to Doubly Linked List | Set 1
-C/C++ Program for B-Tree | Set 1 (Introduction)
-C/C++ Program for B-Tree | Set 2 (Insert)
-C/C++ Program for Longest prefix matching – A Trie based solution in Java
-C/C++ Program for Tree Isomorphism Problem
-C/C++ Program for Find all possible interpretations of an array of digits
-C/C++ Program for Iterative Method to find Height of Binary Tree
-C/C++ Program for Custom Tree Problem
-C/C++ Program for Check for Identical BSTs without building the trees
-C/C++ Program for Convert a given Binary Tree to Doubly Linked List | Set 2
-C/C++ Program for Print ancestors of a given binary tree node without recursion
-C/C++ Program for Difference between sums of odd level and even level nodes of a Binary Tree
-C/C++ Program for Print Postorder traversal from given Inorder and Preorder traversals
-C/C++ Program for Find depth of the deepest odd level leaf node
-C/C++ Program for Check if all leaves are at same level
-C/C++ Program for Print Left View of a Binary Tree
-C/C++ Program for B-Tree | Set 3 (Delete)
-C/C++ Program for Add all greater values to every node in a given BST
-C/C++ Program for Remove all nodes which don’t lie in any path with sum>= k
-C/C++ Program for Extract Leaves of a Binary Tree in a Doubly Linked List
-C/C++ Program for Deepest left leaf node in a binary tree
-C/C++ Program for Find next right node of a given key
-C/C++ Program for Splay Tree | Set 1 (Search)
-C/C++ Program for Splay Tree | Set 2 (Insert)
-C/C++ Program for Sum of all the numbers that are formed from root to leaf paths
-C/C++ Program for Red-Black Tree | Set 1 (Introduction)
-C/C++ Program for Red-Black Tree | Set 2 (Insert)
-C/C++ Program for Convert a given Binary Tree to Doubly Linked List | Set 3
-C/C++ Program for Print all nodes that don’t have sibling
-C/C++ Program for Lowest Common Ancestor in a Binary Tree | Set 1
-C/C++ Program for Find distance between two given keys of a Binary Tree
-C/C++ Program for Print all nodes that are at distance k from a leaf node
-C/C++ Program for Check if a given Binary Tree is height balanced like a Red-Black Tree
-C/C++ Program for Interval Tree
-C/C++ Program for Print a Binary Tree in Vertical Order | Set 1
-C/C++ Program for Print all nodes at distance k from a given node
-C/C++ Program to find the maximum path sum between two leaves of a binary tree
-
-## [5.] Graph C/C++ Programs:
-C/C++ Program for Depth First Traversal for a Graph
-C/C++ Program for Breadth First Traversal for a Graph
-C/C++ Program for Detect Cycle in a Directed Graph
-C/C++ Program for Find if there is a path between two vertices in a directed graph
-C/C++ Program for Hamiltonian Cycle Detection
-C/C++ Program for Dynamic Programming | Set 16 (Floyd Warshall Algorithm)
-C/C++ Program for Find the number of islands
-C/C++ Program for Union-Find Algorithm | Set 1 (Detect Cycle in a an Undirected Graph)
-C/C++ Program for Union-Find Algorithm | Set 2 (Union By Rank and Path Compression)
-C/C++ Program for Greedy Algorithms | Set 2 (Kruskal’s Minimum Spanning Tree Algorithm)
-C/C++ Program for Graph and its representations
-C/C++ Program for Greedy Algorithms | Set 5 (Prim’s Minimum Spanning Tree (MST))
-C/C++ Program for Greedy Algorithms | Set 6 (Prim’s MST for Adjacency List Representation)
-C/C++ Program for Greedy Algorithms | Set 7 (Dijkstra’s shortest path algorithm)
-C/C++ Program for Greedy Algorithms | Set 8 (Dijkstra’s Algorithm for Adjacency List Representation)
-C/C++ Program for Dynamic Programming | Set 23 (Bellman–Ford Algorithm)
-C/C++ Program for Transitive closure of a graph
-C/C++ Program for Check whether a given graph is Bipartite or not
-C/C++ Program for Topological Sorting
-C/C++ Program for Shortest Path in Directed Acyclic Graph
-C/C++ Program for Strongly Connected Components
-C/C++ Program for Articulation Points (or Cut Vertices) in a Graph
-C/C++ Program for Bridges in a graph
-C/C++ Program for Biconnected graph
-C/C++ Program for Connectivity in a directed graph
-C/C++ Program for Eulerian path and circuit
-C/C++ Program for Ford-Fulkerson Algorithm for Maximum Flow Problem
-C/C++ Program for Maximum Bipartite Matching
-C/C++ Program for Find minimum s-t cut in a flow network
-C/C++ Program for Fleury’s Algorithm for printing Eulerian Path or Circuit
-C/C++ Program for Longest Path in a Directed Acyclic Graph
-C/C++ Program for Find maximum number of edge disjoint paths between two vertices
-C/C++ Program for Detect cycle in an undirected graph
-C/C++ Program for Travelling Salesman Problem | Set 1 (Naive and Dynamic Programming)
-C/C++ Program for Travelling Salesman Problem | Set 2 (Approximate using MST)
-C/C++ Program for Johnson’s algorithm for All-pairs shortest paths
-C/C++ Program for Graph Coloring | Set 1 (Introduction and Applications)
-C/C++ Program for Graph Coloring | Set 2 (Greedy Algorithm)
-C/C++ Program for Some interesting shortest path questions | Set 1
-C/C+ program to Reverse alternate levels of a perfect binary tree
-C/C++ program to transform a BST to greater sum tree
-
-## [6.] Bit-Magic C/C++ Program:
-C/C++ Program for Next Power of 2
-C/C++ Program for Write an Efficient Method to Check if a Number is Multiple of 3
-C/C++ Program for Write a C program to find the parity of an unsigned integer
-C/C++ Program for Efficient way to multiply with 7
-C/C++ Program for Write one line C function to find whether a no is power of two
-C/C++ Program for Position of rightmost set bit
-C/C++ Program for Find the Number Occurring Odd Number of Times
-C/C++ Program for Check for Integer Overflow
-C/C++ Program for Little and Big Endian Mystery
-C/C++ Program for Write an Efficient C Program to Reverse Bits of a Number
-C/C++ Program for Count set bits in an integer
-C/C++ Program for Count number of bits to be flipped to convert A to B
-C/C++ Program for Find the two non-repeating elements in an array of repeating elements
-C/C++ Program for Rotate bits of a number
-C/C++ Program for Compute the minimum or maximum of two integers without branching
-C/C++ Program for Compute modulus division by a power-of-2-number
-C/C++ Program for Compute the integer absolute value (abs) without branching
-C/C++ Program for Find whether a given number is a power of 4 or not
-C/C++ Program for Turn off the rightmost set bit
-C/C++ Program for Multiply a given Integer with 3.5
-C/C++ Program for Add 1 to a given number
-C/C++ Program for Optimization Techniques | Set 1 (Modulus)
-C/C++ Program for Next higher number with same number of set bits
-C/C++ Program for Program to count number of set bits in an (big) array
-C/C++ Program for A Boolean Array Puzzle
-C/C++ Program for Smallest of three integers without comparison operators
-C/C++ Program for Add two numbers without using arithmetic operators
-C/C++ Program for Swap bits in a given number
-C/C++ Program for Count total set bits in all numbers from 1 to n
-C/C++ Program for Detect if two integers have opposite signs
-C/C++ Program for Find the element that appears once
-C/C++ Program for Binary representation of a given number
-C/C++ Program for Write your own strcmp that ignores cases
-C/C++ Program for Add two bit strings
-C/C++ Program for Swap all odd and even bits
-C/C++ Program for Find position of the only set bit
-C/C++ Program for Divide and Conquer | Set 4 (Karatsuba algorithm for fast multiplication)
-C/C++ Program for How to swap two numbers without using a temporary variable?
-C/C++ Program for Check if a number is multiple of 9 using bitwise operators
-
-## [7.] C/C++ Mathematical Programs
-C/C++ Program for Write an Efficient Method to Check if a Number is Multiple of 3
-C Program to print first n Fibonacci Numbers
-C program to find area of a circle
-C program to find area of a triangle
-C program to calculate the value of nPr
-C Program to find sum of series 1 + 1/2 + 1/3 + 1/4 + .. + 1/n
-C/C++ Program for Efficient way to multiply with 7
-C/C++ Program for Write a C program to print all permutations of a given string
-C/C++ Program for Lucky Numbers
-C/C++ Program for Write a program to add two numbers in base 14
-C/C++ Program for Babylonian method for square root
-C/C++ Program for Multiply two integers without using multiplication, division and bitwise operators, and no loops
-C/C++ Program for Print all combinations of points that can compose a given number
-C/C++ Program for Write you own Power without using multiplication(*) and division(/) operators
-C/C++ Program for Fibonacci numbers
-C/C++ Program for Average of a stream of numbers
-C/C++ Program for Check whether a given point lies inside a triangle or not
-C/C++ Program for Count numbers that don’t contain 3
-C/C++ Program for Magic Square
-C/C++ Program for Sieve of Eratosthenes
-C/C++ Program for Find day of the week for a given date
-C/C++ Program for DFA based division
-C/C++ Program for Generate integer from 1 to 7 with equal probability
-C/C++ Program for Given a number, find the next smallest palindrome
-C/C++ Program for Make a fair coin from a biased coin
-C/C++ Program for Check divisibility by 7
-C/C++ Program for Find the largest multiple of 3
-C/C++ Program for Lexicographic rank of a string
-C/C++ Program for Print all permutations in sorted (lexicographic) order
-C/C++ Program for Shuffle a given array
-C/C++ Program for Space and time efficient Binomial Coefficient
-C/C++ Program for Reservoir Sampling
-C/C++ Program for Pascal’s Triangle
-C/C++ Program for Select a random number from stream, with O(1) space
-C/C++ Program for Find the largest multiple of 2, 3 and 5
-C/C++ Program for Efficient program to calculate e^x
-C/C++ Program for Measure one litre using two vessels and infinite water supply
-C/C++ Program for Efficient program to print all prime factors of a given number
-C/C++ Program for Print all possible combinations of r elements in a given array of size n
-C/C++ Program for Random number generator in arbitrary probability distribution fashion
-C/C++ Program for How to check if two given line segments intersect?
-C/C++ Program for How to check if a given point lies inside or outside a polygon?
-C/C++ Program for Convex Hull | Set 1 (Jarvis’s Algorithm or Wrapping)
-C/C++ Program for Convex Hull | Set 2 (Graham Scan)
-C/C++ Program for How to check if a given number is Fibonacci number?
-C/C++ Program for Russian Peasant Multiplication
-C Program to Draw a circle without floating point arithmetic
-C++ Program to print all palindromes in a given range
-
-## [8.] C/C++ Dynamic Programming Programs
-C/C++ Program for Largest Sum Contiguous Subarray
-C/C++ Program for Ugly Numbers
-C/C++ Program for Maximum size square sub-matrix with all 1s
-C/C++ Program for Program for Fibonacci numbers
-C/C++ Program for Overlapping Subproblems Property
-C/C++ Program for Optimal Substructure Property
-C/C++ Program for Longest Increasing Subsequence
-C/C++ Program for Longest Common Subsequence)
-C/C++ Program for Edit Distance
-C/C++ Program for Min Cost Path
-C/C++ Program for Length of the longest substring without repeating characters
-C/C++ Program for Minimum number of jumps to reach end
-C/C++ Program for Coin Change)
-C/C++ Program for Matrix Chain Multiplication
-C/C++ Program for Binomial Coefficient
-C/C++ Program for 0-1 Knapsack Problem
-C/C++ Program for Egg Dropping Puzzle
-C/C++ Program for Longest Palindromic Subsequence
-C/C++ Program for Cutting a Rod
-C/C++ Program for Maximum Sum Increasing Subsequence
-C/C++ Program for Longest Bitonic Subsequence
-C/C++ Program for Floyd Warshall Algorithm
-C/C++ Program for Palindrome Partitioning
-C/C++ Program for Partition problem
-C/C++ Program for Word Wrap Problem
-C/C++ Program for Maximum Length Chain of Pairs
-C/C++ Program for Box Stacking Problem
-C/C++ Program for Longest Palindromic Substring
-C/C++ Program for Bellman–Ford Algorithm
-C/C++ Program for Optimal Binary Search Tree
-C/C++ Program for Subset Sum Problem
-C/C++ Program for Largest Independent Set Problem
-C/C++ Program for Maximum sum rectangle in a 2D matrix
-C/C++ Program for Minimum insertions to form a palindrome
-C/C++ Program for Longest Common Substring
-C/C++ Program for Dice Throw
-C/C++ Program for Optimal Strategy for a Game
-C/C++ Program for Word Break Problem
-C/C++ Program for Find if a string is interleaved of two other strings
-C/C++ Program for Assembly Line Scheduling
-C/C++ Program for Longest Arithmetic Progression
-C/C++ Program for Maximum Product Cutting
-C/C++ Program for Count all possible paths from top left to bottom right of a mXn matrix
-
-## [9.] C/C++ Greedy Algorithm Programs
-C/C++ Program Activity Selection Problem
-C/C++ Program Kruskal’s Minimum Spanning Tree Algorithm
-C/C++ Program for Huffman Coding
-C/C++ Program for Efficient Huffman Coding for Sorted Input
-C/C++ Program for Prim’s Minimum Spanning Tree (MST)
-C/C++ Program for Prim’s MST for Adjacency List Representation
-C/C++ Program for Dijkstra’s shortest path algorithm
-C/C++ Program for Dijkstra’s Algorithm for Adjacency List Representation
-C/C++ Program for Graph Coloring
-C/C++ Program for Rearrange a string so that all same characters become d distance away
-C/C++ Backtracking Programs
-C/C++ Program to print all permutations of a given string
-C/C++ Program The Knight’s tou problem
-C/C++ Program for Rat in a Maze
-C/C++ Program for N Queen Problem
-C/C++ Program for Subset Sum
-C/C++ Program for m Coloring Problem
-C/C++ Program for Hamiltonian Cycle
-C/C++ Program for Sudoku
-C/C++ Program for Tug of War
-C/C++ Program for (Solving Cryptarithmetic Puzzles
-C/C++ Divide and Conquer Programs:
-C/C++ Program for Write a C program to calculate pow(x,n)
-C/C++ Program for Median of two sorted arrays
-C/C++ Program for Count Inversions in an array
-C/C++ Program for Check for Majority Element in a sorted array
-C/C++ Program for Maximum and minimum of an array using minimum number of comparisons
-C/C++ Program for Program to count number of set bits in an (big) array
-C/C++ Program for Count the number of occurrences in a sorted array
-C/C++ Program for Find a Fixed Point in a given array
-C/C++ Program for Find the maximum element in an array which is first increasing and then decreasing
-C/C++ Program for Median of two sorted arrays of different sizes
-C/C++ Program for Closest Pair of Points
-C/C++ Program for Maximum Subarray Sum
-C/C++ Program for Largest Rectangular Area in a Histogram
-C/C++ Program for Karatsuba algorithm for fast multiplication)
-C/C++ Program for Find a peak element
-C/C++ Program for Find the point where a monotonically increasing function becomes positive first time
-C/C++ Program for Find the minimum element in a sorted and rotated array
-C/C++ Program for Closest Pair of Points | O(nlogn) Implementation
-C/C++ String Searching Programs:
-C/C++ Program for Naive Pattern Searching
-C/C++ Program for KMP Algorithm
-C/C++ Program for Rabin-Karp Algorithm
-C/C++ Program for A Naive Pattern Searching Question
-C/C++ Program for Finite Automata
-C/C++ Program for Efficient Construction of Finite Automata
-C/C++ Program for Boyer Moore Algorithm – Bad Character Heuristic
-C/C++ Program for String matching where one string contains wildcard characters
-C/C++ Program for Suffix Array
-C/C++ Geometric Algorithm Programs:
-C/C++ Program for How to check if two given line segments intersect?
-C/C++ Program for How to check if a given point lies inside or outside a polygon?
-C/C++ Program for Convex Hull | (Jarvis’s Algorithm or Wrapping)
-C/C++ Program for Convex Hull | (Graham Scan)
-C/C++ Program for Given n line segments, find if any two segments intersect
-C/C++ Program for Closest Pair of Points | O(nlogn) Implementation
-C/C++ Program for Find if two rectangles overlap
-
-## [10] C/C++ Misc Programs:
-C Program to print environment variable
-C Program for Tower of Hanoi
-C Program to print Floyd’s triangle
-C Program to Swap two Numbers
-C program swap two numbers without using a temporary variable
-C Program to check if a given year is leap year
-C Program to sum the digits of a given number in single statement?
-C program to print numbers from 1 to 100 without using loop?
-C Program to print contents of file
-C program to copy contents of one file to another file
-C Program to list all files and sub-directories in a directory
-C program to delete a file
-C Program to merge contents of two files into a third file
-C Program to count number of lines in a file
-C/C++ Program for Check if a number is Palindrome
-C/C++ Program for Print all possible combinations of r elements in a given array of size n
-C/C++ Program for Print all possible strings of length k that can be formed from a set of n characters
-C/C++ Program to Find Excel column name from a given column number
-C/C++ Program to Find next greater number with same set of digits
-C/C++ Program to Count Possible Decodings of a given Digit Sequence
-C/C++ Program to calculate the angle between hour hand and minute hand
+1. [C Program to check if two given matrices are identical](check_if_two_given_matrices_are_identical
+1. [C program to find transpose of a matrix](transpose_of_a_matrix.md)
+1. [C program for subtraction of matrices](C_program_for_subtraction_of_matrices.md)
+1. [C program for addition of two matrices](C_program_for_addition_of_two_matrices.md)
+1. [C program to multiply two matrices](multiply_two_matrices.md)
+1. [C/C++ Program for Print a given matrix in spiral form](Print_a_given_matrix_in_spiral_form.md)
+1. [C/C++ Program for A Boolean Matrix Question](A_Boolean_Matrix_Question.md)
+1. [C/C++ Program for Print Matrix Diagonally](Print_Matrix_Diagonally.md)
+1. [C Program to find the number of islands](the_number_of_islands.md)
+1. [C Program to find maximum size square sub-matrix with all 1s](maximum_size_square_sub-matrix_with_all_1s.md)
+1. [C/C++ program for the celebrity problem](the_celebrity_problem.md)
+1. [C/C++ Program for Print a given matrix in spiral form](Print_a_given_matrix_in_spiral_form.md)
+1. [](.md)
+1. [## [3.] String C/C++ Programs](##_[3.]_String_C/C++_Programs.md)
+1. [C program to swap two Strings](swap_two_Strings.md)
+1. [C Program to Check if a Given String is Palindrome](Check_if_a_Given_String_is_Palindrome.md)
+1. [C Program to Sort an array of names or strings](Sort_an_array_of_names_or_strings.md)
+1. [C/C++ Program for Return maximum occurring character in the input string](Return_maximum_occurring_character_in_the_input_string.md)
+1. [C/C++ Program for Remove all duplicates from the input string.](Remove_all_duplicates_from_the_input_string..md)
+1. [C/C++ Program for Print all the duplicates in the input string.](Print_all_the_duplicates_in_the_input_string..md)
+1. [C/C++ Program for Remove characters from the first string which are present in the second string](Remove_characters_from_the_first_string_which_are_present_in_the_second_string.md)
+1. [C/C++ Program for A Program to check if strings are rotations of each other or not](A_Program_to_check_if_strings_are_rotations_of_each_other_or_not.md)
+1. [C/C++ Program for Print reverse of a string using recursion](Print_reverse_of_a_string_using_recursion.md)
+1. [C/C++ Program for Write a C program to print all permutations of a given string](Write_a_print_all_permutations_of_a_given_string.md)
+1. [C/C++ Program for Divide a string in N equal parts](Divide_a_string_in_N_equal_parts.md)
+1. [C/C++ Program for Given a string, find its first non-repeating character](Given_a_string,_find_its_first_non-repeating_character.md)
+1. [C/C++ Program for Print list items containing all characters of a given word](Print_list_items_containing_all_characters_of_a_given_word.md)
+1. [C/C++ Program for Reverse words in a given string](Reverse_words_in_a_given_string.md)
+1. [C/C++ Program for Run Length Encoding](Run_Length_Encoding.md)
+1. [C/C++ Program for Find the smallest window in a string containing all characters of another string](Find_the_smallest_window_in_a_string_containing_all_characters_of_another_string.md)
+1. [C/C++ Program for Searching for Patterns | Set 1 (Naive Pattern Searching)](Searching_for_Patterns_|_Set_1_(Naive_Pattern_Searching).md)
+1. [C/C++ Program for Searching for Patterns | Set 2 (KMP Algorithm)](Searching_for_Patterns_|_Set_2_(KMP_Algorithm).md)
+1. [C/C++ Program for Searching for Patterns | Set 3 (Rabin-Karp Algorithm)](Searching_for_Patterns_|_Set_3_(Rabin-Karp_Algorithm).md)
+1. [C/C++ Program for Searching for Patterns | Set 4 (A Naive Pattern Searching Question)](Searching_for_Patterns_|_Set_4_(A_Naive_Pattern_Searching_Question).md)
+1. [C/C++ Program for Length of the longest substring without repeating characters](Length_of_the_longest_substring_without_repeating_characters.md)
+1. [C/C++ Program for Print all permutations with repetition of characters](Print_all_permutations_with_repetition_of_characters.md)
+1. [C/C++ Program for Print all interleavings of given two strings](Print_all_interleavings_of_given_two_strings.md)
+1. [C/C++ Program for Check whether a given string is an interleaving of two other given strings](Check_whether_a_given_string_is_an_interleaving_of_two_other_given_strings.md)
+1. [C/C++ Program for Check whether two strings are anagram of each other](Check_whether_two_strings_are_anagram_of_each_other.md)
+1. [C/C++ Program for Searching for Patterns | Set 5 (Finite Automata)](Searching_for_Patterns_|_Set_5_(Finite_Automata).md)
+1. [C/C++ Program for Pattern Searching | Set 6 (Efficient Construction of Finite Automata)](Pattern_Searching_|_Set_6_(Efficient_Construction_of_Finite_Automata).md)
+1. [C/C++ Program for Pattern Searching | Set 7 (Boyer Moore Algorithm – Bad Character Heuristic)](Pattern_Searching_|_Set_7_(Boyer_Moore_Algorithm_–_Bad_Character_Heuristic).md)
+1. [C/C++ Program for Dynamic Programming | Set 17 (Palindrome Partitioning)](Dynamic_Programming_|_Set_17_(Palindrome_Partitioning).md)
+1. [C/C++ Program for Lexicographic rank of a string](Lexicographic_rank_of_a_string.md)
+1. [C/C++ Program for Print all permutations in sorted (lexicographic) order](Print_all_permutations_in_sorted_(lexicographic)_order.md)
+1. [C/C++ Program for Longest Palindromic Substring | Set 1](Longest_Palindromic_Substring_|_Set_1.md)
+1. [C/C++ Program for An in-place algorithm for String Transformation](An_in-place_algorithm_for_String_Transformation.md)
+1. [C/C++ Program for Longest Palindromic Substring | Set 2](Longest_Palindromic_Substring_|_Set_2.md)
+1. [C/C++ Program for Given a sequence of words, print all anagrams together | Set 1](Given_a_sequence_of_words,_print_all_anagrams_together_|_Set_1.md)
+1. [C/C++ Program for Given a sequence of words, print all anagrams together | Set 2](Given_a_sequence_of_words,_print_all_anagrams_together_|_Set_2.md)
+1. [C/C++ Program for Count words in a given string](Count_words_in_a_given_string.md)
+1. [C/C++ Program for String matching where one string contains wildcard characters](String_matching_where_one_string_contains_wildcard_characters.md)
+1. [C/C++ Program for Write your own atoi()](Write_your_own_atoi().md)
+1. [C/C++ Program for Dynamic Programming | Set 29 (Longest Common Substring)](Dynamic_Programming_|_Set_29_(Longest_Common_Substring).md)
+1. [C/C++ Program for Remove “b” and “ac” from a given string](Remove_“b”_and_“ac”_from_a_given_string.md)
+1. [C/C++ Program for Dynamic Programming | Set 33 (Find if a string is interleaved of two other strings)](Dynamic_Programming_|_Set_33_(Find_if_a_string_is_interleaved_of_two_other_strings).md)
+1. [C/C++ Program for Find the first non-repeating character from a stream of characters](Find_the_first_non-repeating_character_from_a_stream_of_characters.md)
+1. [C/C++ Program for Recursively remove all adjacent duplicates](Recursively_remove_all_adjacent_duplicates.md)
+1. [C/C++ Program for Rearrange a string so that all same characters become d distance away](Rearrange_a_string_so_that_all_same_characters_become_d_distance_away.md)
+1. [C program to find second most frequent character](second_most_frequent_character.md)
+1. [](.md)
+1. [## [3.] Linked List C/C++ Programs:](##_[3.]_Linked_List_C/C++_Programs:.md)
+1. [C/C++ Program for Introduction to Linked List](Introduction_to_Linked_List.md)
+1. [C/C++ Program for Linked List Insertion](Linked_List_Insertion.md)
+1. [C/C++ Program for Write a function to get Nth node in a Linked List](Write_a_function_to_get_Nth_node_in_a_Linked_List.md)
+1. [C/C++ Program for Given only a pointer to a node to be deleted in a singly linked list, how do you delete it?](Given_only_a_pointer_to_a_node_to_be_deleted_in_a_singly_linked_list,_how_do_you_delete_it?.md)
+1. [C/C++ Program to print the middle of a given linked list](print_the_middle_of_a_given_linked_list.md)
+1. [C/C++ Program for Nth node from the end of a Linked List](Nth_node_from_the_end_of_a_Linked_List.md)
+1. [C/C++ Program to delete a Linked List](delete_a_Linked_List.md)
+1. [C/C++ Program to counts the number of times a given int occurs in a Linked List](counts_the_number_of_times_a_given_int_occurs_in_a_Linked_List.md)
+1. [C/C++ Program for Given only a pointer to a node to be deleted in a singly linked list, how do you delete it?](Given_only_a_pointer_to_a_node_to_be_deleted_in_a_singly_linked_list,_how_do_you_delete_it?.md)
+1. [C/C++ Program to reverse a linked list](reverse_a_linked_list.md)
+1. [C/C++ Program to detect loop in a linked list](detect_loop_in_a_linked_list.md)
+1. [C/C++ Program to check if a singly linked list is palindrome](check_if_a_singly_linked_list_is_palindrome.md)
+1. [C/C++ Program The Great Tree-List Recursion Problem.](The_Great_Tree-List_Recursion_Problem..md)
+1. [C/C++ Program to Copy a linked list with next and arbit pointer](Copy_a_linked_list_with_next_and_arbit_pointer.md)
+1. [C/C++ Program for Given a linked list which is sorted, how will you insert in sorted way](Given_a_linked_list_which_is_sorted,_how_will_you_insert_in_sorted_way.md)
+1. [C/C++ Program for Write a function to get the intersection point of two Linked Lists.](Write_a_function_to_get_the_intersection_point_of_two_Linked_Lists..md)
+1. [C/C++ Program for Write a recursive function to print reverse of a Linked List](Write_a_recursive_function_to_print_reverse_of_a_Linked_List.md)
+1. [C/C++ Program for Remove duplicates from a sorted linked list](Remove_duplicates_from_a_sorted_linked_list.md)
+1. [C/C++ Program for Remove duplicates from an unsorted linked list](Remove_duplicates_from_an_unsorted_linked_list.md)
+1. [C/C++ Program for Reverse a Doubly Linked List](Reverse_a_Doubly_Linked_List.md)
+1. [C/C++ Program for Split a Circular Linked List into two halves](Split_a_Circular_Linked_List_into_two_halves.md)
+1. [C/C++ Program for Practice questions for Linked List and Recursion](Practice_questions_for_Linked_List_and_Recursion.md)
+1. [C/C++ Program for Move last element to front of a given Linked List](Move_last_element_to_front_of_a_given_Linked_List.md)
+1. [C/C++ Program for Pairwise swap elements of a given linked list](Pairwise_swap_elements_of_a_given_linked_list.md)
+1. [C/C++ Program for Delete a node in a Doubly Linked List](Delete_a_node_in_a_Doubly_Linked_List.md)
+1. [C/C++ Program for Intersection of two Sorted Linked Lists](Intersection_of_two_Sorted_Linked_Lists.md)
+1. [C/C++ Program for Delete alternate nodes of a Linked List](Delete_alternate_nodes_of_a_Linked_List.md)
+1. [C/C++ Program for Alternating split of a given Singly Linked List](Alternating_split_of_a_given_Singly_Linked_List.md)
+1. [C/C++ Program for Merge two sorted linked lists](Merge_two_sorted_linked_lists.md)
+1. [C/C++ Program for Identical Linked Lists](Identical_Linked_Lists.md)
+1. [C/C++ Program for Merge Sort for Linked Lists](Merge_Sort_for_Linked_Lists.md)
+1. [C/C++ Program for Reverse a Linked List in groups of given size](Reverse_a_Linked_List_in_groups_of_given_size.md)
+1. [C/C++ Program for Sorted insert for circular linked list](Sorted_insert_for_circular_linked_list.md)
+1. [C/C++ Program for Reverse alternate K nodes in a Singly Linked List](Reverse_alternate_K_nodes_in_a_Singly_Linked_List.md)
+1. [C/C++ Program for Delete nodes which have a greater value on right side](Delete_nodes_which_have_a_greater_value_on_right_side.md)
+1. [C/C++ Program for Segregate even and odd nodes in a Linked List](Segregate_even_and_odd_nodes_in_a_Linked_List.md)
+1. [C/C++ Program for Detect and Remove Loop in a Linked List](Detect_and_Remove_Loop_in_a_Linked_List.md)
+1. [C/C++ Program for XOR Linked List – A Memory Efficient Doubly Linked List | Set 1](XOR_Linked_List_–_A_Memory_Efficient_Doubly_Linked_List_|_Set_1.md)
+1. [C/C++ Program for Add two numbers represented by linked lists | Set 1](Add_two_numbers_represented_by_linked_lists_|_Set_1.md)
+1. [C/C++ Program for How to write C functions that modify head pointer of a Linked List?](How_to_write_C_functions_that_modify_head_pointer_of_a_Linked_List?.md)
+1. [C/C++ Program for Delete a given node in Linked List under given constraints](Delete_a_given_node_in_Linked_List_under_given_constraints.md)
+1. [C/C++ Program for Sorted Linked List to Balanced BST](Sorted_Linked_List_to_Balanced_BST.md)
+1. [C/C++ Program for In-place conversion of Sorted DLL to Balanced BST](In-place_conversion_of_Sorted_DLL_to_Balanced_BST.md)
+1. [C/C++ Program for Union and Intersection of two Linked Lists](Union_and_Intersection_of_two_Linked_Lists.md)
+1. [C/C++ Program for XOR Linked List – A Memory Efficient Doubly Linked List | Set 2](XOR_Linked_List_–_A_Memory_Efficient_Doubly_Linked_List_|_Set_2.md)
+1. [C/C++ Program for Find a triplet from three linked lists with sum equal to a given number](Find_a_triplet_from_three_linked_lists_with_sum_equal_to_a_given_number.md)
+1. [C/C++ Program for Rotate a Linked List](Rotate_a_Linked_List.md)
+1. [C/C++ Program for Implement LRU Cache](Implement_LRU_Cache.md)
+1. [C/C++ Program for Flattening a Linked List](Flattening_a_Linked_List.md)
+1. [C/C++ Program for Add two numbers represented by linked lists | Set 2](Add_two_numbers_represented_by_linked_lists_|_Set_2.md)
+1. [C/C++ Program for Sort a linked list of 0s, 1s and 2s](Sort_a_linked_list_of_0s,_1s_and_2s.md)
+1. [C/C++ Program for Flatten a multilevel linked list](Flatten_a_multilevel_linked_list.md)
+1. [C/C++ Program for QuickSort on Doubly Linked List](QuickSort_on_Doubly_Linked_List.md)
+1. [C/C++ Program for Swap Kth node from beginning with Kth node from end in a Linked List](Swap_Kth_node_from_beginning_with_Kth_node_from_end_in_a_Linked_List.md)
+1. [C/C++ Program for Design a stack with operations on middle element](Design_a_stack_with_operations_on_middle_element.md)
+1. [C/C++ Program for Delete N nodes after M nodes of a linked list](Delete_N_nodes_after_M_nodes_of_a_linked_list.md)
+1. [C/C++ Program for QuickSort on Singly Linked List](QuickSort_on_Singly_Linked_List.md)
+1. [C/C++ Program for Merge a linked list into another linked list at alternate positions](Merge_a_linked_list_into_another_linked_list_at_alternate_positions.md)
+1. [C/C++ Program for Pairwise swap elements of a given linked list by changing links](Pairwise_swap_elements_of_a_given_linked_list_by_changing_links.md)
+1. [C/C++ Program for Given a linked list, reverse alternate nodes and append at the end](Given_a_linked_list,_reverse_alternate_nodes_and_append_at_the_end.md)
+1. [C Program for Bubble Sort on Linked List](C_Program_for_Bubble_Sort_on_Linked_List.md)
+1. [](.md)
+1. [## [4.] Stack C/C++ Programs:](##_[4.]_Stack_C/C++_Programs:.md)
+1. [C/C++ Program for Introduction to Stack](Introduction_to_Stack.md)
+1. [C/C++ Program for Infix to Postfix Conversion using Stack](Infix_to_Postfix_Conversion_using_Stack.md)
+1. [C/C++ Program for Evaluation of Postfix Expression](Evaluation_of_Postfix_Expression.md)
+1. [C/C++ Program for Reverse a Sting using Stack](Reverse_a_Sting_using_Stack.md)
+1. [C/C++ Program for Implement two stacks in an array](Implement_two_stacks_in_an_array.md)
+1. [C/C++ Program for Check for balanced parentheses in an expression](Check_for_balanced_parentheses_in_an_expression.md)
+1. [C/C++ Program for Next Greater Element](Next_Greater_Element.md)
+1. [C/C++ Program for Reverse a stack using recursion](Reverse_a_stack_using_recursion.md)
+1. [C/C++ Program for The Stock Span Problem](The_Stock_Span_Problem.md)
+1. [C/C++ Program for Design and Implement Special Stack Data Structure](Design_and_Implement_Special_Stack_Data_Structure.md)
+1. [C/C++ Program for Implement Stack using Queues](Implement_Stack_using_Queues.md)
+1. [C/C++ Program for Design a stack with operations on middle element](Design_a_stack_with_operations_on_middle_element.md)
+1. [](.md)
+1. [## [5.] Queue C/C++ Programs:](##_[5.]_Queue_C/C++_Programs:.md)
+1. [C/C++ Program for Queue Introduction and Array Implementation](Queue_Introduction_and_Array_Implementation.md)
+1. [C/C++ Program for Linked List Implementation of Queue](Linked_List_Implementation_of_Queue.md)
+1. [C/C++ Program for Implement Queue using Stacks](Implement_Queue_using_Stacks.md)
+1. [C/C++ Program for Check whether a given Binary Tree is Complete or not](Check_whether_a_given_Binary_Tree_is_Complete_or_not.md)
+1. [C/C++ Program for Find the largest multiple of 3](Find_the_largest_multiple_of_3.md)
+1. [](.md)
+1. [## [6.] Tree C/C++ Programs:](##_[6.]_Tree_C/C++_Programs:.md)
+1. [C/C++ Program for Tree Traversals](Tree_Traversals.md)
+1. [C/C++ Program for Write a C program to Calculate Size of a tree](Write_a_Calculate_Size_of_a_tree.md)
+1. [C/C++ Program for Write C Code to Determine if Two Trees are Identical](Write_C_Code_to_Determine_if_Two_Trees_are_Identical.md)
+1. [C/C++ Program for Write a C Program to Find the Maximum Depth or Height of a Tree](Write_a_the_Maximum_Depth_or_Height_of_a_Tree.md)
+1. [C/C++ Program for Write a C program to Delete a Tree.](Write_a_Delete_a_Tree..md)
+1. [C/C++ Program for Write an Efficient C Function to Convert a Binary Tree into its Mirror Tree](Write_an_Efficient_C_Function_to_Convert_a_Binary_Tree_into_its_Mirror_Tree.md)
+1. [C/C++ Program for If you are given two traversal sequences, can you construct the binary tree?](If_you_are_given_two_traversal_sequences,_can_you_construct_the_binary_tree?.md)
+1. [C/C++ Program for Given a binary tree, print out all of its root-to-leaf paths one per line.](Given_a_binary_tree,_print_out_all_of_its_root-to-leaf_paths_one_per_line..md)
+1. [C/C++ Program for Lowest Common Ancestor in a Binary Search Tree.](Lowest_Common_Ancestor_in_a_Binary_Search_Tree..md)
+1. [C/C++ Program for The Great Tree-List Recursion Problem.](The_Great_Tree-List_Recursion_Problem..md)
+1. [C/C++ Program for Find the node with minimum value in a Binary Search Tree](Find_the_node_with_minimum_value_in_a_Binary_Search_Tree.md)
+1. [C/C++ Program for Level Order Tree Traversal](Level_Order_Tree_Traversal.md)
+1. [C/C++ Program for Program to count leaf nodes in a binary tree](Program_to_count_leaf_nodes_in_a_binary_tree.md)
+1. [C/C++ Program for A program to check if a binary tree is BST or not](A_program_to_check_if_a_binary_tree_is_BST_or_not.md)
+1. [C/C++ Program for Level order traversal in spiral form](Level_order_traversal_in_spiral_form.md)
+1. [C/C++ Program for Check for Children Sum Property in a Binary Tree.](Check_for_Children_Sum_Property_in_a_Binary_Tree..md)
+1. [C/C++ Program for Convert an arbitrary Binary Tree to a tree that holds Children Sum Property](Convert_an_arbitrary_Binary_Tree_to_a_tree_that_holds_Children_Sum_Property.md)
+1. [C/C++ Program for Diameter of a Binary Tree](Diameter_of_a_Binary_Tree.md)
+1. [C/C++ Program for How to determine if a binary tree is height-balanced?](How_to_determine_if_a_binary_tree_is_height-balanced?.md)
+1. [C/C++ Program for Inorder Tree Traversal without Recursion](Inorder_Tree_Traversal_without_Recursion.md)
+1. [C/C++ Program for Inorder Tree Traversal without recursion and without stack!](Inorder_Tree_Traversal_without_recursion_and_without_stack!.md)
+1. [C/C++ Program for Root to leaf path sum equal to a given number](Root_to_leaf_path_sum_equal_to_a_given_number.md)
+1. [C/C++ Program for Construct Tree from given Inorder and Preorder traversals](Construct_Tree_from_given_Inorder_and_Preorder_traversals.md)
+1. [C/C++ Program for Given a binary tree, print all root-to-leaf paths](Given_a_binary_tree,_print_all_root-to-leaf_paths.md)
+1. [C/C++ Program for Double Tree](Double_Tree.md)
+1. [C/C++ Program for Maximum width of a binary tree](Maximum_width_of_a_binary_tree.md)
+1. [C/C++ Program for Total number of possible Binary Search Trees with n keys](Total_number_of_possible_Binary_Search_Trees_with_n_keys.md)
+1. [C/C++ Program for Foldable Binary Trees](Foldable_Binary_Trees.md)
+1. [C/C++ Program for Print nodes at k distance from root](Print_nodes_at_k_distance_from_root.md)
+1. [C++ Program for Inorder predecessor and successor of a given key in BST](C++_Program_for_Inorder_predecessor_and_successor_of_a_given_key_in_BST.md)
+1. [C/C++ Program for Sorted order printing of a given array that represents a BST](Sorted_order_printing_of_a_given_array_that_represents_a_BST.md)
+1. [C/C++ Program for Applications of tree data structure](Applications_of_tree_data_structure.md)
+1. [C/C++ Program for Inorder Successor in Binary Search Tree](Inorder_Successor_in_Binary_Search_Tree.md)
+1. [C/C++ Program for Find k-th smallest element in BST (Order Statistics in BST)](Find_k-th_smallest_element_in_BST_(Order_Statistics_in_BST).md)
+1. [C/C++ Program for Get Level of a node in a Binary Tree](Get_Level_of_a_node_in_a_Binary_Tree.md)
+1. [C/C++ Program for Print Ancestors of a given node in Binary Tree](Print_Ancestors_of_a_given_node_in_Binary_Tree.md)
+1. [C/C++ Program for Print BST keys in the given range](Print_BST_keys_in_the_given_range.md)
+1. [C/C++ Program for Tournament Tree (Winner Tree) and Binary Heap](Tournament_Tree_(Winner_Tree)_and_Binary_Heap.md)
+1. [C/C++ Program for Check if a given Binary Tree is SumTree](Check_if_a_given_Binary_Tree_is_SumTree.md)
+1. [C/C++ Program for Decision Trees – Fake (Counterfeit) Coin Puzzle (12 Coin Puzzle)](Decision_Trees_–_Fake_(Counterfeit)_Coin_Puzzle_(12_Coin_Puzzle).md)
+1. [C/C++ Program for Check if a binary tree is subtree of another binary tree](Check_if_a_binary_tree_is_subtree_of_another_binary_tree.md)
+1. [C/C++ Program for Trie | (Insert and Search)](Trie_|_(Insert_and_Search).md)
+1. [C/C++ Program for Trie | (Delete)](Trie_|_(Delete).md)
+1. [C/C++ Program for Connect nodes at same level](Connect_nodes_at_same_level.md)
+1. [C/C++ Program for Connect nodes at same level using constant extra space](Connect_nodes_at_same_level_using_constant_extra_space.md)
+1. [C/C++ Program for Sorted Array to Balanced BST](Sorted_Array_to_Balanced_BST.md)
+1. [C/C++ Program for Populate Inorder Successor for all nodes](Populate_Inorder_Successor_for_all_nodes.md)
+1. [C/C++ Program for Convert a given tree to its Sum Tree](Convert_a_given_tree_to_its_Sum_Tree.md)
+1. [C/C++ Program for Find the largest BST subtree in a given Binary Tree](Find_the_largest_BST_subtree_in_a_given_Binary_Tree.md)
+1. [C/C++ Program for AVL Tree | Set 1 (Insertion)](AVL_Tree_|_Set_1_(Insertion).md)
+1. [C/C++ Program for Vertical Sum in a given Binary Tree](Vertical_Sum_in_a_given_Binary_Tree.md)
+1. [C/C++ Program for AVL Tree | Set 2 (Deletion)](AVL_Tree_|_Set_2_(Deletion).md)
+1. [C/C++ Program for Merge Two Balanced Binary Search Trees](Merge_Two_Balanced_Binary_Search_Trees.md)
+1. [C/C++ Program for Find the maximum sum leaf to root path in a Binary Tree](Find_the_maximum_sum_leaf_to_root_path_in_a_Binary_Tree.md)
+1. [C/C++ Program for Merge two BSTs with limited extra space](Merge_two_BSTs_with_limited_extra_space.md)
+1. [C/C++ Program for Binary Tree to Binary Search Tree Conversion](Binary_Tree_to_Binary_Search_Tree_Conversion.md)
+1. [C/C++ Program for Construct Special Binary Tree from given Inorder traversal](Construct_Special_Binary_Tree_from_given_Inorder_traversal.md)
+1. [C/C++ Program for Construct a special tree from given preorder traversal](Construct_a_special_tree_from_given_preorder_traversal.md)
+1. [C/C++ Program for Check if each internal node of a BST has exactly one child](Check_if_each_internal_node_of_a_BST_has_exactly_one_child.md)
+1. [C/C++ Program for Check whether a given Binary Tree is Complete or not](Check_whether_a_given_Binary_Tree_is_Complete_or_not.md)
+1. [C/C++ Program for Boundary Traversal of binary tree](Boundary_Traversal_of_binary_tree.md)
+1. [C/C++ Program for Two nodes of a BST are swapped, correct the BST](Two_nodes_of_a_BST_are_swapped,_correct_the_BST.md)
+1. [C/C++ Program for Construct Full Binary Tree from given preorder and postorder traversals](Construct_Full_Binary_Tree_from_given_preorder_and_postorder_traversals.md)
+1. [C/C++ Program for Construct BST from given preorder traversal | Set 1](Construct_BST_from_given_preorder_traversal_|_Set_1.md)
+1. [C/C++ Program for Construct BST from given preorder traversal | Set 2](Construct_BST_from_given_preorder_traversal_|_Set_2.md)
+1. [C/C++ Program for Floor and Ceil from a BST](Floor_and_Ceil_from_a_BST.md)
+1. [C/C++ Program for Iterative Preorder Traversal](Iterative_Preorder_Traversal.md)
+1. [C/C++ Program for Convert a BST to a Binary Tree such that sum of all greater keys is added to every key](Convert_a_BST_to_a_Binary_Tree_such_that_sum_of_all_greater_keys_is_added_to_every_key.md)
+1. [C/C++ Program for Morris traversal for Preorder](Morris_traversal_for_Preorder.md)
+1. [C/C++ Program for Linked complete binary tree & its creation](Linked_complete_binary_tree_&_its_creation.md)
+1. [C/C++ Program for Ternary Search Tree](Ternary_Search_Tree.md)
+1. [C/C++ Program for Segment Tree | Set 1 (Sum of given range)](Segment_Tree_|_Set_1_(Sum_of_given_range).md)
+1. [C/C++ Program for Segment Tree | Set 2 (Range Minimum Query)](Segment_Tree_|_Set_2_(Range_Minimum_Query).md)
+1. [C/C++ Program for Dynamic Programming | Set 26 (Largest Independent Set Problem)](Dynamic_Programming_|_Set_26_(Largest_Independent_Set_Problem).md)
+1. [C/C++ Program for Iterative Postorder Traversal | Set 1 (Using Two Stacks)](Iterative_Postorder_Traversal_|_Set_1_(Using_Two_Stacks).md)
+1. [C/C++ Program for Iterative Postorder Traversal | Set 2 (Using One Stack)](Iterative_Postorder_Traversal_|_Set_2_(Using_One_Stack).md)
+1. [C/C++ Program for Find if there is a triplet in a Balanced BST that adds to zero](Find_if_there_is_a_triplet_in_a_Balanced_BST_that_adds_to_zero.md)
+1. [C/C++ Program for Find a pair with given sum in a Balanced BST](Find_a_pair_with_given_sum_in_a_Balanced_BST.md)
+1. [C/C++ Program for Reverse Level Order Traversal](Reverse_Level_Order_Traversal.md)
+1. [C/C++ Program for Construct Complete Binary Tree from its Linked List Representation](Construct_Complete_Binary_Tree_from_its_Linked_List_Representation.md)
+1. [C/C++ Program for Remove BST keys outside the given range](Remove_BST_keys_outside_the_given_range.md)
+1. [C/C++ Program for Convert a given Binary Tree to Doubly Linked List | Set 1](Convert_a_given_Binary_Tree_to_Doubly_Linked_List_|_Set_1.md)
+1. [C/C++ Program for B-Tree | Set 1 (Introduction)](B-Tree_|_Set_1_(Introduction).md)
+1. [C/C++ Program for B-Tree | Set 2 (Insert)](B-Tree_|_Set_2_(Insert).md)
+1. [C/C++ Program for Longest prefix matching – A Trie based solution in Java](Longest_prefix_matching_–_A_Trie_based_solution_in_Java.md)
+1. [C/C++ Program for Tree Isomorphism Problem](Tree_Isomorphism_Problem.md)
+1. [C/C++ Program for Find all possible interpretations of an array of digits](Find_all_possible_interpretations_of_an_array_of_digits.md)
+1. [C/C++ Program for Iterative Method to find Height of Binary Tree](Iterative_Method_to_find_Height_of_Binary_Tree.md)
+1. [C/C++ Program for Custom Tree Problem](Custom_Tree_Problem.md)
+1. [C/C++ Program for Check for Identical BSTs without building the trees](Check_for_Identical_BSTs_without_building_the_trees.md)
+1. [C/C++ Program for Convert a given Binary Tree to Doubly Linked List | Set 2](Convert_a_given_Binary_Tree_to_Doubly_Linked_List_|_Set_2.md)
+1. [C/C++ Program for Print ancestors of a given binary tree node without recursion](Print_ancestors_of_a_given_binary_tree_node_without_recursion.md)
+1. [C/C++ Program for Difference between sums of odd level and even level nodes of a Binary Tree](Difference_between_sums_of_odd_level_and_even_level_nodes_of_a_Binary_Tree.md)
+1. [C/C++ Program for Print Postorder traversal from given Inorder and Preorder traversals](Print_Postorder_traversal_from_given_Inorder_and_Preorder_traversals.md)
+1. [C/C++ Program for Find depth of the deepest odd level leaf node](Find_depth_of_the_deepest_odd_level_leaf_node.md)
+1. [C/C++ Program for Check if all leaves are at same level](Check_if_all_leaves_are_at_same_level.md)
+1. [C/C++ Program for Print Left View of a Binary Tree](Print_Left_View_of_a_Binary_Tree.md)
+1. [C/C++ Program for B-Tree | Set 3 (Delete)](B-Tree_|_Set_3_(Delete).md)
+1. [C/C++ Program for Add all greater values to every node in a given BST](Add_all_greater_values_to_every_node_in_a_given_BST.md)
+1. [C/C++ Program for Remove all nodes which don’t lie in any path with sum>= k](Remove_all_nodes_which_don’t_lie_in_any_path_with_sum>=_k.md)
+1. [C/C++ Program for Extract Leaves of a Binary Tree in a Doubly Linked List](Extract_Leaves_of_a_Binary_Tree_in_a_Doubly_Linked_List.md)
+1. [C/C++ Program for Deepest left leaf node in a binary tree](Deepest_left_leaf_node_in_a_binary_tree.md)
+1. [C/C++ Program for Find next right node of a given key](Find_next_right_node_of_a_given_key.md)
+1. [C/C++ Program for Splay Tree | Set 1 (Search)](Splay_Tree_|_Set_1_(Search).md)
+1. [C/C++ Program for Splay Tree | Set 2 (Insert)](Splay_Tree_|_Set_2_(Insert).md)
+1. [C/C++ Program for Sum of all the numbers that are formed from root to leaf paths](Sum_of_all_the_numbers_that_are_formed_from_root_to_leaf_paths.md)
+1. [C/C++ Program for Red-Black Tree | Set 1 (Introduction)](Red-Black_Tree_|_Set_1_(Introduction).md)
+1. [C/C++ Program for Red-Black Tree | Set 2 (Insert)](Red-Black_Tree_|_Set_2_(Insert).md)
+1. [C/C++ Program for Convert a given Binary Tree to Doubly Linked List | Set 3](Convert_a_given_Binary_Tree_to_Doubly_Linked_List_|_Set_3.md)
+1. [C/C++ Program for Print all nodes that don’t have sibling](Print_all_nodes_that_don’t_have_sibling.md)
+1. [C/C++ Program for Lowest Common Ancestor in a Binary Tree | Set 1](Lowest_Common_Ancestor_in_a_Binary_Tree_|_Set_1.md)
+1. [C/C++ Program for Find distance between two given keys of a Binary Tree](Find_distance_between_two_given_keys_of_a_Binary_Tree.md)
+1. [C/C++ Program for Print all nodes that are at distance k from a leaf node](Print_all_nodes_that_are_at_distance_k_from_a_leaf_node.md)
+1. [C/C++ Program for Check if a given Binary Tree is height balanced like a Red-Black Tree](Check_if_a_given_Binary_Tree_is_height_balanced_like_a_Red-Black_Tree.md)
+1. [C/C++ Program for Interval Tree](Interval_Tree.md)
+1. [C/C++ Program for Print a Binary Tree in Vertical Order | Set 1](Print_a_Binary_Tree_in_Vertical_Order_|_Set_1.md)
+1. [C/C++ Program for Print all nodes at distance k from a given node](Print_all_nodes_at_distance_k_from_a_given_node.md)
+1. [C/C++ Program to find the maximum path sum between two leaves of a binary tree](find_the_maximum_path_sum_between_two_leaves_of_a_binary_tree.md)
+1. [](.md)
+1. [## [5.] Graph C/C++ Programs:](##_[5.]_Graph_C/C++_Programs:.md)
+1. [C/C++ Program for Depth First Traversal for a Graph](Depth_First_Traversal_for_a_Graph.md)
+1. [C/C++ Program for Breadth First Traversal for a Graph](Breadth_First_Traversal_for_a_Graph.md)
+1. [C/C++ Program for Detect Cycle in a Directed Graph](Detect_Cycle_in_a_Directed_Graph.md)
+1. [C/C++ Program for Find if there is a path between two vertices in a directed graph](Find_if_there_is_a_path_between_two_vertices_in_a_directed_graph.md)
+1. [C/C++ Program for Hamiltonian Cycle Detection](Hamiltonian_Cycle_Detection.md)
+1. [C/C++ Program for Dynamic Programming | Set 16 (Floyd Warshall Algorithm)](Dynamic_Programming_|_Set_16_(Floyd_Warshall_Algorithm).md)
+1. [C/C++ Program for Find the number of islands](Find_the_number_of_islands.md)
+1. [C/C++ Program for Union-Find Algorithm | Set 1 (Detect Cycle in a an Undirected Graph)](Union-Find_Algorithm_|_Set_1_(Detect_Cycle_in_a_an_Undirected_Graph).md)
+1. [C/C++ Program for Union-Find Algorithm | Set 2 (Union By Rank and Path Compression)](Union-Find_Algorithm_|_Set_2_(Union_By_Rank_and_Path_Compression).md)
+1. [C/C++ Program for Greedy Algorithms | Set 2 (Kruskal’s Minimum Spanning Tree Algorithm)](Greedy_Algorithms_|_Set_2_(Kruskal’s_Minimum_Spanning_Tree_Algorithm).md)
+1. [C/C++ Program for Graph and its representations](Graph_and_its_representations.md)
+1. [C/C++ Program for Greedy Algorithms | Set 5 (Prim’s Minimum Spanning Tree (MST))](Greedy_Algorithms_|_Set_5_(Prim’s_Minimum_Spanning_Tree_(MST)).md)
+1. [C/C++ Program for Greedy Algorithms | Set 6 (Prim’s MST for Adjacency List Representation)](Greedy_Algorithms_|_Set_6_(Prim’s_MST_for_Adjacency_List_Representation).md)
+1. [C/C++ Program for Greedy Algorithms | Set 7 (Dijkstra’s shortest path algorithm)](Greedy_Algorithms_|_Set_7_(Dijkstra’s_shortest_path_algorithm).md)
+1. [C/C++ Program for Greedy Algorithms | Set 8 (Dijkstra’s Algorithm for Adjacency List Representation)](Greedy_Algorithms_|_Set_8_(Dijkstra’s_Algorithm_for_Adjacency_List_Representation).md)
+1. [C/C++ Program for Dynamic Programming | Set 23 (Bellman–Ford Algorithm)](Dynamic_Programming_|_Set_23_(Bellman–Ford_Algorithm).md)
+1. [C/C++ Program for Transitive closure of a graph](Transitive_closure_of_a_graph.md)
+1. [C/C++ Program for Check whether a given graph is Bipartite or not](Check_whether_a_given_graph_is_Bipartite_or_not.md)
+1. [C/C++ Program for Topological Sorting](Topological_Sorting.md)
+1. [C/C++ Program for Shortest Path in Directed Acyclic Graph](Shortest_Path_in_Directed_Acyclic_Graph.md)
+1. [C/C++ Program for Strongly Connected Components](Strongly_Connected_Components.md)
+1. [C/C++ Program for Articulation Points (or Cut Vertices) in a Graph](Articulation_Points_(or_Cut_Vertices)_in_a_Graph.md)
+1. [C/C++ Program for Bridges in a graph](Bridges_in_a_graph.md)
+1. [C/C++ Program for Biconnected graph](Biconnected_graph.md)
+1. [C/C++ Program for Connectivity in a directed graph](Connectivity_in_a_directed_graph.md)
+1. [C/C++ Program for Eulerian path and circuit](Eulerian_path_and_circuit.md)
+1. [C/C++ Program for Ford-Fulkerson Algorithm for Maximum Flow Problem](Ford-Fulkerson_Algorithm_for_Maximum_Flow_Problem.md)
+1. [C/C++ Program for Maximum Bipartite Matching](Maximum_Bipartite_Matching.md)
+1. [C/C++ Program for Find minimum s-t cut in a flow network](Find_minimum_s-t_cut_in_a_flow_network.md)
+1. [C/C++ Program for Fleury’s Algorithm for printing Eulerian Path or Circuit](Fleury’s_Algorithm_for_printing_Eulerian_Path_or_Circuit.md)
+1. [C/C++ Program for Longest Path in a Directed Acyclic Graph](Longest_Path_in_a_Directed_Acyclic_Graph.md)
+1. [C/C++ Program for Find maximum number of edge disjoint paths between two vertices](Find_maximum_number_of_edge_disjoint_paths_between_two_vertices.md)
+1. [C/C++ Program for Detect cycle in an undirected graph](Detect_cycle_in_an_undirected_graph.md)
+1. [C/C++ Program for Travelling Salesman Problem | Set 1 (Naive and Dynamic Programming)](Travelling_Salesman_Problem_|_Set_1_(Naive_and_Dynamic_Programming).md)
+1. [C/C++ Program for Travelling Salesman Problem | Set 2 (Approximate using MST)](Travelling_Salesman_Problem_|_Set_2_(Approximate_using_MST).md)
+1. [C/C++ Program for Johnson’s algorithm for All-pairs shortest paths](Johnson’s_algorithm_for_All-pairs_shortest_paths.md)
+1. [C/C++ Program for Graph Coloring | Set 1 (Introduction and Applications)](Graph_Coloring_|_Set_1_(Introduction_and_Applications).md)
+1. [C/C++ Program for Graph Coloring | Set 2 (Greedy Algorithm)](Graph_Coloring_|_Set_2_(Greedy_Algorithm).md)
+1. [C/C++ Program for Some interesting shortest path questions | Set 1](Some_interesting_shortest_path_questions_|_Set_1.md)
+1. [C/C+ program to Reverse alternate levels of a perfect binary tree](C/C+_program_to_Reverse_alternate_levels_of_a_perfect_binary_tree.md)
+1. [C/C++ program to transform a BST to greater sum tree](transform_a_BST_to_greater_sum_tree.md)
+1. [](.md)
+1. [## [6.] Bit-Magic C/C++ Program:](##_[6.]_Bit-Magic_C/C++_Program:.md)
+1. [C/C++ Program for Next Power of 2](Next_Power_of_2.md)
+1. [C/C++ Program for Write an Efficient Method to Check if a Number is Multiple of 3](Write_an_Efficient_Method_to_Check_if_a_Number_is_Multiple_of_3.md)
+1. [C/C++ Program for Write a C program to find the parity of an unsigned integer](Write_a_the_parity_of_an_unsigned_integer.md)
+1. [C/C++ Program for Efficient way to multiply with 7](Efficient_way_to_multiply_with_7.md)
+1. [C/C++ Program for Write one line C function to find whether a no is power of two](Write_one_line_C_function_to_find_whether_a_no_is_power_of_two.md)
+1. [C/C++ Program for Position of rightmost set bit](Position_of_rightmost_set_bit.md)
+1. [C/C++ Program for Find the Number Occurring Odd Number of Times](Find_the_Number_Occurring_Odd_Number_of_Times.md)
+1. [C/C++ Program for Check for Integer Overflow](Check_for_Integer_Overflow.md)
+1. [C/C++ Program for Little and Big Endian Mystery](Little_and_Big_Endian_Mystery.md)
+1. [C/C++ Program for Write an Efficient C Program to Reverse Bits of a Number](Write_an_Efficient_Reverse_Bits_of_a_Number.md)
+1. [C/C++ Program for Count set bits in an integer](Count_set_bits_in_an_integer.md)
+1. [C/C++ Program for Count number of bits to be flipped to convert A to B](Count_number_of_bits_to_be_flipped_to_convert_A_to_B.md)
+1. [C/C++ Program for Find the two non-repeating elements in an array of repeating elements](Find_the_two_non-repeating_elements_in_an_array_of_repeating_elements.md)
+1. [C/C++ Program for Rotate bits of a number](Rotate_bits_of_a_number.md)
+1. [C/C++ Program for Compute the minimum or maximum of two integers without branching](Compute_the_minimum_or_maximum_of_two_integers_without_branching.md)
+1. [C/C++ Program for Compute modulus division by a power-of-2-number](Compute_modulus_division_by_a_power-of-2-number.md)
+1. [C/C++ Program for Compute the integer absolute value (abs) without branching](Compute_the_integer_absolute_value_(abs)_without_branching.md)
+1. [C/C++ Program for Find whether a given number is a power of 4 or not](Find_whether_a_given_number_is_a_power_of_4_or_not.md)
+1. [C/C++ Program for Turn off the rightmost set bit](Turn_off_the_rightmost_set_bit.md)
+1. [C/C++ Program for Multiply a given Integer with 3.5](Multiply_a_given_Integer_with_3.5.md)
+1. [C/C++ Program for Add 1 to a given number](Add_1_to_a_given_number.md)
+1. [C/C++ Program for Optimization Techniques | Set 1 (Modulus)](Optimization_Techniques_|_Set_1_(Modulus).md)
+1. [C/C++ Program for Next higher number with same number of set bits](Next_higher_number_with_same_number_of_set_bits.md)
+1. [C/C++ Program for Program to count number of set bits in an (big) array](Program_to_count_number_of_set_bits_in_an_(big)_array.md)
+1. [C/C++ Program for A Boolean Array Puzzle](A_Boolean_Array_Puzzle.md)
+1. [C/C++ Program for Smallest of three integers without comparison operators](Smallest_of_three_integers_without_comparison_operators.md)
+1. [C/C++ Program for Add two numbers without using arithmetic operators](Add_two_numbers_without_using_arithmetic_operators.md)
+1. [C/C++ Program for Swap bits in a given number](Swap_bits_in_a_given_number.md)
+1. [C/C++ Program for Count total set bits in all numbers from 1 to n](Count_total_set_bits_in_all_numbers_from_1_to_n.md)
+1. [C/C++ Program for Detect if two integers have opposite signs](Detect_if_two_integers_have_opposite_signs.md)
+1. [C/C++ Program for Find the element that appears once](Find_the_element_that_appears_once.md)
+1. [C/C++ Program for Binary representation of a given number](Binary_representation_of_a_given_number.md)
+1. [C/C++ Program for Write your own strcmp that ignores cases](Write_your_own_strcmp_that_ignores_cases.md)
+1. [C/C++ Program for Add two bit strings](Add_two_bit_strings.md)
+1. [C/C++ Program for Swap all odd and even bits](Swap_all_odd_and_even_bits.md)
+1. [C/C++ Program for Find position of the only set bit](Find_position_of_the_only_set_bit.md)
+1. [C/C++ Program for Divide and Conquer | Set 4 (Karatsuba algorithm for fast multiplication)](Divide_and_Conquer_|_Set_4_(Karatsuba_algorithm_for_fast_multiplication).md)
+1. [C/C++ Program for How to swap two numbers without using a temporary variable?](How_to_swap_two_numbers_without_using_a_temporary_variable?.md)
+1. [C/C++ Program for Check if a number is multiple of 9 using bitwise operators](Check_if_a_number_is_multiple_of_9_using_bitwise_operators.md)
+1. [](.md)
+1. [## [7.] C/C++ Mathematical Programs](##_[7.]_C/C++_Mathematical_Programs.md)
+1. [C/C++ Program for Write an Efficient Method to Check if a Number is Multiple of 3](Write_an_Efficient_Method_to_Check_if_a_Number_is_Multiple_of_3.md)
+1. [C Program to print first n Fibonacci Numbers](print_first_n_Fibonacci_Numbers.md)
+1. [C program to find area of a circle](area_of_a_circle.md)
+1. [C program to find area of a triangle](area_of_a_triangle.md)
+1. [C program to calculate the value of nPr](calculate_the_value_of_nPr.md)
+1. [C Program to find sum of series 1 + 1/2 + 1/3 + 1/4 + .. + 1/n](sum_of_series_1_+_1/2_+_1/3_+_1/4_+_.._+_1/n.md)
+1. [C/C++ Program for Efficient way to multiply with 7](Efficient_way_to_multiply_with_7.md)
+1. [C/C++ Program for Write a C program to print all permutations of a given string](Write_a_print_all_permutations_of_a_given_string.md)
+1. [C/C++ Program for Lucky Numbers](Lucky_Numbers.md)
+1. [C/C++ Program for Write a program to add two numbers in base 14](Write_a_program_to_add_two_numbers_in_base_14.md)
+1. [C/C++ Program for Babylonian method for square root](Babylonian_method_for_square_root.md)
+1. [C/C++ Program for Multiply two integers without using multiplication, division and bitwise operators, and no loops](Multiply_two_integers_without_using_multiplication,_division_and_bitwise_operators,_and_no_loops.md)
+1. [C/C++ Program for Print all combinations of points that can compose a given number](Print_all_combinations_of_points_that_can_compose_a_given_number.md)
+1. [C/C++ Program for Write you own Power without using multiplication(*) and division(/) operators](Write_you_own_Power_without_using_multiplication(*)_and_division(/)_operators.md)
+1. [C/C++ Program for Fibonacci numbers](Fibonacci_numbers.md)
+1. [C/C++ Program for Average of a stream of numbers](Average_of_a_stream_of_numbers.md)
+1. [C/C++ Program for Check whether a given point lies inside a triangle or not](Check_whether_a_given_point_lies_inside_a_triangle_or_not.md)
+1. [C/C++ Program for Count numbers that don’t contain 3](Count_numbers_that_don’t_contain_3.md)
+1. [C/C++ Program for Magic Square](Magic_Square.md)
+1. [C/C++ Program for Sieve of Eratosthenes](Sieve_of_Eratosthenes.md)
+1. [C/C++ Program for Find day of the week for a given date](Find_day_of_the_week_for_a_given_date.md)
+1. [C/C++ Program for DFA based division](DFA_based_division.md)
+1. [C/C++ Program for Generate integer from 1 to 7 with equal probability](Generate_integer_from_1_to_7_with_equal_probability.md)
+1. [C/C++ Program for Given a number, find the next smallest palindrome](Given_a_number,_find_the_next_smallest_palindrome.md)
+1. [C/C++ Program for Make a fair coin from a biased coin](Make_a_fair_coin_from_a_biased_coin.md)
+1. [C/C++ Program for Check divisibility by 7](Check_divisibility_by_7.md)
+1. [C/C++ Program for Find the largest multiple of 3](Find_the_largest_multiple_of_3.md)
+1. [C/C++ Program for Lexicographic rank of a string](Lexicographic_rank_of_a_string.md)
+1. [C/C++ Program for Print all permutations in sorted (lexicographic) order](Print_all_permutations_in_sorted_(lexicographic)_order.md)
+1. [C/C++ Program for Shuffle a given array](Shuffle_a_given_array.md)
+1. [C/C++ Program for Space and time efficient Binomial Coefficient](Space_and_time_efficient_Binomial_Coefficient.md)
+1. [C/C++ Program for Reservoir Sampling](Reservoir_Sampling.md)
+1. [C/C++ Program for Pascal’s Triangle](Pascal’s_Triangle.md)
+1. [C/C++ Program for Select a random number from stream, with O(1) space](Select_a_random_number_from_stream,_with_O(1)_space.md)
+1. [C/C++ Program for Find the largest multiple of 2, 3 and 5](Find_the_largest_multiple_of_2,_3_and_5.md)
+1. [C/C++ Program for Efficient program to calculate e^x](Efficient_program_to_calculate_e^x.md)
+1. [C/C++ Program for Measure one litre using two vessels and infinite water supply](Measure_one_litre_using_two_vessels_and_infinite_water_supply.md)
+1. [C/C++ Program for Efficient program to print all prime factors of a given number](Efficient_program_to_print_all_prime_factors_of_a_given_number.md)
+1. [C/C++ Program for Print all possible combinations of r elements in a given array of size n](Print_all_possible_combinations_of_r_elements_in_a_given_array_of_size_n.md)
+1. [C/C++ Program for Random number generator in arbitrary probability distribution fashion](Random_number_generator_in_arbitrary_probability_distribution_fashion.md)
+1. [C/C++ Program for How to check if two given line segments intersect?](How_to_check_if_two_given_line_segments_intersect?.md)
+1. [C/C++ Program for How to check if a given point lies inside or outside a polygon?](How_to_check_if_a_given_point_lies_inside_or_outside_a_polygon?.md)
+1. [C/C++ Program for Convex Hull | Set 1 (Jarvis’s Algorithm or Wrapping)](Convex_Hull_|_Set_1_(Jarvis’s_Algorithm_or_Wrapping).md)
+1. [C/C++ Program for Convex Hull | Set 2 (Graham Scan)](Convex_Hull_|_Set_2_(Graham_Scan).md)
+1. [C/C++ Program for How to check if a given number is Fibonacci number?](How_to_check_if_a_given_number_is_Fibonacci_number?.md)
+1. [C/C++ Program for Russian Peasant Multiplication](Russian_Peasant_Multiplication.md)
+1. [C Program to Draw a circle without floating point arithmetic](Draw_a_circle_without_floating_point_arithmetic.md)
+1. [C++ Program to print all palindromes in a given range](C++_Program_to_print_all_palindromes_in_a_given_range.md)
+1. [](.md)
+1. [## [8.] C/C++ Dynamic Programming Programs](##_[8.]_C/C++_Dynamic_Programming_Programs.md)
+1. [C/C++ Program for Largest Sum Contiguous Subarray](Largest_Sum_Contiguous_Subarray.md)
+1. [C/C++ Program for Ugly Numbers](Ugly_Numbers.md)
+1. [C/C++ Program for Maximum size square sub-matrix with all 1s](Maximum_size_square_sub-matrix_with_all_1s.md)
+1. [C/C++ Program for Program for Fibonacci numbers](Program_for_Fibonacci_numbers.md)
+1. [C/C++ Program for Overlapping Subproblems Property](Overlapping_Subproblems_Property.md)
+1. [C/C++ Program for Optimal Substructure Property](Optimal_Substructure_Property.md)
+1. [C/C++ Program for Longest Increasing Subsequence](Longest_Increasing_Subsequence.md)
+1. [C/C++ Program for Longest Common Subsequence)](Longest_Common_Subsequence).md)
+1. [C/C++ Program for Edit Distance](Edit_Distance.md)
+1. [C/C++ Program for Min Cost Path](Min_Cost_Path.md)
+1. [C/C++ Program for Length of the longest substring without repeating characters](Length_of_the_longest_substring_without_repeating_characters.md)
+1. [C/C++ Program for Minimum number of jumps to reach end](Minimum_number_of_jumps_to_reach_end.md)
+1. [C/C++ Program for Coin Change)](Coin_Change).md)
+1. [C/C++ Program for Matrix Chain Multiplication](Matrix_Chain_Multiplication.md)
+1. [C/C++ Program for Binomial Coefficient](Binomial_Coefficient.md)
+1. [C/C++ Program for 0-1 Knapsack Problem](0-1_Knapsack_Problem.md)
+1. [C/C++ Program for Egg Dropping Puzzle](Egg_Dropping_Puzzle.md)
+1. [C/C++ Program for Longest Palindromic Subsequence](Longest_Palindromic_Subsequence.md)
+1. [C/C++ Program for Cutting a Rod](Cutting_a_Rod.md)
+1. [C/C++ Program for Maximum Sum Increasing Subsequence](Maximum_Sum_Increasing_Subsequence.md)
+1. [C/C++ Program for Longest Bitonic Subsequence](Longest_Bitonic_Subsequence.md)
+1. [C/C++ Program for Floyd Warshall Algorithm](Floyd_Warshall_Algorithm.md)
+1. [C/C++ Program for Palindrome Partitioning](Palindrome_Partitioning.md)
+1. [C/C++ Program for Partition problem](Partition_problem.md)
+1. [C/C++ Program for Word Wrap Problem](Word_Wrap_Problem.md)
+1. [C/C++ Program for Maximum Length Chain of Pairs](Maximum_Length_Chain_of_Pairs.md)
+1. [C/C++ Program for Box Stacking Problem](Box_Stacking_Problem.md)
+1. [C/C++ Program for Longest Palindromic Substring](Longest_Palindromic_Substring.md)
+1. [C/C++ Program for Bellman–Ford Algorithm](Bellman–Ford_Algorithm.md)
+1. [C/C++ Program for Optimal Binary Search Tree](Optimal_Binary_Search_Tree.md)
+1. [C/C++ Program for Subset Sum Problem](Subset_Sum_Problem.md)
+1. [C/C++ Program for Largest Independent Set Problem](Largest_Independent_Set_Problem.md)
+1. [C/C++ Program for Maximum sum rectangle in a 2D matrix](Maximum_sum_rectangle_in_a_2D_matrix.md)
+1. [C/C++ Program for Minimum insertions to form a palindrome](Minimum_insertions_to_form_a_palindrome.md)
+1. [C/C++ Program for Longest Common Substring](Longest_Common_Substring.md)
+1. [C/C++ Program for Dice Throw](Dice_Throw.md)
+1. [C/C++ Program for Optimal Strategy for a Game](Optimal_Strategy_for_a_Game.md)
+1. [C/C++ Program for Word Break Problem](Word_Break_Problem.md)
+1. [C/C++ Program for Find if a string is interleaved of two other strings](Find_if_a_string_is_interleaved_of_two_other_strings.md)
+1. [C/C++ Program for Assembly Line Scheduling](Assembly_Line_Scheduling.md)
+1. [C/C++ Program for Longest Arithmetic Progression](Longest_Arithmetic_Progression.md)
+1. [C/C++ Program for Maximum Product Cutting](Maximum_Product_Cutting.md)
+1. [C/C++ Program for Count all possible paths from top left to bottom right of a mXn matrix](Count_all_possible_paths_from_top_left_to_bottom_right_of_a_mXn_matrix.md)
+1. [](.md)
+1. [## [9.] C/C++ Greedy Algorithm Programs](##_[9.]_C/C++_Greedy_Algorithm_Programs.md)
+1. [C/C++ Program Activity Selection Problem](Activity_Selection_Problem.md)
+1. [C/C++ Program Kruskal’s Minimum Spanning Tree Algorithm](Kruskal’s_Minimum_Spanning_Tree_Algorithm.md)
+1. [C/C++ Program for Huffman Coding](Huffman_Coding.md)
+1. [C/C++ Program for Efficient Huffman Coding for Sorted Input](Efficient_Huffman_Coding_for_Sorted_Input.md)
+1. [C/C++ Program for Prim’s Minimum Spanning Tree (MST)](Prim’s_Minimum_Spanning_Tree_(MST).md)
+1. [C/C++ Program for Prim’s MST for Adjacency List Representation](Prim’s_MST_for_Adjacency_List_Representation.md)
+1. [C/C++ Program for Dijkstra’s shortest path algorithm](Dijkstra’s_shortest_path_algorithm.md)
+1. [C/C++ Program for Dijkstra’s Algorithm for Adjacency List Representation](Dijkstra’s_Algorithm_for_Adjacency_List_Representation.md)
+1. [C/C++ Program for Graph Coloring](Graph_Coloring.md)
+1. [C/C++ Program for Rearrange a string so that all same characters become d distance away](Rearrange_a_string_so_that_all_same_characters_become_d_distance_away.md)
+1. [C/C++ Backtracking Programs](C/C++_Backtracking_Programs.md)
+1. [C/C++ Program to print all permutations of a given string](print_all_permutations_of_a_given_string.md)
+1. [C/C++ Program The Knight’s tou problem](The_Knight’s_tou_problem.md)
+1. [C/C++ Program for Rat in a Maze](Rat_in_a_Maze.md)
+1. [C/C++ Program for N Queen Problem](N_Queen_Problem.md)
+1. [C/C++ Program for Subset Sum](Subset_Sum.md)
+1. [C/C++ Program for m Coloring Problem](m_Coloring_Problem.md)
+1. [C/C++ Program for Hamiltonian Cycle](Hamiltonian_Cycle.md)
+1. [C/C++ Program for Sudoku](Sudoku.md)
+1. [C/C++ Program for Tug of War](Tug_of_War.md)
+1. [C/C++ Program for (Solving Cryptarithmetic Puzzles]((Solving_Cryptarithmetic_Puzzles.md)
+1. [C/C++ Divide and Conquer Programs:](C/C++_Divide_and_Conquer_Programs:.md)
+1. [C/C++ Program for Write a C program to calculate pow(x,n)](Write_a_calculate_pow(x,n).md)
+1. [C/C++ Program for Median of two sorted arrays](Median_of_two_sorted_arrays.md)
+1. [C/C++ Program for Count Inversions in an array](Count_Inversions_in_an_array.md)
+1. [C/C++ Program for Check for Majority Element in a sorted array](Check_for_Majority_Element_in_a_sorted_array.md)
+1. [C/C++ Program for Maximum and minimum of an array using minimum number of comparisons](Maximum_and_minimum_of_an_array_using_minimum_number_of_comparisons.md)
+1. [C/C++ Program for Program to count number of set bits in an (big) array](Program_to_count_number_of_set_bits_in_an_(big)_array.md)
+1. [C/C++ Program for Count the number of occurrences in a sorted array](Count_the_number_of_occurrences_in_a_sorted_array.md)
+1. [C/C++ Program for Find a Fixed Point in a given array](Find_a_Fixed_Point_in_a_given_array.md)
+1. [C/C++ Program for Find the maximum element in an array which is first increasing and then decreasing](Find_the_maximum_element_in_an_array_which_is_first_increasing_and_then_decreasing.md)
+1. [C/C++ Program for Median of two sorted arrays of different sizes](Median_of_two_sorted_arrays_of_different_sizes.md)
+1. [C/C++ Program for Closest Pair of Points](Closest_Pair_of_Points.md)
+1. [C/C++ Program for Maximum Subarray Sum](Maximum_Subarray_Sum.md)
+1. [C/C++ Program for Largest Rectangular Area in a Histogram](Largest_Rectangular_Area_in_a_Histogram.md)
+1. [C/C++ Program for Karatsuba algorithm for fast multiplication)](Karatsuba_algorithm_for_fast_multiplication).md)
+1. [C/C++ Program for Find a peak element](Find_a_peak_element.md)
+1. [C/C++ Program for Find the point where a monotonically increasing function becomes positive first time](Find_the_point_where_a_monotonically_increasing_function_becomes_positive_first_time.md)
+1. [C/C++ Program for Find the minimum element in a sorted and rotated array](Find_the_minimum_element_in_a_sorted_and_rotated_array.md)
+1. [C/C++ Program for Closest Pair of Points | O(nlogn) Implementation](Closest_Pair_of_Points_|_O(nlogn)_Implementation.md)
+1. [C/C++ String Searching Programs:](C/C++_String_Searching_Programs:.md)
+1. [C/C++ Program for Naive Pattern Searching](Naive_Pattern_Searching.md)
+1. [C/C++ Program for KMP Algorithm](KMP_Algorithm.md)
+1. [C/C++ Program for Rabin-Karp Algorithm](Rabin-Karp_Algorithm.md)
+1. [C/C++ Program for A Naive Pattern Searching Question](A_Naive_Pattern_Searching_Question.md)
+1. [C/C++ Program for Finite Automata](Finite_Automata.md)
+1. [C/C++ Program for Efficient Construction of Finite Automata](Efficient_Construction_of_Finite_Automata.md)
+1. [C/C++ Program for Boyer Moore Algorithm – Bad Character Heuristic](Boyer_Moore_Algorithm_–_Bad_Character_Heuristic.md)
+1. [C/C++ Program for String matching where one string contains wildcard characters](String_matching_where_one_string_contains_wildcard_characters.md)
+1. [C/C++ Program for Suffix Array](Suffix_Array.md)
+1. [C/C++ Geometric Algorithm Programs:](C/C++_Geometric_Algorithm_Programs:.md)
+1. [C/C++ Program for How to check if two given line segments intersect?](How_to_check_if_two_given_line_segments_intersect?.md)
+1. [C/C++ Program for How to check if a given point lies inside or outside a polygon?](How_to_check_if_a_given_point_lies_inside_or_outside_a_polygon?.md)
+1. [C/C++ Program for Convex Hull | (Jarvis’s Algorithm or Wrapping)](Convex_Hull_|_(Jarvis’s_Algorithm_or_Wrapping).md)
+1. [C/C++ Program for Convex Hull | (Graham Scan)](Convex_Hull_|_(Graham_Scan).md)
+1. [C/C++ Program for Given n line segments, find if any two segments intersect](Given_n_line_segments,_find_if_any_two_segments_intersect.md)
+1. [C/C++ Program for Closest Pair of Points | O(nlogn) Implementation](Closest_Pair_of_Points_|_O(nlogn)_Implementation.md)
+1. [C/C++ Program for Find if two rectangles overlap](Find_if_two_rectangles_overlap.md)
+1. [](.md)
+1. [## [10] C/C++ Misc Programs:](##_[10]_C/C++_Misc_Programs:.md)
+1. [C Program to print environment variable](print_environment_variable.md)
+1. [C Program for Tower of Hanoi](C_Program_for_Tower_of_Hanoi.md)
+1. [C Program to print Floyd’s triangle](print_Floyd’s_triangle.md)
+1. [C Program to Swap two Numbers](Swap_two_Numbers.md)
+1. [C program swap two numbers without using a temporary variable](C_program_swap_two_numbers_without_using_a_temporary_variable.md)
+1. [C Program to check if a given year is leap year](check_if_a_given_year_is_leap_year.md)
+1. [C Program to sum the digits of a given number in single statement?](sum_the_digits_of_a_given_number_in_single_statement?.md)
+1. [C program to print numbers from 1 to 100 without using loop?](print_numbers_from_1_to_100_without_using_loop?.md)
+1. [C Program to print contents of file](print_contents_of_file.md)
+1. [C program to copy contents of one file to another file](copy_contents_of_one_file_to_another_file.md)
+1. [C Program to list all files and sub-directories in a directory](list_all_files_and_sub-directories_in_a_directory.md)
+1. [C program to delete a file](delete_a_file.md)
+1. [C Program to merge contents of two files into a third file](merge_contents_of_two_files_into_a_third_file.md)
+1. [C Program to count number of lines in a file](count_number_of_lines_in_a_file.md)
+1. [C/C++ Program for Check if a number is Palindrome](Check_if_a_number_is_Palindrome.md)
+1. [C/C++ Program for Print all possible combinations of r elements in a given array of size n](Print_all_possible_combinations_of_r_elements_in_a_given_array_of_size_n.md)
+1. [C/C++ Program for Print all possible strings of length k that can be formed from a set of n characters](Print_all_possible_strings_of_length_k_that_can_be_formed_from_a_set_of_n_characters.md)
+1. [C/C++ Program to Find Excel column name from a given column number](Find_Excel_column_name_from_a_given_column_number.md)
+1. [C/C++ Program to Find next greater number with same set of digits](Find_next_greater_number_with_same_set_of_digits.md)
+1. [C/C++ Program to Count Possible Decodings of a given Digit Sequence](Count_Possible_Decodings_of_a_given_Digit_Sequence.md)
+1. [C/C++ Program to calculate the angle between hour hand and minute hand](calculate_the_angle_between_hour_hand_and_minute_hand.md)
