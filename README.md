@@ -17,4 +17,23 @@ My Learnt C++ Example Snippets
 4. [CodeBlocks](http://www.codeblocks.org/)
 5. [DevC++](http://orwelldevcpp.blogspot.com/)
 6. [Visual Studio Community Edition](https://visualstudio.microsoft.com/vs/community/) - Microsoft's Free IDE
+
+
+### Key Points for Best Practices for Writing Code
+1. Start each program with a description of what it does.
+1. Then load all required packages.
+1. Consider what working directory you are in when sourcing a script.
+1. Use comments to mark off sections of code.
+1. Put function definitions at the top of your file, or in a separate file if there are many.
+1. Name and style code consistently.
+1. Break code into small, discrete pieces.
+1. Factor out common operations rather than repeating them.
+1. Keep all of the source files for a project in one directory and use relative paths to access them.
+1. Keep track of the memory used by your program.
+1. Always start with a clean environment instead of saving the workspace.
+1. Keep track of session information in your project folder.
+1. Have someone else review your code.
+1. Use version control.
+
+
 # END
