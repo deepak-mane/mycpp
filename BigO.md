@@ -7,7 +7,7 @@ A lot of candidates get stuck up on "Big O" time-space complexity analysis, so w
 
 Essentially, "Big O" is the worst-case usage of time or space of a problem in relation to the size of input.  For instance, for a tree problem, one would usually assume that the tree is unbalanced and looks like a single branch to evaluate "Big O," because the single branch often leads to the worst case performance of an algorithm.
 
-
+![Alt text](./images/Compare_Complexity_Tree.png?raw=true "Tree Diag")
 
 In the diagram above, for a well-balanced tree (on the left), it may take "log(n)" time to find node "5" but in the worst-case scenario it would take "n" time to iterate through every single node in the tree.
 
