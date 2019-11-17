@@ -1,6 +1,9 @@
-Time-Space Complexity
-Introduction
+# Time-Space Complexity
+
+### Introduction
 A lot of candidates get stuck up on "Big O" time-space complexity analysis, so we wanted to give you a primer on this.
+
+![Alt text](./images/TimeSpace.jpg?raw=true "Time-Space Complexity")
 
 Essentially, "Big O" is the worst-case usage of time or space of a problem in relation to the size of input.  For instance, for a tree problem, one would usually assume that the tree is unbalanced and looks like a single branch to evaluate "Big O," because the single branch often leads to the worst case performance of an algorithm.
 
