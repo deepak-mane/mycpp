@@ -9,6 +9,7 @@ My Learnt C++ Example Snippets
 
 ### Reading Sequence of this github repository
 1. Start with [C++Programming Basics](C++_Programming_Basics.md)
+2. [List of Programs Implemented in C++](./List_CplusPlusPrograms_Implemented.md)
 
 ### Code Editors Settings
 1. [Vscode for Cplus](https://code.visualstudio.com/docs/cpp/config-mingw) - Microsoft's Free IDE
