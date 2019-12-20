@@ -37,4 +37,14 @@ My Learnt C++ Example Snippets
 1. Use version control.
 
 
+### Favourite websites/blogs for cplusplus
+1. [geeksforgeeks.org](https://www.geeksforgeeks.org/c-plus-plus/)
+1. [geeksforgeeeks.org - datastructures](https://www.geeksforgeeks.org/data-structures/)
+1. [codebind.com](http://www.codebind.com/cpp/cpp-programs-examples/)
+1. [codebin.com qt tutorials](http://www.codebind.com/category/cpp-tutorial/qt-tutorial/)
+1. [tutorialspoint - cplusplus](https://www.tutorialspoint.com/cplusplus/index.htm)
+1. []()
+1. []()
+
+
 # END
