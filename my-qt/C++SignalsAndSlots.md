@@ -1,6 +1,6 @@
 # Signals and Slots in Qt
 
-
+Connecting Signals to Slots: 3 Different Ways
 
 ## String Notation
 ```cpp
