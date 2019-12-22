@@ -1,6 +1,6 @@
 # Implementation of Stack Using Linked List
 
-```
+```c
 #include<stdio.h>
 #include<stdlib.h>
 
