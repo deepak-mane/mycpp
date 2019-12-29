@@ -1,5 +1,12 @@
 # Algorithms And DataStructures
 
+## DataStructures & Algorithm Courses
+- [The Coding Interview Bootcamp: Algorithms + Data Structures - Stephen Grider](https://www.udemy.com/course/coding-interview-bootcamp-algorithms-and-data-structure/) [JavaScript]
+- [JavaScript Algorithms and Data Structures Masterclass - Colt Steele](https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/)
+- [Mastering Data Structures & Algorithms using C and C++ - Abdul Bari](https://www.udemy.com/course/datastructurescncpp/) 
+- [Python for Data Structures, Algorithms, and Interviews! - Jose Portilla](https://www.udemy.com/course/python-for-data-structures-algorithms-and-interviews/)
+- [Data Structures and Algorithms Through C In Depth - Deepali Srivastava](https://www.udemy.com/course/data-structures-and-algorithms-in-c/)
+
 
 1. [Recursion](https://en.wikipedia.org/wiki/Recursion)
 1. [Searching Algorithm](https://en.wikipedia.org/wiki/Search_algorithm)
@@ -14,6 +21,8 @@
 1. [Graphs](https://en.wikipedia.org/wiki/Graph_(abstract_data_type))
 1. [Graph Traversal](https://en.wikipedia.org/wiki/Graph_traversal)
 1. [Dijkstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
+
+
 1. [Dynamic Programming](https://en.wikipedia.org/wiki/Dynamic_programming) -  developed by Richard Bellman in the 1950s
    1. [Many string algorithms including]()
       - [Longest_common_subsequence_problem](https://en.wikipedia.org/wiki/Longest_common_subsequence_problem)
