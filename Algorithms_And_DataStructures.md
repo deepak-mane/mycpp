@@ -69,7 +69,7 @@ Kadane's algorithm for the maximum subarray problem
 ```
 
 1. [Dynamic Programming](https://www.geeksforgeeks.org/dynamic-programming-set-1/):
-   1. [Overlapping Subproblems Property]()
+  1. [Overlapping Subproblems Property]()
    1. [Optimal Substructure Property]()
    1. [Longest Increasing Subsequence]()
    1. [Longest Common Subsequence]()
