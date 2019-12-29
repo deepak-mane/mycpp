@@ -68,61 +68,61 @@ Some approximate solution methods for the linear search problem
 Kadane's algorithm for the maximum subarray problem
 ```
 
-1. []() Dynamic Programming:
-   - [Overlapping Subproblems Property](https://www.geeksforgeeks.org/dynamic-programming-set-1/)
-   - [1]()Optimal Substructure Property
-   - [1]()Longest Increasing Subsequence
-   - [1]()Longest Common Subsequence
-   - [1]()Edit Distance
-   - [1]()Min Cost Path
-   - [1]()Coin Change
-   - [1]()Matrix Chain Multiplication
-   - [1]()Binomial Coefficient
-   - [1]()0-1 Knapsack Problem
-   - [1]()Egg Dropping Puzzle
-   - [1]()Longest Palindromic Subsequence
-   - [1]()Cutting a Rod
-   - [1]()Maximum Sum Increasing Subsequence
-   - [1]()Longest Bitonic Subsequence
-   - [1]()Floyd Warshall Algorithm
-   - [1]()Palindrome Partitioning
-   - [1]()Partition problem
-   - [1]()Word Wrap Problem
-   - [1]()Maximum Length Chain of Pairs
-   - [1]()Variations of LIS
-   - [1]()Box Stacking Problem
-   - [1]()Program for Fibonacci numbers
-   - [1]()Minimum number of jumps to reach end
-   - [1]()Maximum size square sub-matrix with all 1s
-   - [1]()Ugly Numbers
-   - [1]()Largest Sum Contiguous Subarray
-   - [1]()Longest Palindromic Substring
-   - [1]()Bellman–Ford Algorithm for Shortest Paths
-   - [1]()Optimal Binary Search Tree
-   - [1]()Largest Independent Set Problem
-   - [1]()Subset Sum Problem
-   - [1]()Maximum sum rectangle in a 2D matrix
-   - [1]()Count number of binary strings without consecutive 1?s
-   - [1]()Boolean Parenthesization Problem
-   - [1]()Count ways to reach the n’th stair
-   - [1]()Minimum Cost Polygon Triangulation
-   - [1]()Mobile Numeric Keypad Problem
-   - [1]()Count of n digit numbers whose sum of digits equals to given sum
-   - [1]()Minimum Initial Points to Reach Destination
-   - [1]()Total number of non-decreasing numbers with n digits
-   - [1]()Find length of the longest consecutive path from a given starting character
-   - [1]()Tiling Problem
-   - [1]()Minimum number of squares whose sum equals to given number n
-   - [1]()Find minimum number of coins that make a given value
-   - [1]()Collect maximum points in a grid using two traversals
-   - [1]()Shortest Common Supersequence
-   - [1]()Compute sum of digits in all numbers from 1 to n
-   - [1]()Count possible ways to construct buildings
-   - [1]()Maximum profit by buying and selling a share at most twice
-   - [1]()How to print maximum number of A’s using given four keys
-   - [1]()Find the minimum cost to reach destination using a train
-   - [1]()Vertex Cover Problem | Set 2 (Dynamic Programming Solution for Tree)
-   - [1]()Count number of ways to reach a given score in a game
-   - [1]()Weighted Job Scheduling
-   - [1]()Longest Even Length Substring such that Sum of First and Second Half is same
-   - [1]()
+1. [Dynamic Programming](https://www.geeksforgeeks.org/dynamic-programming-set-1/):
+   1. [Overlapping Subproblems Property]()
+   1. [Optimal Substructure Property]()
+   1. [Longest Increasing Subsequence]()
+   1. [Longest Common Subsequence]()
+   1. [Edit Distance]()
+   1. [Min Cost Path]()
+   1. [Coin Change]()
+   1. [Matrix Chain Multiplication]()
+   1. [Binomial Coefficient]()
+   1. [0-1 Knapsack Problem]()
+   1. [Egg Dropping Puzzle]()
+   1. [Longest Palindromic Subsequence]()
+   1. [Cutting a Rod]()
+   1. [Maximum Sum Increasing Subsequence]()
+   1. [Longest Bitonic Subsequence]()
+   1. [Floyd Warshall Algorithm]()
+   1. [Palindrome Partitioning]()
+   1. [Partition problem]()
+   1. [Word Wrap Problem]()
+   1. [Maximum Length Chain of Pairs]()
+   1. [Variations of LIS]()
+   1. [Box Stacking Problem]()
+   1. [Program for Fibonacci numbers]()
+   1. [Minimum number of jumps to reach end]()
+   1. [Maximum size square sub-matrix with all 1s]()
+   1. [Ugly Numbers]()
+   1. [Largest Sum Contiguous Subarray]()
+   1. [Longest Palindromic Substring]()
+   1. [Bellman–Ford Algorithm for Shortest Paths]()
+   1. [Optimal Binary Search Tree]()
+   1. [Largest Independent Set Problem]()
+   1. [Subset Sum Problem]()
+   1. [Maximum sum rectangle in a 2D matrix]()
+   1. [Count number of binary strings without consecutive 1's]()
+   1. [Boolean Parenthesization Problem]()
+   1. [Count ways to reach the n’th stair]()
+   1. [Minimum Cost Polygon Triangulation]()
+   1. [Mobile Numeric Keypad Problem]()
+   1. [Count of n digit numbers whose sum of digits equals to given sum]()
+   1. [Minimum Initial Points to Reach Destination]()
+   1. [Total number of non-decreasing numbers with n digits]()
+   1. [Find length of the longest consecutive path from a given starting character]()
+   1. [Tiling Problem]()
+   1. [Minimum number of squares whose sum equals to given number n]()
+   1. [Find minimum number of coins that make a given value]()
+   1. [Collect maximum points in a grid using two traversals]()
+   1. [Shortest Common Supersequence]()
+   1. [Compute sum of digits in all numbers from 1 to n]()
+   1. [Count possible ways to construct buildings]()
+   1. [Maximum profit by buying and selling a share at most twice]()
+   1. [How to print maximum number of A’s using given four keys]()
+   1. [Find the minimum cost to reach destination using a train]()
+   1. [Vertex Cover Problem | Set 2 (Dynamic Programming Solution for Tree)]()
+   1. [Count number of ways to reach a given score in a game]()
+   1. [Weighted Job Scheduling]()
+   1. [Longest Even Length Substring such that Sum of First and Second Half is same]()
+
