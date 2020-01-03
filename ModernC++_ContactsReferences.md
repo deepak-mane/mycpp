@@ -24,7 +24,6 @@
   + [Qt 5 C++ GUI Development For Beginners : The Fundamentals](https://www.udemy.com/qt-c-gui-tutorial-for-complete-beginners/)
   + [Qt Quick and QML - Intermediate : Interfacing to C++](https://www.udemy.com/interfacing-qt-quick-qml-to-cpp-intermediate/)
   + [Qt Quick and QML - Advanced : Interfacing to C++ | Qt Quick and QML - Intermediate : Interfacing to C++](https://www.udemy.com/interfacing-qt-quick-qml-to-cpp-advanced/)
-
 - [Qt - Bryan Cairns](https://www.linkedin.com/in/voidrealms/)
   + [Qt 5 C++ GUI Development For Beginners : The Fundamentals](https://www.udemy.com/qt-c-gui-tutorial-for-complete-beginners/)
   + [Qt Quick and QML - Intermediate : Interfacing to C++](https://www.udemy.com/interfacing-qt-quick-qml-to-cpp-intermediate/)
