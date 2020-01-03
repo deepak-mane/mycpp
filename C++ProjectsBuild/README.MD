@@ -18,6 +18,10 @@ Advantges:
 + Beacuase the tool will copy the src/cbl from source and place the compiled binaries in Target env, chances of corruptiuon/missing file is reduced.
 + Turnaround time could increase as this tool can be made self-service which would increase productivity of development team
 
+Components:
++ MySQL database
++ ssh keys setup accross env
++ Windows Host for running the App
 
 
 
