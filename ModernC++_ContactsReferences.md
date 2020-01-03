@@ -12,7 +12,7 @@
 - [<b>D</b>aniel Gakwaya(Qt)](https://www.linkedin.com/in/daniel-gakwaya-2a570092/)
   + [Qt 5 C++ GUI Development For Beginners : The Fundamentals](https://www.udemy.com/qt-c-gui-tutorial-for-complete-beginners/)
   + [Qt Quick and QML - Intermediate : Interfacing to C++](https://www.udemy.com/interfacing-qt-quick-qml-to-cpp-intermediate/)
-  + [Qt Quick and QML - Advanced : Interfacing to C++]((https://www.udemy.com/interfacing-qt-quick-qml-to-cpp-advanced/)
+  + [Qt Quick and QML - Advanced : Interfacing to C++](https://www.udemy.com/interfacing-qt-quick-qml-to-cpp-advanced/)
 - [<b>E</b>rmin Kreponic](https://www.linkedin.com/in/ermin-kreponic-0a420715b/)
   + [Learn and Understand C++](https://www.udemy.com/course/learn-c-plus-plus-from-beginner-to-advanced/)
 - [<b>F</b>rank J. Mitropoulos](https://www.linkedin.com/in/frank-j-mitropoulos/)
