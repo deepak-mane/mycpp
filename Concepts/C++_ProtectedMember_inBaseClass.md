@@ -1,4 +1,4 @@
-# C++ Protected Member
+# C++ Accessing Protected Member from Derived Class
 
 ```cpp
 //============================================================================
@@ -15,7 +15,7 @@ using namespace std;
 
 // Base Class
 class Employee {
-protected: // Changed from Private to Protected , so Derived Class can access it 
+protected:
 	string name;
 	double pay;
 public:
@@ -43,16 +43,18 @@ public:
 	void setPay(double payRate) {
 		pay = payRate;
 	}
+
 	// ToString function to return name + pay
 	string toString() {
 		stringstream stm;
-		stm << name << ": " << pay;
+		stm << name << " : " << pay;
 		return stm.str();
 	}
 
 	double grossPay(int hours) {
 		return pay * hours;
 	}
+
 
 };
 
@@ -64,11 +66,31 @@ public:
 	Manager(string name, double payRate, bool isSalaried) : Employee(name, payRate) {
 		salaried = isSalaried;
 	}
+
 	bool getSalaried() {
 		return salaried;
 	}
-	double grossPay() {
-		return pay;
+
+	double grossPay(int hours) {
+		if (salaried) {
+			return pay;
+		} else {
+			return pay * hours;
+		}
+	}
+
+	// ToString function to return name + pay
+	string toString() {
+		stringstream stm;
+		string salary;
+		if (salaried) {
+			salary = "Salaried";
+		} else {
+			salary = "Hourly";
+		}
+		stm << name << " : " << pay
+				<< " : " << salary << endl;
+		return stm.str();
 	}
 };
 
@@ -83,13 +105,11 @@ int main() {
 	Employee emp1("Mary Smith", 15.00);
 	cout << "Employee name : " << emp1.getName() << endl;
 	cout << "Employee pay rate : " << emp1.getPay() << endl;
-	cout << "Employee gross pay: " << emp1.grossPay(40) << endl;
+	cout << "Employee gross pay : " << emp1.grossPay(40) << endl;
 	Manager emp2("Bob Brown", 1500, true);
-	cout << "Employee name : " << emp2.getName() << endl;
-	cout << "Employee pay rate : " << emp2.getPay() << endl;
-	cout << "Emp2 Salaried? " << emp2.getSalaried() << endl;
-	cout << "Employee gross pay: " << emp2.grossPay() << endl;
-
+	cout << emp2.toString();
+	cout << "Employee gross pay rate : " << emp2.grossPay(100) << endl;
 	return 0;
 }
+
 ```
