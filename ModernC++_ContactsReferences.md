@@ -1,6 +1,6 @@
 # Modern C++ Contacts and References
 
-- [Abdul Bari](https://www.linkedin.com/in/abdul-bari-mohammed-5a328717/) 
+- [<b>A</b>bdul Bari](https://www.linkedin.com/in/abdul-bari-mohammed-5a328717/) 
   + [Learn C++ Programming -Beginner to Advance- Deep Dive in C++](https://www.udemy.com/course/cpp-deep-dive/) 
   + [Mastering Data Structures & Algorithms using C and C++](https://www.udemy.com/course/datastructurescncpp/)
 - [Bryan Cairns(Qt)](https://www.linkedin.com/in/voidrealms/)
