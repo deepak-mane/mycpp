@@ -21,4 +21,13 @@
 - [Frank J. Mitropoulos](https://www.linkedin.com/in/frank-j-mitropoulos/)
   + [Beginning C++ Programming - From Beginner to Beyond - Tim Buchalka](https://www.udemy.com/course/beginning-c-plus-plus-programming/)
 - [Qt - Daniel Gakwaya](https://www.linkedin.com/in/daniel-gakwaya-2a570092/)
+  + [Qt 5 C++ GUI Development For Beginners : The Fundamentals](https://www.udemy.com/qt-c-gui-tutorial-for-complete-beginners/)
+  + [Qt Quick and QML - Intermediate : Interfacing to C++](https://www.udemy.com/interfacing-qt-quick-qml-to-cpp-intermediate/)
+  + [Qt Quick and QML - Advanced : Interfacing to C++ | Qt Quick and QML - Intermediate : Interfacing to C++](https://www.udemy.com/interfacing-qt-quick-qml-to-cpp-advanced/)
+
 - [Qt - Bryan Cairns](https://www.linkedin.com/in/voidrealms/)
+  + [Qt 5 C++ GUI Development For Beginners : The Fundamentals](https://www.udemy.com/qt-c-gui-tutorial-for-complete-beginners/)
+  + [Qt Quick and QML - Intermediate : Interfacing to C++](https://www.udemy.com/interfacing-qt-quick-qml-to-cpp-intermediate/)
+  + [Qt Quick and QML - Advanced : Interfacing to C++ | Qt Quick and QML - Intermediate : Interfacing to C++](https://www.udemy.com/interfacing-qt-quick-qml-to-cpp-advanced/)
+
+
