@@ -9,10 +9,8 @@
 
 
 1. [Qt 5 C++ GUI Development For Beginners : The Fundamentals](https://www.udemy.com/course/qt-c-gui-tutorial-for-complete-beginners/)
-   - 75 lectures | 14.5 hours
-   - Beginner
+   - 75 lectures | 14.5 hours | Beginner | Rated 4.3/5
    - Build Cross Platform C++ GUI Applications with Qt, Run them on Windows, Mac, Linux, Android, iOS and Embedded Devices 
-   - 4.3 
 ```
 + Running your first console application and understanding the main function
 + Streams that help you write and read data from your C++ applications
@@ -26,10 +24,8 @@
 ```
   
 2. [Qt C++ GUI Development - Intermediate](https://www.udemy.com/course/qt-c-gui-development-intermediate/)
-   - 149 lectures | 40 hours
-   - Intermediate
+   - 149 lectures | 40 hours | Intermediate | Rated 4.7/5
    - Learn Intermediate Qt C++ GUI : Events, Painting, Model View Architecture, Graphics View Framework, Deployment and more.
-   - 4.7 
 ```
 + Event Programming in Qt
 + Building Custom Widgets
@@ -47,10 +43,8 @@
 ```
    
 3. [Multi-Threading and IPC with Qt C++](https://www.udemy.com/course/multi-threading-and-ipc-with-qt-c-plus-plus/)
-   - 55 lectures | 13 hours
-   - Intermediate
+   - 55 lectures | 13 hours | Intermediate | Rated 4.5/5
    - Use Threads and Inter Process Communication in your Qt C++ applications : A Practical Walk Through of Qt offerings
-   - 4.5 
 ```
 + Creating and Managing Threads
 + Sending Feedback to main thread
@@ -64,10 +58,8 @@
 ```
 
 4. [Qt Quick and QML - Intermediate : Interfacing to C++](https://www.udemy.com/interfacing-qt-quick-qml-to-cpp-intermediate/)
-   - HIGHEST RATED | 35 lectures | 5.5 hours
-   - Intermediate
-   - Connect Your Fluid and Dynamic Qt Quick(QML) User Interface to a Powerful C++ Back End | By Daniel Gakwaya
-   - 4.4
+   - 35 lectures | 5.5 hours | Tntermediate | Rated 4.4/5
+   - Connect Your Fluid and Dynamic Qt Quick(QML) User Interface to a Powerful C++ Back End 
 ```
 + Calling C++ methods from QML,
 + Calling Javascript/QML methods from C++, 
@@ -85,10 +77,8 @@
 ```
 
 5. [Qt Quick and QML - Advanced : Interfacing to C++ | Qt Quick and QML - Intermediate : Interfacing to C++](https://www.udemy.com/interfacing-qt-quick-qml-to-cpp-advanced/)
-  - 41 lectures | 6.5 hours 
-  - Intermediate
-  - Use Custom C++ Models in QML, Build your own Visual C++ QML Types, Use Singletons and Dig Deep Through QML from C++ | By Daniel Gakwaya
-  - 4.8
+  - 41 lectures | 6.5 hours | Advanced | Rated 4.8/5
+  - Use Custom C++ Models in QML, Build your own Visual C++ QML Types, Use Singletons and Dig Deep Through QML from C++
 
 ## By Bryan Cairns
 1. [Qt core for beginners with C++](https://www.udemy.com/qt-core-for-beginners/)
