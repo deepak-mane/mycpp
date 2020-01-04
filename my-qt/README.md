@@ -8,7 +8,7 @@
 
 
 
-1. [Qt 5 C++ GUI Development For Beginners : The Fundamentals](https://www.udemy.com/qt-c-gui-tutorial-for-complete-beginners/)
+1. [Qt 5 C++ GUI Development For Beginners : The Fundamentals](https://www.udemy.com/course/qt-c-gui-tutorial-for-complete-beginners/)
    - 75 lectures | 14.5 hours
    - Beginner
    - Build Cross Platform C++ GUI Applications with Qt, Run them on Windows, Mac, Linux, Android, iOS and Embedded Devices 
@@ -25,7 +25,7 @@
     Building a GUI Version of your Number guessing game
     ```
   
-2. Qt C++ GUI Development - Intermediate
+2. [Qt C++ GUI Development - Intermediate](https://www.udemy.com/course/qt-c-gui-development-intermediate/)
    - 149 lectures | 40 hours
    - Intermediate
    - Learn Intermediate Qt C++ GUI : Events, Painting, Model View Architecture, Graphics View Framework, Deployment and more.
@@ -46,22 +46,22 @@
       Deploying your Qt applications on Windows, Mac and Linux 
    ```
    
-3. Multi-Threading and IPC with Qt C++
+3. [Multi-Threading and IPC with Qt C++](https://www.udemy.com/course/multi-threading-and-ipc-with-qt-c-plus-plus/)
    - 55 lectures | 13 hours
    - Intermediate
    - Use Threads and Inter Process Communication in your Qt C++ applications : A Practical Walk Through of Qt offerings
    - 4.5 
-      ```
-      Creating and Managing Threads
-      Sending Feedback to main thread
-      Thread Synchronization
-      Thread Safety and Reentrancy
-      Using Thread Pools
-      Qt Concurrent : High level Threading API
-      Managing Processes
-      Inter Process Communication
-      DBus
-      ```
+   ```
+   Creating and Managing Threads
+   Sending Feedback to main thread
+   Thread Synchronization
+   Thread Safety and Reentrancy
+   Using Thread Pools
+   Qt Concurrent : High level Threading API
+   Managing Processes
+   Inter Process Communication
+   DBus
+   ```
 
 4. [Qt Quick and QML - Intermediate : Interfacing to C++](https://www.udemy.com/interfacing-qt-quick-qml-to-cpp-intermediate/)
    - HIGHEST RATED | 35 lectures | 5.5 hours
