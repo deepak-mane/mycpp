@@ -9,10 +9,10 @@
 
 
 1. [Qt 5 C++ GUI Development For Beginners : The Fundamentals](https://www.udemy.com/qt-c-gui-tutorial-for-complete-beginners/)
-  - 75 lectures | 14.5 hours
-  - Beginner
-  - Build Cross Platform C++ GUI Applications with Qt, Run them on Windows, Mac, Linux, Android, iOS and Embedded Devices 
-  - 4.3 
+   - 75 lectures | 14.5 hours
+   - Beginner
+   - Build Cross Platform C++ GUI Applications with Qt, Run them on Windows, Mac, Linux, Android, iOS and Embedded Devices 
+   - 4.3 
     ```
     Running your first console application and understanding the main function
     Streams that help you write and read data from your C++ applications
@@ -68,21 +68,21 @@
    - Intermediate
    - Connect Your Fluid and Dynamic Qt Quick(QML) User Interface to a Powerful C++ Back End | By Daniel Gakwaya
    - 4.4
-```
-Calling C++ methods from QML,
-Calling Javascript/QML methods from C++, 
-Using Q_PROPERTY mechanism to propagate properties and 
-changes between C++ and QML and more.
-comprehensive look at how your data is transformed when you juggle it between QML and C++. 
-a REST API client that downloads data in C++ and feeds the data to Qt Quick for display. 
-registering a type in C++ to be used and instantiated in Qt Quick. 
-This will allow you to create your own QML types like Person, Car, Tomato,... 
-learn how to make your own QML Apis more readable and usable by incorporating features like 
-- Object and List Properties,
-- Default Properties, 
-- Attached Properties and 
-- Property Value Sources.
-```
+   ```
+   Calling C++ methods from QML,
+   Calling Javascript/QML methods from C++, 
+   Using Q_PROPERTY mechanism to propagate properties and 
+   changes between C++ and QML and more.
+   comprehensive look at how your data is transformed when you juggle it between QML and C++. 
+   a REST API client that downloads data in C++ and feeds the data to Qt Quick for display. 
+   registering a type in C++ to be used and instantiated in Qt Quick. 
+   This will allow you to create your own QML types like Person, Car, Tomato,... 
+   learn how to make your own QML Apis more readable and usable by incorporating features like 
+   - Object and List Properties,
+   - Default Properties, 
+   - Attached Properties and 
+   - Property Value Sources.
+   ```
 
 5. [Qt Quick and QML - Advanced : Interfacing to C++ | Qt Quick and QML - Intermediate : Interfacing to C++](https://www.udemy.com/interfacing-qt-quick-qml-to-cpp-advanced/)
   - 41 lectures | 6.5 hours 
