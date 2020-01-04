@@ -1,6 +1,6 @@
 # C++ Inheritance :: Creating Base Class
 
-[Back](./Concepts)
+[Back](./README.MD)
 
 ```cpp
 //============================================================================
