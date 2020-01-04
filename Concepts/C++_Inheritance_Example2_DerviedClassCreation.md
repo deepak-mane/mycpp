@@ -1,4 +1,4 @@
-# Example2 of Dervied Class Creation
+# C++ Inheritance :: Example2 of Dervied Class Creation
 
 ```cpp
 //============================================================================
