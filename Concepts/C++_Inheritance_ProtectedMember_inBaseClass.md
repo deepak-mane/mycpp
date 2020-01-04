@@ -1,4 +1,4 @@
-# C++ Accessing Protected Member from Derived Class
+# C++ Inheritance :: Accessing Protected Member from Derived Class
 
 ```cpp
 //============================================================================
