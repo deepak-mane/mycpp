@@ -1,4 +1,4 @@
-# Creating Derived Class
+# C++ Inheritance :: Creating Derived Class
 
 
 ```cpp
