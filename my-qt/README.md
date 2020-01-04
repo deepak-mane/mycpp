@@ -17,7 +17,7 @@
     Running your first console application and understanding the main function
     Streams that help you write and read data from your C++ applications
     Variables and Data Types
-    Basic C++ Operators and Control flow where among other things you learn about if clauses and loops
+    Basic C++ Operators and Control flow ,if clauses and loops
     Build an app to guess numbers and put together the concepts learned so far
     C++ Functions
     C++ classes
@@ -74,7 +74,7 @@ Calling Javascript/QML methods from C++,
 Using Q_PROPERTY mechanism to propagate properties and 
 changes between C++ and QML and more.
 comprehensive look at how your data is transformed when you juggle it between QML and C++. 
-Next we do a live demo; a REST API client that downloads data in C++ and feeds the data to Qt Quick for display. 
+a REST API client that downloads data in C++ and feeds the data to Qt Quick for display. 
 registering a type in C++ to be used and instantiated in Qt Quick. 
 This will allow you to create your own QML types like Person, Car, Tomato,... 
 learn how to make your own QML Apis more readable and usable by incorporating features like 
