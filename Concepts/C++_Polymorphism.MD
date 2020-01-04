@@ -1,0 +1,9 @@
+# C++ Polymorphism
+
+
+In C++ polymorphism is mainly divided into two types:
+1. <b>Compile time Polymorphism:<\b> This type of polymorphism is achieved by -
+   1. <b>Function Overloading:<\b> When there are multiple functions with same name but different parameters then these functions are said to be overloaded. Functions can be overloaded by change in number of arguments or/and change in type of arguments.
+   2. <b>Operator Overloading:<\b> This is is aceived when the operator (‘+’) for string class is concatenating two strings. We know that this is the addition operator whose task is to add two operands. So a single operator ‘+’ when placed between integer operands , adds them and when placed between string operands, concatenates them.
+2. <b>Runtime Polymorphism:<\b> This type of polymorphism is achieved by -
+   1. Function Overloading:<\b> When a derived class has a definition for one of the member functions of the base class. That base function is said to be overridden.
