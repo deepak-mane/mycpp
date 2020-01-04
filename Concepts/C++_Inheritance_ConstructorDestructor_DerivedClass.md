@@ -1,4 +1,4 @@
-# Constructor and Destructors in Derived Class
+# Inheritance :: Constructor and Destructors in Derived Class
 
 
 ```cpp
