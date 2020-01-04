@@ -1,4 +1,4 @@
-# Example of Derived Class creation
+# C++ Inheritance :: Example1 of Derived Class creation
 
 ```cpp
 //============================================================================
