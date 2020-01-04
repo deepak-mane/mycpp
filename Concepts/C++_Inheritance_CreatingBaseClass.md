@@ -1,5 +1,7 @@
 # C++ Inheritance :: Creating Base Class
 
+[Back](./Concepts)
+
 ```cpp
 //============================================================================
 // Name        : Sec1_Inheritance.cpp
