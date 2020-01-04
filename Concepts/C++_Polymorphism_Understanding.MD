@@ -1,5 +1,6 @@
 C++ Polymorphism Understanding
-[Back](./README.MD)
+
+
 ```cpp
 //============================================================================
 // Name        : Sec1_Inheritance.cpp
@@ -108,3 +109,4 @@ int main() {
 	return 0;
 }
 ```
+- [Back](./README.MD)
