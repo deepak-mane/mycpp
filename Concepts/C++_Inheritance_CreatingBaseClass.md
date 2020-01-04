@@ -1,4 +1,4 @@
-# Creating Base Class
+# C++ Inheritance :: Creating Base Class
 
 ```cpp
 //============================================================================
