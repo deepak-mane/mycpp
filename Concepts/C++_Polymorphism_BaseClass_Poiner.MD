@@ -1,6 +1,6 @@
 # C++ Polymorphism: Base Class Poiner
 
-In the last lesson we saw that when we create a vector of employee objects or a base class vector and then store both base class employee and derived class manager objects in that vector and then call a specific function. The compiler looks at the type of the vector to determine what function to call not the type of the object. So that even with manager objects in the vector it will still calling the gross pay function for employee objects and other solution we might try is to create pointers and use pointers to try to get the compiler to figure out what type of function to call. 
+In the last lesson we saw that when we create a vector of employee objects or a base class vector and then store both base class employee and derived class manager objects in that vector and then call a specific function. <i><b>The compiler looks at the type of the vector to determine what function to call not the type of the object.</i></b> So that even with manager objects in the vector it will still calling the gross pay function for employee objects and other solution we might try is to create pointers and use pointers to try to get the compiler to figure out what type of function to call. 
 
 So let's give that a shot. We'll create an employee pointer or a pointer to an employee object like so then let's assign it the address of one employee object and then will write a little code to return the name and then also to return gross pay to pass the hours in for gross pay and then let's run the program OK.
 
