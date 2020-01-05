@@ -1,4 +1,4 @@
-# C++ Polymorphism Understanding
+# C++ Polymorphism : Understanding Polymorphism
 
 <b>1. Below example code show that polymorpohism is not working correct. The output of the below code is 1000,48000. But the correct output should have been 1000,12000.</b>
 ```cpp
