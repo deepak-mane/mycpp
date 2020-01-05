@@ -240,9 +240,9 @@ int main() {
 }
 
 ```
-__*So now you see the advantages of polymorphism by making our functions polymorphic we can store objects of any type B of the base class of the derived class in a single container and then call the correct function for that object based on the type of object that it is and that makes our programs much more flexible especially when we're dealing with objects of related classes.
+__*So now you see the advantages of polymorphism by making our functions polymorphic we can store objects of any type B of the base class of the derived class in a single container and then call the correct function for that object based on the type of object that it is and that makes our programs much more flexible especially when we're dealing with objects of related classes.*__
 
-__Output:
+__Output:__
 ```
 Name: Jones
 Pay: 1000
