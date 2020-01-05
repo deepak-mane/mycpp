@@ -125,3 +125,9 @@ First let's make sure we have the vector class poun included and we do so it's c
 So now you see the advantages of polymorphism by making our functions polymorphic we can store objects of any type B of the base class of the derived class in a single container and then call the correct function for that object based on the type of object that it is and that makes our programs much more flexible especially when we're dealing with objects of related classes.
 
 So that wraps up this lesson on virtual functions and now we're ready to look at one more idea behind polymorphism and that's the idea of the abstract class and abstract class as a class that has function declarations but not executable code in them. For example I can have a Shape class that has a virtual function draw but then is only implemented with specific types of shapes such as the draw function for a circle or the draw function for a square. And we're going to see how to create abstract classes in the next lesson.
+
+```cpp
+
+```
+
+- [Back](./README.MD)
