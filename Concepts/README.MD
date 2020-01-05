@@ -14,7 +14,7 @@
   + [Polymorphism]()
     - [Understanding Polymorphism](./C++_Polymorphism_Understanding_Polymorphism.MD)
     - [Base Class Pointer](./C++_Polymorphism_BaseClass_Poiner.MD)
-    - []()
+    - [Virtual Functions](./C++_Polymorphism_VirtualFunctions.MD)
     - []()
     - []()
   + [xxxx]()
