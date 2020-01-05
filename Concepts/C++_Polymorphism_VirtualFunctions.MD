@@ -122,12 +122,139 @@ We can now also go back and fix our vector problem so that the vector objects wi
 
 First let's make sure we have the vector class poun included and we do so it's come back down to our code. We'll create a vector object. Now this time it needs to be a employee pointer vector game because we need pointers for the compiler to work correctly. Now we can push back our two objects and the need to be references. So one there we go and manager one where we can write a loop. This is going to look a little funny when well in the line right below it and then we can do the pay the same way employees. I need a pointer to gross pay and we'll pass in 40 hours and then in line and then close the loop shark code looks correct it does you know it's built run. So the second set of names and pay are coming from the vector and you'll see that it is still finding the right function to call based on the type of object that it comes across.
 
-So now you see the advantages of polymorphism by making our functions polymorphic we can store objects of any type B of the base class of the derived class in a single container and then call the correct function for that object based on the type of object that it is and that makes our programs much more flexible especially when we're dealing with objects of related classes.
-
-So that wraps up this lesson on virtual functions and now we're ready to look at one more idea behind polymorphism and that's the idea of the abstract class and abstract class as a class that has function declarations but not executable code in them. For example I can have a Shape class that has a virtual function draw but then is only implemented with specific types of shapes such as the draw function for a circle or the draw function for a square. And we're going to see how to create abstract classes in the next lesson.
-
 ```cpp
+//============================================================================
+// Name        : Sec1_Polymorphism.cpp
+// Author      : Deepak Mane
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <sstream>
+#include <vector>
+using namespace std;
+
+// Base Class
+class Employee {
+protected:
+	string name;
+	double pay;
+public:
+	Employee(){
+		name = "";
+		pay = 0;
+	}
+	Employee(string empName, double payRate) {
+		name = empName;
+		pay = payRate;
+	}
+	// getter for name
+	string getName() {
+		return name;
+	}
+	// setter for name
+	void setName(string empName) {
+		name = empName;
+	}
+	// getter for pay
+	double getPay() {
+		return pay;
+	}
+	// setter for pay
+	void setPay(double payRate) {
+		pay = payRate;
+	}
+
+	// ToString function to return name + pay
+	string toString() {
+		stringstream stm;
+		stm << name << " : " << pay;
+		return stm.str();
+	}
+
+	virtual double grossPay(int hours) {
+		return pay * hours;
+	}
+
+
+};
+
+// Derived Class
+class Manager: public Employee {
+private:
+	bool salaried;
+public:
+	Manager(string name, double payRate, bool isSalaried) : Employee(name, payRate) {
+		salaried = isSalaried;
+	}
+
+	bool getSalaried() {
+		return salaried;
+	}
+
+	virtual double grossPay(int hours) {
+		if (salaried) {
+			return pay;
+		} else {
+			return pay * hours;
+		}
+	}
+
+	// ToString function to return name + pay
+	string toString() {
+		stringstream stm;
+		string salary;
+		if (salaried) {
+			salary = "Salaried";
+		} else {
+			salary = "Hourly";
+		}
+		stm << name << " : " << pay
+				<< " : " << salary << endl;
+		return stm.str();
+	}
+};
+
+int main() {
+	vector<Employee> emps;
+	Employee emp1 ("Jones", 25.00);
+	Manager mgr1("Smith", 1200, true);
+	Employee *empPtr;
+	empPtr = &emp1;
+	cout << "Name: " << empPtr->getName() << endl;
+	cout << "Pay: " << empPtr->grossPay(40) << endl;
+	empPtr = &mgr1;
+	cout << "Name: " << empPtr->getName() << endl;
+	cout << "Pay: " << empPtr->grossPay(40) << endl;
+
+	vector<Employee*> employees;
+	employees.push_back(&emp1);
+	employees.push_back(&mgr1);
+	for (unsigned int i = 0; i < employees.size(); ++i) {
+		cout << "Name : " << employees[i]->getName() << endl;
+		cout << "Pay  : " << employees[i]->grossPay(40) << endl;
+	}
+	return 0;
+}
 
 ```
+__*So now you see the advantages of polymorphism by making our functions polymorphic we can store objects of any type B of the base class of the derived class in a single container and then call the correct function for that object based on the type of object that it is and that makes our programs much more flexible especially when we're dealing with objects of related classes.
+
+__Output:
+```
+Name: Jones
+Pay: 1000
+Name: Smith
+Pay: 1200
+Name : Jones
+Pay  : 1000
+Name : Smith
+Pay  : 1200
+
+```
+So that wraps up this lesson on virtual functions and now we're ready to look at one more idea behind polymorphism and that's the idea of the abstract class and abstract class as a class that has function declarations but not executable code in them. For example I can have a Shape class that has a virtual function draw but then is only implemented with specific types of shapes such as the draw function for a circle or the draw function for a square. And we're going to see how to create abstract classes in the next lesson.
+
 
 - [Back](./README.MD)
