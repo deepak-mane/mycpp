@@ -8,7 +8,9 @@ We'll create an employee pointer or a pointer to an employee object like so then
 
 So that looks correct and we expect to try the same thing with a manager object. This time we'll assign the address of (mgr1) manager one to our employee pointer check it with the same code remember for a manager object. If salaried is true which it is then the compiler should ignore the number of hours passed in and simply return the salary as gross pay. So it's build and run this program now. 
 
-So we get. And no we still have the same problem. <i><b>The problem here is that the compiler is looking at not the type of object that is stored in our variable but instead the data type of the variable itself to decide what to do.</i></b> So a pointer to employee is still going to call the employee gross pay function even if it's a manager object just like what happened with the director. So we still haven't solved the problem but don't worry there's a solution close at hand.
+So we get. And no we still have the same problem. <i><b>The problem here is that the compiler is looking at not the type of object that is stored in our variable but instead the data type of the variable itself to decide what to do.</i></b> 
+
+==markSo a pointer to employee is still going to call the employee gross pay function even if it's a manager object just like what happened with the director. So we still haven't solved the problem but don't worry there's a solution close at hand.== 
 
 <b>What we need to do is we need to modify the definition of the employee gross pay function and the manager gross pay function with one simple keyword and we'll fix this whole problem and we're going to see how to do that in the next lesson.</b>
 
