@@ -1,6 +1,6 @@
-C++ Polymorphism Understanding
+# C++ Polymorphism Understanding
 
-1. Below example code show that polymorpohism is not working correct. The output of the below code is 1000,48000. But the correct output should have been 1000,12000.
+<b>1. Below example code show that polymorpohism is not working correct. The output of the below code is 1000,48000. But the correct output should have been 1000,12000.</b>
 ```cpp
 //============================================================================
 // Name        : Sec1_Inheritance.cpp
@@ -110,6 +110,5 @@ int main() {
 }
 ```
 
-2. Through redefinition of classes we will make polymorphism correctly work as shown in the next articles.
-
+<b>2. Through redefinition of classes we will make polymorphism correctly work as shown in the next articles.</b>
 - [Back](./README.MD)
