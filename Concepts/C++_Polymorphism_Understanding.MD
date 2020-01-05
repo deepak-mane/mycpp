@@ -110,9 +110,6 @@ int main() {
 }
 ```
 
-2. Below code is the correct way how polymorphism works:
+2. Through redefinition of classes we will make polymorphism correctly work as shown in the next articles.
 
-```cpp
-
-```
 - [Back](./README.MD)
