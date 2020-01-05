@@ -28,7 +28,7 @@ Let's create a circle object. X Y and a radius of five. Know we're going to say 
 #include <vector>
 using namespace std;
 
-// Base Class
+// Base Class - (created as Abstract class)
 class Shape {
 	virtual void setX(int xcor) = 0;
 	virtual void setY(int ycor) = 0;
