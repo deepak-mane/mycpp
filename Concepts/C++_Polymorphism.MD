@@ -1,5 +1,5 @@
 # C++ Polymorphism
-
+The primary usage of polymorphism (OOP's)  is the ability of objects belonging to different types to repsond to <b>method</b>,<b>field</b>,or <b>property </b> calls of the same name, each one accoprding to an appropirate type-specific behavior. The exact type of the object is not necessary to be know in advance and so the exact behavior is determined at <b>run-time</b>(this is called <b>late binding</b> or <b>dynamic binding</b>)
 
 In C++ polymorphism is mainly divided into two types:
 1. <b>Compile time Polymorphism:</b> This type of polymorphism is achieved by -
