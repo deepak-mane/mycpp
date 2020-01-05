@@ -15,6 +15,75 @@ Konst we don't have the capabilities to demonstrate how to draw a circle server 
 Let's create a circle object. X Y and a radius of five. Know we're going to say see one draw is to demonstrate how it works. So let's build and run it X and get y need to be method. So let's go fix that and run again. Little mistake there we need a space but I'll leave that out. So to wrap up a class becomes an abstract shape by making all of its functions pure virtual in the way we make a function pure virtual is by assigning an initializer of zero to the function as such. Then when we try to inherit from that abstract class we have to implement all of the functions that have been defined as pure virtual. And that's what we did in circle. So that's how you create and use a shape class. And when we get to the exercises later on in the chapter we'll look a little bit more into how to work with abstract classes. 
 
 ```cpp
+//============================================================================
+// Name        : Sec1_Polymorphism_AbstractClass.cpp
+// Author      : Deepak Mane
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <sstream>
+#include <vector>
+using namespace std;
+
+// Base Class
+class Shape {
+	virtual void setX(int xcor) = 0;
+	virtual void setY(int ycor) = 0;
+	virtual int getX() const = 0;
+	virtual int getY() const = 0;
+	virtual void draw() const = 0;
+};
+// Derived Class
+class Circle: public Shape {
+private:
+	int x, y, radius;
+public:
+	Circle(int xcor, int ycor, int r) {
+		x = xcor;
+		y = ycor;
+		radius = r;
+	}
+	virtual void setX(int xcor) {
+		x = xcor;
+	}
+	virtual void setY(int ycor) {
+		y = ycor;
+	}
+	void setRadius(int r) {
+		radius = r;
+	}
+
+	virtual int getX() const {
+		return x;
+	}
+	virtual int getY() const {
+		return y;
+	}
+	virtual int getRadius() const {
+		return radius;
+	}
+	virtual void draw() const {
+		cout << "drawing circle at: " <<
+				getX() << ", " <<
+				getY() << ", " <<
+				"with a radius of: " <<
+				getRadius() << endl;
+	}
+};
+
+int main() {
+	Circle c1(2, 3, 5);
+	c1.draw();
+	return 0;
+}
 
 ```
+__Output:__
+```
+drawing circle at: 2, 3, with a radius of: 5
+```
+
 - [Back](./README.MD)
