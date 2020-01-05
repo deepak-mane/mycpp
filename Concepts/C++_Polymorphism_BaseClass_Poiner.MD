@@ -124,7 +124,7 @@ int main() {
 }
 
 ```
-<u>Output</u>
+^Output
 ```html
 Name: Jones
 Pay: 1000
