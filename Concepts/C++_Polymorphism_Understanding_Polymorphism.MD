@@ -1,7 +1,7 @@
 # C++ Polymorphism : Understanding Polymorphism
 
 
-This chapter we're going to be talking about polymorphism.Polymorphism is a somewhat misunderstood topic and Object-Oriented Programming. So before I go into a demonstration of why we need polymorphism I thought I'd bring up the Wikipedia page so I can review their definition of what polymorphism means. Kind of give you a way to visually see what I'm talking about. So scroll down to the paragraph that pertains to this chapter.Here it is right here.
+This chapter we're going to be talking about polymorphism. Polymorphism is a somewhat misunderstood topic and Object-Oriented Programming. So before I go into a demonstration of why we need polymorphism I thought I'd bring up the Wikipedia page so I can review their definition of what polymorphism means. Kind of give you a way to visually see what I'm talking about. So scroll down to the paragraph that pertains to this chapter.Here it is right here.
 
 <i><b>The primary usage of polymorphism in industry is the ability of objects belonging to different types to respond to method field property calls of the same name. Each one according to an appropriate type specific behavior the programmer does not have to know the exact type of the object in advance. And so the exact behavior is determined at run time. </b></i>
 
