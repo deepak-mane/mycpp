@@ -1,6 +1,6 @@
 C++ Polymorphism Understanding
 
-
+1. Below example code show that polymorpohism is not working correct. The output of the below code is 1000,48000. But the correct output should have been 1000,12000.
 ```cpp
 //============================================================================
 // Name        : Sec1_Inheritance.cpp
@@ -108,5 +108,11 @@ int main() {
 
 	return 0;
 }
+```
+
+2. Below code is the correct way how polymorphism works:
+
+```cpp
+
 ```
 - [Back](./README.MD)
