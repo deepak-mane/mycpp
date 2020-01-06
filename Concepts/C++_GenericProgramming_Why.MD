@@ -13,5 +13,49 @@ So what we would rather do is write a single function display that then has what
 So we're going to begin to see how to do that in the next lesson.
 
 ```cpp
+//============================================================================
+// Name        : Sec3_GenericProgramming_Why.cpp
+// Author      : Deepak Mane
+// Version     : 1.0
+// Copyright   : Your copyright notice
+// Description : GenericProgramming in C++, Ansi-style
+//============================================================================
 
+#include <iostream>
+#include <string>
+using namespace std;
+
+void display(int arr[], unsigned int size) {
+	for (unsigned int i = 0; i < size; ++i) {
+		cout << arr[i] << " ";
+	}
+	cout << endl;
+}
+
+void displayStr(string arr[], unsigned int size) {
+	for (unsigned int i = 0; i < size; ++i) {
+		cout << arr[i] << " ";
+	}
+	cout << endl;
+}
+int main() {
+	const int size = 10;
+	int numbers[size];
+	for ( unsigned int i = 0; i < size; ++i) {
+		numbers[i]  = i + 1;
+	}
+	display(numbers, size);
+	string names[] = {"Jim", "Fred", "Jane", "Bob",
+					  "Mary", "Mike", "Terri", "Allison",
+					  "Mason", "Deepak"};
+	displayStr(names, size);
+
+	return 0;
+}
 ```
+__Output:__
+```
+1 2 3 4 5 6 7 8 9 10 
+Jim Fred Jane Bob Mary Mike Terri Allison Mason Deepak 
+```
+- [Back](./README.MD)
