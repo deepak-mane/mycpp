@@ -1,9 +1,14 @@
 # Pre-processing Directives
 
 
-## So what are preprocessor directives?
+## So what are preprocessor directives ?
 
-In a C code and the line which is start with hash symbol is a preprocessor directive and the most commonly used preprocessor directives are hashing clewed and hence define.So remember text substitution is performed first before the compiler actually starts the completion of source files.
+In a C code and the line which is start with hash symbol is a preprocessor directive and the most commonly used preprocessor directives are hashing clewed and hence define. So remember text substitution is performed first before the compiler actually starts the completion 
+of source files.Now this is something very important.
+
+And I was going to explain this point more elaborate to me in the coming slides directives can be written and bought the source files as well as header files. Now following is a list of most common preprocessor directives which we use in our day to day coding in C or C++ so we can see that there are many preprocessor directives that is has to define hash include hash and def hash of def hash if not define hash of hash or else hash live and hash. And if of course there are a few more preprocessor directives but their discussion is not relevant here. So you can see that preprocessor directives always start with a hash symbol and they're called a preprocessor because they are processed before.
+
+
 
 Now this is something very important.
 
