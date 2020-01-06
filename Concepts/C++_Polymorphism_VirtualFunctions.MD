@@ -10,7 +10,7 @@ And you'll see that now we're getting the correct answer. Jones gets paid a thou
 
 ```cpp
 //============================================================================
-// Name        : Sec1_Polymorphism.cpp
+// Name        : Sec2_Polymorphism.cpp
 // Author      : Deepak Mane
 // Version     :
 // Copyright   : Your copyright notice
@@ -124,7 +124,7 @@ First let's make sure we have the vector class poun included and we do so it's c
 
 ```cpp
 //============================================================================
-// Name        : Sec1_Polymorphism.cpp
+// Name        : Sec2_Polymorphism.cpp
 // Author      : Deepak Mane
 // Version     :
 // Copyright   : Your copyright notice
