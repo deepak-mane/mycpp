@@ -1,7 +1,5 @@
 # Problem of Duplicate inclusion of Header files
 
-# Problem of Duplicate inclusion of Header files
-
 Let us try to understand the problem of duplicate inclusion of header file. So most of the times we end up including the same header file into the source file multiple times this resulted in duplicate text substitution so reserved is the completion error. So let us try to understand this with the help of a scenario.
 
 So for example you have two header files that is about that and we don't change now. You are already familiar with these two header files. Now suppose application Dotsie is the source file which is written by a programmer and this programmer wishes to use the facilities which is provided by these two header files. That is a program that wishes to use minimal macro or multiply function or he wishes to use max macro or some function which is provided by a dot header file so you can see that in the source file. A programmer has hashed included both the header files and rest of the code in this source file. Is application specific So this is the source file which is version 1 and it is this source file which is actually written by a programmer.
