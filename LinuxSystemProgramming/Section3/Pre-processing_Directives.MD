@@ -34,7 +34,8 @@ So you can see that the preprocessing directives are processed from top to botto
 
 So remember this file is obtained after applying the text substitution. That is one that has to finds have been replaced by their actual definition and all the hash includes have been replaced by the corresponding files which they include. So the final code which make it to the final version of source file which will be compiled eventually by the compiler.
 
-![Alt text](../images/Pre-processor_directives.PNG.png?raw=true "Title")
+![Alt text](../../images/Pre-processor_directives.PNG?raw=true "Title")
+
 
 Is this line and a false hash. Include will be replaced by the contents of start. That's fine. And another line which makes it the final code is this line. Right. So this is the second line. So apart from these two lines everything will be unwanted from the final source file. And this is the final version of the file which the compiler takes for completion.
 
