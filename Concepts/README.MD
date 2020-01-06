@@ -1,8 +1,6 @@
 # Concepts : C++
 
 ```
-```cpp
-```
 - [Back](./README.MD)
 ```
 - Advanced Topics 
