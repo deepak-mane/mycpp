@@ -25,7 +25,7 @@
     - [Class Template Specialization](./C++_GenericProgramming_ClassTemplateSpecialization.MD)
     - [Function Templates With Multiple Data Types](./C++_GenericProgramming_FunctionTemplates_With_MultipleDataTypes.MD)    
     - [Class Templates With Multiple Data Types](./C++_GenericProgramming_ClassTemplates_With_MultipleDataTypes.MD)
-       - [Exercise 1](./C++_GenericProgramming_Exercise1.MD)
+    - [Exercise 1](./C++_GenericProgramming_Exercise1.MD)
     - [Exercise 2](./C++_GenericProgramming_Exercise2.MD)        
   + [Exception Handling]()
     - [Exception Overview](./C++_ExceptionHandling_ExceptionOveriew.MD)
