@@ -1,3 +1,109 @@
 # Problem of Duplicate inclusion of Header files
 
 Let us try to understand the problem of duplicate inclusion of header file. So most of the times we end up including the same header file into the source file multiple times this resulted in duplicate text substitution so reserved is the completion error.
+
+
+
+Let us try to understand the problem of duplicate inclusion of header file.
+
+So most of the times we end up including the same header file into the source file multiple times this
+
+resulted in duplicate text substitution so reserved is the completion error.
+
+So let us try to understand this with the help of a scenario.
+
+So for example you have two header files that is about that and we don't change now.
+
+You are already familiar with these two header files.
+
+Now suppose application Dotsie is the source file which is written by a programmer and this programmer
+
+wishes to use the facilities which is provided by these two header files.
+
+That is a program that wishes to use minimal macro or multiply function or he wishes to use max macro
+
+or some function which is provided by a dot header file so you can see that in the source file.
+
+A programmer has hashed included both the header files and rest of the code in this source file.
+
+Is application specific So this is the source file which is version 1 and it is this source file which
+
+is actually written by a programmer.
+
+Now let us try to understand that.
+
+Where is the duplicate inclusion of header file.
+
+So applying the text substitution on Version 1 we got Version 2 off application Doxey source file.
+
+So version 2 of source file is obtained by applying the text substitution of b dot etc..
+
+Fine so you can see that the statement hashing would be daft as it is replaced by the content abi.
+
+ETCHEPARE fine.
+
+Now you can see that we've not had the file already had that statement has include a dot edge.
+
+So this leads to two occurrence of hash.
+
+Include a dot at a statement in version 2 of application Dotsie file.
+
+Now if you apply the text substitution again on this wasn't two of application doxies source file you
+
+got Version 3 now you can see that the content of a dark edge is repeated twice in version 3 of application
+
+doxies source file.
+
+It does because the text substitution has happened twice.
+
+For 8. edge had a file.
+
+So you can see that there is some duplicate C in version 3 of application Dotsie source file.
+
+Now proceeding to the final step of text substitution face just remove all the has defines from version
+
+3 of application the source file.
+
+And the final version of source file is actually this application Dotsie source file.
+
+So you can see that what remains in the final version of the source file contains that duplicate declaration
+
+of some functions.
+
+So this declaration comes from one occurrence of a dot header file and this declaration comes from another
+
+occurrence of a dot header file.
+
+So this version of application Dotsie file is the final compilation unit which actually visible to the
+
+compiler for completion.
+
+So when the compiler compiles this final version of application Doxey file the compiler will throw an
+
+error and it will say something like.
+
+Duplicate definition detected and it will give you compiling an error right.
+
+So you can see that because the programmer has included both the header files and be docked at already
+
+contain the statement Hashi include.
+
+Therefore it resulted in inclusion of a dot and it's hard to find twice in the source file.
+
+And this leads to this problem now consider a scenario where you have hundreds of header files in your
+
+project.
+
+You cannot keep track that which had a file hash include another header file already and you should
+
+a wide inclusion of some header files explicitly.
+
+It is very difficult for you to keep track of this and you would not want to invest your energy in only
+
+to decide that whether you should have include a particular header file or not.
+
+So this problem of duplicate inclusion of header file is resolved using pre-processing directives.
+
+So now let us try to understand that what is preprocessor directives and how do they work and how preprocessor
+
+directives can help us to resolve the problem of duplicate inclusion of high profiles.
