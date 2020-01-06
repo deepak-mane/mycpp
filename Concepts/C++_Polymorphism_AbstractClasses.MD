@@ -16,7 +16,7 @@ Let's create a circle object. X Y and a radius of five. Know we're going to say 
 
 ```cpp
 //============================================================================
-// Name        : Sec1_Polymorphism_AbstractClass.cpp
+// Name        : Sec2_Polymorphism_AbstractClass.cpp
 // Author      : Deepak Mane
 // Version     :
 // Copyright   : Your copyright notice
