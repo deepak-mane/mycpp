@@ -55,6 +55,63 @@ Well demonstrate how this works in more detail and one of the exercises at the e
 And in fact we're going to move into those exercises right now.
 
 ```cpp
+//============================================================================
+// Name        : Sec4_ExceptionHandling_CatchingAllExceptionsHandlers.cpp
+// Author      : Deepak Mane
+// Version     : 1.0
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <stdexcept> // standard exception header
+
+using namespace std;
+
+// Creating Derived class, inherits from
+// one of the standard c++ exception classes runtime error
+class DivideByZero: public runtime_error {
+public:
+	DivideByZero() :
+			runtime_error("Divide by zero exception") {
+	}
+	;
+};
+
+double quotient(double numer, double denom) {
+	if (denom == 0) {
+		throw DivideByZero();
+	} else {
+		return numer / denom;
+	}
+}
+
+int main() {
+	double number1, number2, ratio;
+	cout << "Enter a numerator: ";
+	cin >> number1;
+	cout << "Enter a denominator: ";
+	cin >> number2;
+	try {
+		ratio = quotient(number1, number2);
+		cout << "Result is: " << ratio << endl;
+	}
+
+	/*catch (DivideByZero &except) {
+		cout << except.what() << endl;
+	}*/
+
+	catch (...) {
+		cout << "Exception thrown and caught" << endl;
+	}
+	return 0;
+}
+```
+__Output:__
+```
+Enter a numerator: 12
+Enter a denominator: 0
+Exception thrown and caught
 ```
 - [Back](./README.MD)
 
