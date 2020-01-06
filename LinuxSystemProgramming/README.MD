@@ -7,16 +7,17 @@
     + Modularized
 
 ## Release 1 Building and Managing a Library
-+ Section 1 : Introduction to Libraries
-  - What is Library
-  - Relationship between Library and Application
-  - Ex : Doubly linked list as a Library
-  - Quick Compilation Steps
-  - Summary
++ __Section 1 : Introduction to Libraries__
+  - [What is Library]()
+  - [Relationship between Library and Application]()
+  - [Ex : Doubly linked list as a Library]()
+  - [Quick Compilation Steps]()
+  - [Summary]()
 
 + Section 2 : Header Files
-  - Relationship between Source and header files
-  - Text Substitution Method
+  - [What are Header Files and their Purpose?](./Header_Files_Purpose.MD)
+  - [Relationship between Source and header files](./Relationship_Source_Header_Files.MD)
+  - [Text Substitution Method](./Text_Subsitution.MD)
   - Text Substitution Method - Example and Demo
 
 + Section 3 : Preprocessing Directives
