@@ -11,7 +11,7 @@ We can come down to our main program and change display's string to just splay i
 
 ```cpp
 //============================================================================
-// Name        : Sec3_GenericProgramming_Why.cpp
+// Name        : Sec3_GenericProgramming_GenericFunctions.cpp
 // Author      : Deepak Mane
 // Version     : 1.0
 // Copyright   : Your copyright notice
@@ -51,7 +51,6 @@ int main() {
 	display(names, size);
 	return 0;
 }
-
 ```
 
 Let's look at one more example just to reinforce the idea what we'd like to do is be able to check to see what is the maximum value of two values of the same data type.
@@ -64,5 +63,8 @@ All right into the new it is. So we see that 24 point five an apple or the max v
 
 We replace a specific data type name or the specific data type name with the placeholder T and again t is just a convention. We could use anything that T is what you'll see most often in the literature and it makes the most sense. So that describes how you create generic functions. Now we're going to increase the complexity a little bit and talk about how to create generic class definitions so that we can create classes that will work with flexible data types and we'll see how to do that in the next lesson.
 
+```cpp
+
+```
 
 - [Back](./README.MD)
