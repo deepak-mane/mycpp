@@ -29,7 +29,7 @@ public:
 };
 
 // derived class1
-class Dog : public Animal {
+class Dog: public Animal {
 public:
 	virtual void talk() {
 		cout << "Bow wow!" << endl;
@@ -37,7 +37,7 @@ public:
 };
 
 // derived class2
-class Cat : public Animal {
+class Cat: public Animal {
 public:
 	virtual void talk() {
 		cout << "Meaow" << endl;
@@ -52,7 +52,6 @@ int main() {
 
 	return 0;
 }
-
 ```
 __Output:__
 ```
