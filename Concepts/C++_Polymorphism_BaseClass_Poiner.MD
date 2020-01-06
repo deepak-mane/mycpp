@@ -16,7 +16,7 @@ So we get. And no we still have the same problem. <i><b>The problem here is that
 
 ```cpp
 //============================================================================
-// Name        : Sec1_Polymorphism.cpp
+// Name        : Sec2_Polymorphism.cpp
 // Author      : Deepak Mane
 // Version     :
 // Copyright   : Your copyright notice
