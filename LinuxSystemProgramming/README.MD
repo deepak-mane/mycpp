@@ -21,9 +21,9 @@
   - Text Substitution Method - Example and Demo
 
 + Section 3 : Preprocessing Directives
-  - Problem of Duplicate inclusion of Hdr files
-  - Pre-processing Directives
-  - [Solution to Duplicate inclusion of Header files](./Section3/Problem_of_Duplicate_Inclusion_of_HeaderFiles.MD)
+  - [Problem of Duplicate inclusion of Hdr files](./Section3/Problem_of_Duplicate_Inclusion_of_HeaderFiles.MD)
+  - [Pre-processing Directives](./Section3/Pre-processing_Directives.MD)
+  - [Solution to Duplicate inclusion of Header files](./Section3/Solution_to_DuplicateInclusionOf_HdrFiles_UsingPreprocessing.MD)
 
 + Section 4 : Correct way of Using Structures and Functions
   - Structures - Define and Use thumb Rule
