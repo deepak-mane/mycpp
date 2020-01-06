@@ -1,8 +1,8 @@
 # C++ ExceptionHandling : Exercise1
 
-This exercise we're going to demonstrate exception handling with file input output when this case really
+In This exercise we're going to demonstrate exception handling with file input output, While in this case really
 
-just fall and put Bursal going to demonstrate what happens when you don't use exception handling when
+just File Inout. First I am  going to demonstrate what happens when you don't use exception handling when
 
 trying to open a file that doesn't exist.
 
@@ -101,6 +101,43 @@ So that's how you do it.
 And with that we in this chapter on exception handling.
 
 ```cpp
+//============================================================================
+// Name        : Sec4_ExceptionHandling_Exercise1.cpp
+// Author      : Deepak Mane
+// Version     : 1.0
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <fstream>
+#include <stdexcept> // standard exception header
+
+using namespace std;
+
+int main() {
+	ifstream file;
+	file.exceptions(ifstream::failbit | ifstream::badbit);
+
+	try {
+		file.open("file.txt");
+		while (!file.eof()) {
+			cout << file.get();
+		}
+	} catch (ifstream::failure e) {
+		cout << e.what() << endl;
+		cout << "Error Opening file." << endl;
+		return 1;
+	}
+
+	file.close();
+	return 0;
+}
+```
+__Output:__
+```
+basic_ios::clear: iostream error
+Error Opening file.
 ```
 - [Back](./README.MD)
 
