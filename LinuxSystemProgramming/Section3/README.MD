@@ -9,8 +9,3 @@ So guys welcome back in this more we will going to study pre-processing directiv
 
 So this will give you a clear insight regarding how pre-processing directives work and when should you use pre-processing directives going forward. 
 
-Let us try to understand the problem of duplicate inclusion of header file.
-
-So most of the times we end up including the same header file into the source file multiple times this
-
-resulted in duplicate text substitution so reserved is the completion error.
