@@ -64,7 +64,39 @@ All right into the new it is. So we see that 24 point five an apple or the max v
 We replace a specific data type name or the specific data type name with the placeholder T and again t is just a convention. We could use anything that T is what you'll see most often in the literature and it makes the most sense. So that describes how you create generic functions. Now we're going to increase the complexity a little bit and talk about how to create generic class definitions so that we can create classes that will work with flexible data types and we'll see how to do that in the next lesson.
 
 ```cpp
+//============================================================================
+// Name        : Sec3_GenericProgramming_GenericFunctions.cpp
+// Author      : Deepak Mane
+// Version     : 1.0
+// Copyright   : Your copyright notice
+// Description : GenericProgramming in C++, Ansi-style
+//============================================================================
 
+#include <iostream>
+#include <string>
+using namespace std;
+
+template <typename T>
+T max(T &arg1, T &arg2) {
+	if (arg1 > arg2) {
+		return arg1;
+	} else {
+		return arg2;
+	}
+}
+
+int main() {
+	int a = 12;
+	int b = 24;
+	cout << max(a, b) << endl;
+	double x = 2.25;
+	double y = 0.25;
+	cout << max(x, y) << endl;
+	string w1 = "apple";
+	string w2 = "aardvark";
+	cout << max(w1, w2) << endl;
+	return 0;
+}
 ```
 
 - [Back](./README.MD)
