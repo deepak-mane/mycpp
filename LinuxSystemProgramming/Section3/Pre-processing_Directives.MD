@@ -12,76 +12,14 @@ Actually the compiler starts completion of sorts. Fine. Are going to understand 
 
 You can see that using has defined pre-processing directive. I have defined a as a constant which is 10. Similarly I have defined another constant B as 20. Now I have defined a macro squared X whose definition is X into x. Now in this line I'm checking whether the symbol a has been defined or not. Now please remember that the processing on preprocessor directives happens from top towards the bottom of the source file. So by the time the compiler reaches this line the compiler will know that there is something called it which is already defined. Therefore this condition would be true and because this statement is true. Therefore all the statements which is enclosed between hash if defined and hash and IV will be considered as a part of a code therefore hash include extort at will be included.
 
-Now here we are simply saying to undefined the symbol the.
+Now here we are simply saying to undefined the symbol the. Now at this point of line in the code the compiler will forget that there is something called a. Ever defined. Now here we are checking whether a symbol has been defined or not. Now of course this condition will going to be false therefore all the code which is written in between this hash if defined and this hash. And it will not be a part of a code and will be completely omitted. So this line will not be a part of a code. Now going forward here we are checking whether the symbol is not defined. Now this condition was going to be true. Why.
 
-Now at this point of line in the code the compiler will forget that there is something called a.
+Because here we have already undefined the symbol A.So because this condition is true therefore this chord will be considered as a part of a chord. Therefore this line will be considered for completion. And because this line is encapsulated between hash as and hash and if therefore this line will not be a part of a final chord.
 
-Ever defined.
+So you can see that the preprocessing directives are processed from top to bottom of the source file. So the final source file that you will get after processing all the pre-processing directives will be simply the contents off extort etc file and this line so this will be the final content of the source file after processing all the pre processing directives. So the final source file which the compiler takes as an input before final completion is actually the source file which is ABC Darci.
 
-Now here we are checking whether a symbol has been defined or not.
+So remember this file is obtained after applying the text substitution. That is one that has to finds have been replaced by their actual definition and all the hash includes have been replaced by the corresponding files which they include. So the final code which make it to the final version of source file which will be compiled eventually by the compiler.
 
-Now of course this condition will going to be false therefore all the code which is written in between
+Is this line and a false hash. Include will be replaced by the contents of start. That's fine. And another line which makes it the final code is this line. Right. So this is the second line. So apart from these two lines everything will be unwanted from the final source file. And this is the final version of the file which the compiler takes for completion.
 
-this hash if defined and this hash.
-
-And it will not be a part of a code and will be completely omitted.
-
-So this line will not be a part of a code.
-
-Now going forward here we are checking whether the symbol is not defined.
-
-Now this condition was going to be true.
-
-Why.
-
-Because here we have already undefined the symbol A.
-
-So because this condition is true therefore this chord will be considered as a part of a chord.
-
-Therefore this line will be considered for completion.
-
-And because this line is encapsulated between hash as and hash and if therefore this line will not be
-
-a part of a final chord.
-
-So you can see that the preprocessing directives are processed from top to bottom of the source file.
-
-So the final source file that you will get after processing all the pre-processing directives will be
-
-simply the contents off extort etc file and this line so this will be the final content of the source
-
-file after processing all the pre processing directives.
-
-So the final source file which the compiler takes as an input before final completion is actually the
-
-source file which is ABC Darci.
-
-So remember this file is obtained after applying the text substitution.
-
-That is one that has to finds have been replaced by their actual definition and all the hash includes
-
-have been replaced by the corresponding files which they include.
-
-So the final code which make it to the final version of source file which will be compiled eventually
-
-by the compiler.
-
-Is this line and a false hash.
-
-Include will be replaced by the contents of start.
-
-That's fine.
-
-And another line which makes it the final code is this line.
-
-Right.
-
-So this is the second line.
-
-So apart from these two lines everything will be unwanted from the final source file.
-
-And this is the final version of the file which the compiler takes for completion.
-
-So now going forward.
-
-Now let us see how preprocessor directives can solve the problem of duplicate header file inclusion.
+So now going forward. Now let us see how preprocessor directives can solve the problem of duplicate header file inclusion.
