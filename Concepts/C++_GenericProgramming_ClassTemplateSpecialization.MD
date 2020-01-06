@@ -90,7 +90,8 @@ int main() {
 
 ```
 __Output:__
-```Joe
+``` 
+Joe
 Mary
 ```
 So the program did work correctly so to review if for some reason we need __*to provide a specific type in a class template. We can do so using a template specialization and all we do is use the keyword template with empty brackets. Start the class definition specify the data type we want to use and then make sure that in all the places where the data type is needed that the correct data type is in place and then everything runs just fine.*__ So that finishes this discussion of template specialization. Now we're going to move to the next lesson where we talk about creating class templates where the members of the class especially the data members are of different types.
