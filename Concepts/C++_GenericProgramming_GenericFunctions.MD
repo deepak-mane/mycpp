@@ -7,7 +7,54 @@ So in this lesson we're going to learn how to create generic functions the first
 
 Now all we have to do is wherever we have a reference to the data type that we want to make flexible or generic We just put t in its place. So far int array parameter we change that to t or right now at runtime the compiler will replace T with the actual data type of the array that is passed in as an argument. So because we've made display generic we can actually get rid of display string right here. 
 
-We can come down to our main program and change display's string to just splay in our program should using one function display both our array and our string array. So let's build and run the program and there we see put it into view. Now we have the numbers and the names using one single function call. So that in essence is our generic function programming works. Let's look at one more example just to reinforce the idea what we'd like to do is be able to check to see what is the maximum value of two values of the same data type.
+We can come down to our main program and change display's string to just splay in our program should using one function display both our array and our string array. So let's build and run the program and there we see put it into view. Now we have the numbers and the names using one single function call. So that in essence is our generic function programming works. 
+
+```cpp
+//============================================================================
+// Name        : Sec3_GenericProgramming_Why.cpp
+// Author      : Deepak Mane
+// Version     : 1.0
+// Copyright   : Your copyright notice
+// Description : GenericProgramming in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+template <typename T>
+void display(T arr[], unsigned int size) {
+	for (unsigned int i = 0; i < size; ++i) {
+		cout << arr[i] << " ";
+	}
+	cout << endl;
+}
+//
+//void displayStr(string arr[], unsigned int size) {
+//	for (unsigned int i = 0; i < size; ++i) {
+//		cout << arr[i] << " ";
+//	}
+//	cout << endl;
+//}
+
+int main() {
+	const int size = 10;
+	int numbers[size];
+	for ( unsigned int i = 0; i < size; ++i) {
+		numbers[i]  = i + 1;
+	}
+	display(numbers, size);
+	string names[] = {"Jim", "Fred", "Jane", "Bob",
+					  "Mary", "Mike", "Terri", "Allison",
+					  "Mason", "Deepak"};
+	//displayStr(names, size);
+	display(names, size);
+	return 0;
+}
+
+```
+
+Let's look at one more example just to reinforce the idea what we'd like to do is be able to check to see what is the maximum value of two values of the same data type.
 
 For example two numbers are two strings. So we're doing some sort of sorting program so we can do that by creating a generic max function. The first thing we do is start off with template type name T. Now because our max function is going to return data it won't be a void function. We're going to put T where the return data type is for the function definition followed by the name of the function. Max followed by T for our first parameter data type and then we need to make these references because we might be working with numbers. And a compiler will give us a hard time if you don't make the parameters references.
 
@@ -17,7 +64,5 @@ All right into the new it is. So we see that 24 point five an apple or the max v
 
 We replace a specific data type name or the specific data type name with the placeholder T and again t is just a convention. We could use anything that T is what you'll see most often in the literature and it makes the most sense. So that describes how you create generic functions. Now we're going to increase the complexity a little bit and talk about how to create generic class definitions so that we can create classes that will work with flexible data types and we'll see how to do that in the next lesson.
 
-```cpp
 
-```
 - [Back](./README.MD)
