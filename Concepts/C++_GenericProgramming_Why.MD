@@ -1,4 +1,4 @@
-C++ Generic Programming: Why is Needed ?
+# C++ Generic Programming: Why is Needed ?
 
 This chapter introduces the concept of generic programming engineering programming and __*Generic Programming just means that we can write code to perform certain tasks without specifying the data type.*__ For example of a return value for a function at compile time but rather we can determine the data type at runtime so that we can create more flexible programs. In this lecture I'm going to give you a motivating example of why we need Generic programming. 
 
