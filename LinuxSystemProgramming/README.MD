@@ -23,7 +23,7 @@
 + Section 3 : Preprocessing Directives
   - Problem of Duplicate inclusion of Hdr files
   - Pre-processing Directives
-  - Solution to Duplicate inclusion of Hdr files
+  - [Solution to Duplicate inclusion of Header files](./Section3/Problem_of_Duplicate_Inclusion_of_HeaderFiles.MD)
 
 + Section 4 : Correct way of Using Structures and Functions
   - Structures - Define and Use thumb Rule
