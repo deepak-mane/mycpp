@@ -1,18 +1,6 @@
 C++ Generic Programming: Why is Needed ?
 
-This chapter introduces the concept of generic programming engineering programming just means that we
-
-can write code to perform certain tasks without specifying the data type.
-
-For example of a return value for a function at compile time but rather we can determine the data type
-
-at runtime so that we can create more flexible programs.
-
-In this last I'm going to give you a motivating example of why we need to Nurick programming.
-
-So first US to say we want to create a simple array and we'll make it a smaller array of only 10 items
-
-so we write in little loop to create the array
+This chapter introduces the concept of generic programming engineering programming just means that we can write code to perform certain tasks without specifying the data type. For example of a return value for a function at compile time but rather we can determine the data type at runtime so that we can create more flexible programs. In this last I'm going to give you a motivating example of why we need to Nurick programming. So first US to say we want to create a simple array and we'll make it a smaller array of only 10 items so we write in little loop to create the array
 
 and we're finished.
 
