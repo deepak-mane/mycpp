@@ -8,63 +8,9 @@ of source files.Now this is something very important.
 
 And I was going to explain this point more elaborate to me in the coming slides directives can be written and bought the source files as well as header files. Now following is a list of most common preprocessor directives which we use in our day to day coding in C or C++ so we can see that there are many preprocessor directives that is has to define hash include hash and def hash of def hash if not define hash of hash or else hash live and hash. And if of course there are a few more preprocessor directives but their discussion is not relevant here. So you can see that preprocessor directives always start with a hash symbol and they're called a preprocessor because they are processed before.
 
+Actually the compiler starts completion of sorts. Fine. Are going to understand that how preprocessor directives are executed so please go to these preprocessor directives and try to understand that what is the function of each of these pre-processing directives. So now going forward. Consider the following simple Secord right. So let us go through this code line by line.
 
-
-Now this is something very important.
-
-And I was going to explain this point more elaborate to me in the coming slides directives can be written
-
-and bought the source files as well as header files.
-
-Now following is a list of most common preprocessor directives which we use in our day to day coding
-
-in C or C++ so we can see that there are many preprocessor directives that is has to define hash include
-
-hash and def hash of def hash if not define hash of hash or else hash live and hash.
-
-And if of course there are a few more preprocessor directives but their discussion is not relevant here.
-
-So you can see that preprocessor directives always start with a hash symbol and they're called a preprocessor
-
-because they are processed before.
-
-Actually the compiler starts completion of sorts.
-
-Fine.
-
-Are going to understand that how preprocessor directives are executed so please go to these preprocessor
-
-directives and try to understand that what is the function of each of these pre-processing directives.
-
-So now going forward.
-
-Consider the following simple Secord right.
-
-So let us go through this code line by line.
-
-You can see that using has defined pre-processing directive.
-
-I have defined a as a constant which is 10.
-
-Similarly I have defined another constant B as 20.
-
-Now I have defined a macro squared X whose definition is X into x.
-
-Now in this line I'm checking whether the symbol a has been defined or not.
-
-Now please remember that the processing on preprocessor directives happens from top towards the bottom
-
-of the source file.
-
-So by the time the compiler reaches this line the compiler will know that there is something called
-
-it which is already defined.
-
-Therefore this condition would be true and because this statement is true.
-
-Therefore all the statements which is enclosed between hash if defined and hash and IV will be considered
-
-as a part of a code therefore hash include extort at will be included.
+You can see that using has defined pre-processing directive. I have defined a as a constant which is 10. Similarly I have defined another constant B as 20. Now I have defined a macro squared X whose definition is X into x. Now in this line I'm checking whether the symbol a has been defined or not. Now please remember that the processing on preprocessor directives happens from top towards the bottom of the source file. So by the time the compiler reaches this line the compiler will know that there is something called it which is already defined. Therefore this condition would be true and because this statement is true. Therefore all the statements which is enclosed between hash if defined and hash and IV will be considered as a part of a code therefore hash include extort at will be included.
 
 Now here we are simply saying to undefined the symbol the.
 
