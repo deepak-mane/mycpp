@@ -15,17 +15,12 @@ And I was going to explain this point more elaborate to me in the coming slides 
 |#undef|Undefinesa  preprocessor macro|
 |#ifdef|Returns true if this macro is defined|
 |#ifndef|Returns true if this macro is Not Defined|
-|||
-|||
-|||
-|||
-|||
-|||
+|#if|Tests if a compile time condition is true|
+|#else|The alterantive for #if|
+|#elif|#else and #if in one statement|
+|#endif|Ends preprocessor conditional|
 
-
-- #define: 
-- #include 
-- #undeff def hash if not define hash of hash or else hash live and hash. And if of course there are a few more preprocessor directives but their discussion is not relevant here. So you can see that preprocessor directives always start with a hash symbol and they're called a preprocessor because they are processed before.
+And if of course there are a few more preprocessor directives but their discussion is not relevant here. So you can see that preprocessor directives always start with a hash symbol and they're called a preprocessor because they are processed before.
 
 Actually the compiler starts completion of sorts. Fine. Are going to understand that how preprocessor directives are executed so please go to these preprocessor directives and try to understand that what is the function of each of these pre-processing directives. So now going forward. Consider the following simple Secord right. So let us go through this code line by line.
 
