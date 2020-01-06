@@ -24,7 +24,7 @@ So let's move on to the next lesson. Where would begin learning how to implement
 
 ```cpp
 //============================================================================
-// Name        : Sec1_Polymorphism.cpp
+// Name        : Sec2_Polymorphism.cpp
 // Author      : Deepak Mane
 // Version     :
 // Copyright   : Your copyright notice
