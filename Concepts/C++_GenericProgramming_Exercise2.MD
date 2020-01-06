@@ -6,10 +6,74 @@ So we put the T in brackets after the keyword vector and then we're going to cau
 
 So we'll just run right up the code very quickly. It's a typical leap through a vector code and then another close bracket and then a final close curly brace to close the class. Now we're ready to test the class. We'll start out first. We'll write a grocery list so that you string to tell the compiler that I'm going to be adding string data to the list. We'll start out with milk eggs bread and then we want to display it just go ahead and build and run the program so far. 
 
-We're going to run another list in just a minute. So there are three items. Milk eggs and bread. Let's put a space here and then let's begin another list. Our list is going to be grades that are inside your tie. So we're going to put a keyword it in brackets after the class name. West we will add some grades to the list. Display the grades build and run the program again. And there are grades along with the grocery list from previous. So there's much more we can do to the list class but to demonstrate the generic nature of the class all I needed to show is that add items in and to do that I have to create a template at the beginning used the template placeholder the type placeholder wherever I reference a data type.
+We're going to run another list in just a minute. So there are three items. Milk eggs and bread. Let's put a space here and then let's begin another list. Our list is going to be grades that are inside your tie. So we're going to put a keyword it in brackets after the class name. West we will add some grades to the list. Display the grades build and run the program again. And there are grades along with the grocery list from previous. 
+```cpp
+//============================================================================
+// Name        : Sec3_GenericProgramming_Example2.cpp
+// Author      : Deepak Mane
+// Version     : 1.0
+// Copyright   : Your copyright notice
+// Description : GenericProgramming in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+template <typename T>
+class List {
+private:
+	vector<T> datastore;
+public:
+	List() {
+
+	}
+
+	void add(T item) {
+		datastore.push_back(item);
+	}
+
+	void display() {
+		for(unsigned int i = 0; i < datastore.size(); ++i ) {
+			cout << datastore[i] << endl;
+		}
+	}
+};
+
+int main() {
+	List<string> grocery;
+	grocery.add("milk");
+	grocery.add("eggs");
+	grocery.add("bread");
+	grocery.display();
+	cout << endl;
+
+	List<int> grades;
+	grades.add(88);
+	grades.add(72);
+	grades.add(91);
+	grades.add(99);
+	grades.display();
+	return 0;
+}
+
+```
+__Output:___
+```
+milk
+eggs
+bread
+
+88
+72
+91
+99
+```
+
+So there's much more we can do to the list class but __*to demonstrate the generic nature of the class all I needed to show is that add items in and to do that I have to create a template at the beginning used the template placeholder the type placeholder wherever I reference a data type.*__
 
 So for the vector declaration and as the data type for that parameter for ADD and then everything else works normally. Now of course if I had any other functions that required a data type then I would have to use t if that data type refers to the item that's in the list. So that wraps up this exercise and that wraps up this chapter on generic programming.
 
-```cpp
-```
+
 - [Back](./README.MD)
