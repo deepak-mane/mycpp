@@ -11,7 +11,51 @@ Take a look. Now let's build and run the program. I see what's wrong with softwa
 We start out with template and type name T being the placeholder for a type and bhool equals and then we are placeholder t before value 1 in value 2 indicating that we're going to provide that type when we use the function call in our code. So then we simply do a comparison and return true if they're equal false otherwise. Then you see in both examples we pass integers to equals. In one case and strings to equals in the other case they both work has. So with that we're finished with this exercise and we're ready to move to the second exercise of the chapter where we're going to work with template classes.
 
 ```cpp
+//============================================================================
+// Name        : Sec3_GenericProgramming_Example1.cpp
+// Author      : Deepak Mane
+// Version     : 1.0
+// Copyright   : Your copyright notice
+// Description : GenericProgramming in C++, Ansi-style
+//============================================================================
 
+#include <iostream>
+#include <vector>
 
+using namespace std;
+
+template <typename T>
+bool equals(T value1, T value2) {
+	if (value1 == value2) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+int main() {
+	int a, b;
+	a = 1, b = 1;
+	if (equals(a,b)) {
+		cout << a << " and " << b << " are equal." << endl;
+	} else {
+		cout << a << " and " << b << " are not equal." << endl;
+	}
+
+	string word1, word2;
+	word1 = word2 = "hello";
+	if (equals(word1,word2)) {
+		cout << word1 << " and " << word2 << " are equal." << endl;
+	} else {
+		cout << word1 << " and " << word2 << " are not equal." << endl;
+	}
+	return 0;
+}
 ```
+__Output:__
+```
+1 and 1 are equal.
+hello and hello are equal.
+```
+
 - [Back](./README.MD)
