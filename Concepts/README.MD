@@ -1,9 +1,7 @@
 # Concepts : C++
 
-```cpp
 ```
-- [Back](./README.MD)
-
+```cpp
 ```
 - [Back](./README.MD)
 ```
