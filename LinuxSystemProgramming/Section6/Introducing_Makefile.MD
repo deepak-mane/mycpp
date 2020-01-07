@@ -1,0 +1,114 @@
+# Introducting Makefile
+
+
+So welcome back guys now and this more day and we are all going to learn the purpose and how to write
+
+a makefile.
+
+So what exactly make wise is make is nothing but it is a program building tool which runs on Unix Linux
+
+and they're equal and flitters makefile AIDS in simplifying building a software program that may be
+
+dependent on wiliest other libraries.
+
+So let us try to understand this point with the help of an example.
+
+So for example suppose you have a software program and that software program is big enough that it consists
+
+of two hundred source file and two anti-hunger files.
+
+Now all of these 200 source wine and 20 header files you need to create certain dishes from the above
+
+raw material.
+
+So let us call this as the raw material because you need to cook up this raw material to prepare certain
+
+set of dishes.
+
+Now what other dishes here dishes are nothing but the final product that you want to create out of the
+
+source files.
+
+So suppose that out of these 200 source file you need to create 10 static libraries five shared libraries
+
+and the executable.
+
+Right.
+
+And note that in the production code the size of the software program can as big as it may have thousands
+
+of source files and hundreds of defines.
+
+So the question is that how are you going to build such a huge software program which consists of so
+
+many source file and header files.
+
+So the answer is that you need to make use of make file.
+
+If you do not make use of Makefile in building such huge software programs then of course you will go
+
+mad if you compile each source file one by one.
+
+In fact it is infeasible and not possible to do Samick file contains all the commands required to read
+
+all the dishes you need.
+
+And what other dishes here.
+
+The final product that you want to build.
+
+So these are dishes.
+
+So here dishes is an informal term that we are using to refer to the final product that you want to
+
+build.
+
+I have seen that 99 percent of the students never make use of make files in their academic tenure to
+
+build and compile their C or C++ programs and that is really something ready set.
+
+In fact unless you start looking for a company in the industry then only I have seen that is true Dern's
+
+and counter for the first time.
+
+For the makefile
+
+So it is for this reason I have decided to include one more deal on make file itself so that you develop
+
+the habit off building your software programs using make files you will see that making use of make
+
+files in building your software program is a one time effort and it is very convenient that pays off
+
+running your software program grows in size.
+
+Now let us go through the functions of our Make find that is what is the purpose of make file.
+
+So the very first and the basic function of the makefile is the completion.
+
+So this involves the completion of source file to create the corresponding object files.
+
+The linking is also done using make files Makefile is also used to create the required libraries which
+
+could be a static or dynamic.
+
+And of course Makefile is used to create the required executables.
+
+Makefile is also used for the installation of libraries and executables on your system.
+
+And of course Makefile is used to update the dependencies so you can see a diagram particularly here
+
+that Makefile is used to create libraries executables installation.
+
+Right.
+
+And of course the input to the makefile is the raw material where raw material means the source file
+
+and header files.
+
+And of course you may be provided with precompiled libraries and object files from third party libraries.
+
+So does pre-compiled libraries can also be created to make file in order to create your final products.
+
+So in order to learn how to write a Makefile rebuild to a short assignment.
+
+So as an exercise we will be developing a very small software package using a makefile.
