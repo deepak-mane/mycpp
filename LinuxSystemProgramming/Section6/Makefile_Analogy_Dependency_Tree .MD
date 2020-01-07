@@ -133,4 +133,6 @@ object files.
 
 So Max Wrubel do an assignment on Makefile and we will try to correlate that how may find Roths exactly
 
-as part of this and Donaghey.
+as part of this and analogy.
+
+![Alt text](../images/MakeFileDependencyTree.PNG?raw=true "Title")
