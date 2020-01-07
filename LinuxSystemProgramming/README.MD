@@ -41,12 +41,12 @@
   - Linking with Static Library
   - Linking with Dynamic Library
 
-+ Section 6 : Building using a Makefile
-  - What are Makefiles and why do we need it
-  - Functions of Makefile
-  - Makefile Dependency tree
-  - Steps of Writing a Makefile
-  - Assignment on Makefile
++ [Section 6 : Building using a Makefile](./Section6/README.MD)
+  - [What are Makefiles and why do we need it](./Section6/Introducing_Makefile.MD)
+  - [Makefile Analogy Dependency Tree](./Section6/Makefile_Analogy_Dependency_Tree.MD)
+  - [Makefile Assignment Part1](./Section6/MakeFile_Assignment_Part1.MD)
+  - [Makefile Assignment Part2](./Section6/MakeFile_Assignment_Part2.MD)
+  - [Final Makefile](./Section6/Final_Makefile.MD)  
 
 + Section 7 : Run-time Programmable libraries
   - What are Programmable Libraries?
