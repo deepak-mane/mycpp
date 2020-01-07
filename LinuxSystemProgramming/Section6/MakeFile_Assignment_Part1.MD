@@ -131,3 +131,6 @@ And we write Makefile in order to create our final dish that is look he taught a
 
 end product.
 
+![Alt text](../images/MakeFileAssignmentPart1_1.PNG?raw=true "Title")
+![Alt text](../images/MakeFileAssignmentPart1_2.PNG?raw=true "Title")
+![Alt text](../images/MakeFileAssignmentPart1_3.PNG?raw=true "Title")
