@@ -18,7 +18,7 @@ connect(ui->pushButton,QPushButton::clicked,[=]{
         ui->label->setText("Get Lost");
 });
 ```
-
+![Alt text](../images/MakeFileDependencyTree.PNG?raw=true "Title")
 ```cpp
 #include "widget.h"
 #include "ui_widget.h"
