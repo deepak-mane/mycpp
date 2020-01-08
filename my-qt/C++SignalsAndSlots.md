@@ -19,7 +19,7 @@ connect(ui->pushButton,QPushButton::clicked,[=]{
 });
 ```
 
-```qt
+```cpp
 #include "widget.h"
 #include "ui_widget.h"
 
