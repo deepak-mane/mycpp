@@ -1,6 +1,12 @@
 # C++ ExceptionHandling : CatchingExceptions
 
-
+  + [Exception Handling]()
+    - [Exception Overview](./C++_ExceptionHandling_ExceptionOveriew.MD)
+    - [Throw Exceptions](./C++_ExceptionHandling_ThrowExceptions.MD)
+    - [Catching Exceptions](./C++_ExceptionHandling_CatchingExceptions.MD)
+    - [Catch All Exception Handlers](./C++_ExceptionHandling_CatchAllExceptionHandlers.MD)
+    - [Exercise 1](./C++_ExceptionHandling_Exercise1.MD)    
+    
 In this lesson I'm going to demonstrate how to catch an exception object. In this case the divide by zero object that we created in the last lesson.  So here's our code that we've written so far. All we need now is some main code that will cause the exception to be thrown. So we're going to declare a couple of numeric variables here.  Will simply prompt the user to enter a numerator 
 and prompt the user to enter a denominator numbers one and number two.
  
