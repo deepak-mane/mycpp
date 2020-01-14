@@ -42,8 +42,7 @@ Where filename is a string representing the name of the file to be opened, and m
 |ios::in	|Open for input operations.|
 |ios::out	|Open for output operations.|
 |ios::binary	|Open in binary mode.|
-|ios::ate	|Set the initial position at the end of the file.
-If this flag is not set, the initial position is the beginning of the file.|
+|ios::ate	|Set the initial position at the end of the file.If this flag is not set, the initial position is the beginning of the file.|
 |ios::app	|All output operations are performed at the end of the file, appending the content to the current content of the file.|
 |ios::trunc	|If the file is opened for output operations and it already existed, its previous content is deleted and replaced by the new one.|
 
@@ -59,7 +58,7 @@ Each of the open member functions of classes ofstream, ifstream and fstream has 
 | ---| ---|
 |ofstream	|ios::out|
 |ifstream |ios::in|
-|fstream	|ios::in '|' ios::out|
+|fstream	|ios::in \| ios::out|
 
 
 - [Reference](http://www.cplusplus.com/doc/tutorial/files/)
