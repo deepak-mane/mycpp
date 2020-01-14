@@ -26,4 +26,42 @@ int main () {
 }
 ```
 
+### Open a file
+The first operation generally performed on an object of one of these classes is to associate it to a real file. This procedure is known as to open a file. An open file is represented within a program by a stream (i.e., an object of one of these classes; in the previous example, this was myfile) and any input or output operation performed on this stream object will be applied to the physical file associated to it.
+
+In order to open a file with a stream object we use its member function open:
+
+```cpp
+open (filename, mode);
+```
+
+Where filename is a string representing the name of the file to be opened, and mode is an optional parameter with a combination of the following flags:
+
+|mode parameter |Description |
+| ---| ---|
+|ios::in	|Open for input operations.|
+|ios::out	|Open for output operations.|
+|ios::binary	|Open in binary mode.|
+|ios::ate	|Set the initial position at the end of the file.
+If this flag is not set, the initial position is the beginning of the file.|
+|ios::app	|All output operations are performed at the end of the file, appending the content to the current content of the file.|
+|ios::trunc	|If the file is opened for output operations and it already existed, its previous content is deleted and replaced by the new one.|
+
+All these flags can be combined using the bitwise operator OR (|). For example, if we want to open the file example.bin in binary mode to add data we could do it by the following call to member function open:
+
+```cpp
+ofstream myfile;
+myfile.open ("example.bin", ios::out | ios::app | ios::binary); 
+```
+Each of the open member functions of classes ofstream, ifstream and fstream has a default mode that is used if the file is opened without a second argument:
+
+|class	|default mode parameter|
+| ---| ---|
+|ofstream	|ios::out|
+|ifstream |ios::in|
+|fstream	|ios::in '|' ios::out|
+
+
+- [Reference](http://www.cplusplus.com/doc/tutorial/files/)
+
 
