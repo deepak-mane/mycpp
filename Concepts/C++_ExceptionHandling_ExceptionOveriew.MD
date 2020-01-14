@@ -180,6 +180,61 @@ We can change this abnormal termination behavior by writing our own unexpected f
 
 
 5) A derived class exception should be caught before a base class exception. See this for more details.
+- Exception Handling – catching base and derived classes as exceptions:
+  If both base and derived classes are caught as exceptions then catch block of derived class must appear before the base class.
+  If we put base class first then the derived class catch block will never be reached. For example, following C++ code prints “Caught Base Exception”
+
+```cpp
+#include<iostream> 
+using namespace std; 
+  
+class Base {}; 
+class Derived: public Base {}; 
+int main() 
+{ 
+   Derived d; 
+   // some other stuff 
+   try { 
+       // Some monitored code 
+       throw d; 
+   } 
+   catch(Base b) {  
+        cout<<"Caught Base Exception"; 
+   } 
+   catch(Derived d) {  //This catch block is NEVER executed 
+        cout<<"Caught Derived Exception"; 
+   } 
+   getchar(); 
+   return 0; 
+} 
+```
+In the above C++ code, if we change the order of catch statements then both catch statements become reachable. Following is the modifed program and it prints “Caught Derived Exception”
+
+```cpp
+#include<iostream> 
+using namespace std; 
+  
+class Base {}; 
+class Derived: public Base {}; 
+int main() 
+{ 
+   Derived d; 
+   // some other stuff 
+   try { 
+       // Some monitored code 
+       throw d; 
+   } 
+   catch(Derived d) {  
+        cout<<"Caught Derived Exception"; 
+   } 
+   catch(Base b) {  
+        cout<<"Caught Base Exception"; 
+   } 
+   getchar(); 
+   return 0; 
+} 
+```
+In Java, catching a base class exception before derived is not allowed by the compiler itself. In C++, compiler might give warning about it, but compiles the code.
 
 6) Like Java, C++ library has a standard exception class which is base class for all standard exceptions. All objects thrown by components of the standard library are derived from this class. Therefore, all standard exceptions can be caught by catching this type
 
