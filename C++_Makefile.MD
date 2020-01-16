@@ -10,6 +10,7 @@ The source code and directory layout for the project is comprised of three main 
 The Makefile supports building of a single target application called program which once built will be placed in the build/apps directory. All associated objects will be placed in the build/objects directory. The following is a listing of the Makefile in its entirety:
 
 ```cpp
+
 CXX      := -c++
 CXXFLAGS := -pedantic-errors -Wall -Wextra -Werror
 LDFLAGS  := -L/usr/lib -lstdc++ -lm
@@ -51,6 +52,7 @@ release: all
 clean:
    -@rm -rvf $(OBJ_DIR)/*
    -@rm -rvf $(APP_DIR)/*
+   
 ```
 
 ### Makefile Commands
