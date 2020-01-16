@@ -4,7 +4,7 @@ This is a very simple C++ Makefile template, that can be used to get small to me
 
 The source code and directory layout for the project is comprised of three main directories (include, src and build), under which other directories containing code would reside. The layout used in the example is as follows:
 
-![Alt text](./images/Makefile.PNG?raw=true "Title")
+![Alt text](./images/Makefile.png?raw=true "Title")
 
 ### The Makefile
 The Makefile supports building of a single target application called program which once built will be placed in the build/apps directory. All associated objects will be placed in the build/objects directory. The following is a listing of the Makefile in its entirety:
