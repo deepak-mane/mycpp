@@ -5,6 +5,7 @@ My Learnt C++ Example Snippets
 - [Part1 : Modern C++ in embedded systems](Part1_ModernC++_in_embedded_systems.md)
 - [Part2 : Modern C++ in embedded systems](Part2_ModernC++_in_embedded_systems.md)
 - [Practical Makefiles, by example](http://nuclear.mutantstargoat.com/articles/make/)
+- [tutorial-make-vim-as-your-cc-ide-using-cvim-plugin](https://www.thegeekstuff.com/2009/01/tutorial-make-vim-as-your-cc-ide-using-cvim-plugin/)
 
 
 
