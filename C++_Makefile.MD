@@ -35,7 +35,8 @@ $(OBJ_DIR)/%.o: %.cpp
 
 $(APP_DIR)/$(TARGET): $(OBJECTS)
    @mkdir -p $(@D)
-   $(CXX) $(CXXFLAGS) $(INCLUDE) $(LDFLAGS) -o $(APP_DIR)/$(TARGET) $(OBJECTS)
+   $(CXX) $(CXXFLAGS) $(INCLUDE) $(LDFLAGS) -o \
+   $(APP_DIR)/$(TARGET) $(OBJECTS)
 
 .PHONY: all build clean debug release
 
@@ -57,7 +58,7 @@ clean:
 
 ### Makefile Commands
 The following commands can be used with this Makefile:
-```cpp
+```make
 make all
 make clean
 make program
@@ -68,7 +69,7 @@ make debug
 ### Example Run
 The following is the expected output when the command "make clean all" is executed:
 
-```cpp
+```make
 make clean all
 rm -rf build/*
 c++ -pedantic-errors -Wall -Wextra -Werror -Iinclude/ -o build/objects/src/program.o
