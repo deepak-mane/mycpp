@@ -6,7 +6,8 @@ The source code and directory layout for the project is comprised of three main 
 
 ![Alt text](./images/Makefile.png?raw=true "Title")
 
-### The Makefile
+### The Makefile 
+- [cpp_makefile_template.zip](./cpp_makefile_template.zip)
 The Makefile supports building of a single target application called program which once built will be placed in the build/apps directory. All associated objects will be placed in the build/objects directory. The following is a listing of the Makefile in its entirety:
 
 ```make
