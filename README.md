@@ -4,6 +4,8 @@ My Learnt C++ Example Snippets
 - [CPP Core Guidelines](http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines)
 - [Part1 : Modern C++ in embedded systems](Part1_ModernC++_in_embedded_systems.md)
 - [Part2 : Modern C++ in embedded systems](Part2_ModernC++_in_embedded_systems.md)
+- [Practical Makefiles, by example](http://nuclear.mutantstargoat.com/articles/make/)
+
 
 
 ### Reading Sequence of this github repository
