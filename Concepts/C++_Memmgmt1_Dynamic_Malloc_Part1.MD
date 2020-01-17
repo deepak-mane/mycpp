@@ -1,8 +1,8 @@
 # C++ - Memory Management : Part 1
-Dynamic Memory Allocation
+Dynamic Memory Allocation - malloc function
 
-  + [Memory Management]() [Back](./README.MD)
-    - [Memory Management Part1]()
+  + [Memory Management](./README.MD)
+    - [Memory Management Part1](./README.MD)
       - [Dynamic Memory Allocation Malloc Part1](./C++_Memmgmt1_Dynamic_Malloc_Part1.MD)
       + [Dynamic Memory Allocation NewOperator Part2](./C++_Memmgmt1_Dynamic_NewOperator_Part2.MD)
       + [Dynamic Memory Allocation NewOperator Part3](./C++_Memmgmt1_Dynamic_NewOperator_Part3.MD)
