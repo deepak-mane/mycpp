@@ -94,7 +94,7 @@
     - [Substring And Replace](./C++_StringClass_SubstringReplace.MD)
     - [C Style Strings](./C++_StringClass_CStyle.MD)   
     - [Exercise 1](./C++_StringClass_Exercise1.MD)    
-  + [Memory Management]()   
+  + [Memory Management]() [Back](./README.MD)
     - [Memory Management Part1]()
       - [Dynamic Memory Allocation Malloc Part1](./C++_Memmgmt1_Dynamic_Malloc_Part1.MD)
       + [Dynamic Memory Allocation NewOperator Part2](./C++_Memmgmt1_Dynamic_NewOperator_Part2.MD)
