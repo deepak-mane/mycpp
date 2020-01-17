@@ -8,6 +8,8 @@ Dynamic Memory Allocation - malloc function
       + [Dynamic Memory Allocation NewOperator Part3](./C++_Memmgmt1_Dynamic_NewOperator_Part3.MD)
       + [Dynamic Memory Allocation 2DArrays Part4](./C++_Memmgmt1_Dynamic_2DArrays_Part4.MD)
 
+</br>
+
 - C/C++ programs are provided with different types of memory areas
   + <b>stack</b> : Allocated automatically for local variables
   + <b>data section</b> : Allocated for Global and static data
