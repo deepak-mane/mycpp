@@ -188,8 +188,8 @@
 1. [C/C++ Program for Rearrange a string so that all same characters become d distance away](./OnStrings/Rearrange_a_string_so_that_all_same_characters_become_d_distance_away.md)
 1. [C program to find second most frequent character](./OnStrings/second_most_frequent_character.md)
 
-## [4.] Linked List C/C++ Programs:
-1. [C/C++ Program for Introduction to Linked List](./OnLinkedList/Introduction_to_Linked_List.md)
+## [4.] [Linked List C/C++ Programs](./OnLinkedList/README.md)
+1. [C/C++ Program for Introduction to Linked List](./OnLinkedList/README.md)
 1. [C/C++ Program for Linked List Insertion](./OnLinkedList/Linked_List_Insertion.md)
 1. [C/C++ Program for Write a function to get Nth node in a Linked List](./OnLinkedList/Write_a_function_to_get_Nth_node_in_a_Linked_List.md)
 1. [C/C++ Program for Given only a pointer to a node to be deleted in a singly linked list, how do you delete it?](./OnLinkedList/Given_only_a_pointer_to_a_node_to_be_deleted_in_a_singly_linked_list,_how_do_you_delete_it?.md)
