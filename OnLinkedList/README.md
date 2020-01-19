@@ -1,5 +1,22 @@
 # Linked List - Introduction
 
+1) Create Singly Linked List  - create_sll()
+2) Display Singly Linked List - display_sll()
+3) Insert
+   + At Begining    - insert_at_begin_sll()
+   + At End         - insert_at_end_sll()
+   + After position - insert_after_pos_sll()
+4) Delete
+   + At Begining   - delete_at_begin_sll()
+   + At End        - delete_at_end_sll()
+   + After postion - delet_after_pos_sll()
+5) Reverse Singly Linked List - reverse_sll()
+
+
+
+
+
+
 ## [4.] Linked List C/C++ Programs:
 1. [C/C++ Program for Introduction to Linked List](./README.md)
 1. [C/C++ Program for Linked List Insertion](./Linked_List_Insertion.md)
