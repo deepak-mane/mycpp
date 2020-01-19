@@ -1,7 +1,7 @@
 # Linked List - Introduction
 
 ## [4.] Linked List C/C++ Programs:
-1. [C/C++ Program for Introduction to Linked List](./Introduction_to_Linked_List.md)
+1. [C/C++ Program for Introduction to Linked List](./README.md)
 1. [C/C++ Program for Linked List Insertion](./Linked_List_Insertion.md)
 1. [C/C++ Program for Write a function to get Nth node in a Linked List](./Write_a_function_to_get_Nth_node_in_a_Linked_List.md)
 1. [C/C++ Program for Given only a pointer to a node to be deleted in a singly linked list, how do you delete it?](./Given_only_a_pointer_to_a_node_to_be_deleted_in_a_singly_linked_list,_how_do_you_delete_it?.md)
