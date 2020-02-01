@@ -31,3 +31,73 @@ So to execute this rule you simply run __make__ and provide the rule name and it
 And this will and this will build only __libcalc.a__ as a final product you can see that there is no executable created because we wanted to create only __libcalc.a__ , who don't a as a final product by specifying the rule name after the make.
 
 Also note that in one directory there has to be only and only one Makefile. You cannot create multiple make files  in a single directory.Right. So here you can not create another makefile. And there has to be only one Makefile in one directory. So I hope I'm able to explain to you the concept of writing makefile. And henceforward when you write your programs which involves multiple source files and linking with multiple libraries, you are always advised to write make files in order to build your programs.
+
+## Simple Makefile
+```make
+TARGET ?= a.out
+SRC_DIRS ?= ./src
+
+SRCS := $(shell find $(SRC_DIRS) -name *.cpp -or -name *.c -or -name *.s)
+OBJS := $(addsuffix .o,$(basename $(SRCS)))
+DEPS := $(OBJS:.o=.d)
+
+INC_DIRS := $(shell find $(SRC_DIRS) -type d)
+INC_FLAGS := $(addprefix -I,$(INC_DIRS))
+
+CPPFLAGS ?= $(INC_FLAGS) -MMD -MP
+
+$(TARGET): $(OBJS)
+	$(CC) $(LDFLAGS) $(OBJS) -o $@ $(LOADLIBES) $(LDLIBS)
+
+.PHONY: clean
+clean:
+	$(RM) $(TARGET) $(OBJS) $(DEPS)
+
+-include $(DEPS)
+
+```
+
+## Handle both C and C++ together Makefile snipped
+```make
+TARGET_EXEC ?= a.out
+
+BUILD_DIR ?= ./build
+SRC_DIRS ?= ./src
+
+SRCS := $(shell find $(SRC_DIRS) -name *.cpp -or -name *.c -or -name *.s)
+OBJS := $(SRCS:%=$(BUILD_DIR)/%.o)
+DEPS := $(OBJS:.o=.d)
+
+INC_DIRS := $(shell find $(SRC_DIRS) -type d)
+INC_FLAGS := $(addprefix -I,$(INC_DIRS))
+
+CPPFLAGS ?= $(INC_FLAGS) -MMD -MP
+
+$(BUILD_DIR)/$(TARGET_EXEC): $(OBJS)
+	$(CC) $(OBJS) -o $@ $(LDFLAGS)
+
+# assembly
+$(BUILD_DIR)/%.s.o: %.s
+	$(MKDIR_P) $(dir $@)
+	$(AS) $(ASFLAGS) -c $< -o $@
+
+# c source
+$(BUILD_DIR)/%.c.o: %.c
+	$(MKDIR_P) $(dir $@)
+	$(CC) $(CPPFLAGS) $(CFLAGS) -c $< -o $@
+
+# c++ source
+$(BUILD_DIR)/%.cpp.o: %.cpp
+	$(MKDIR_P) $(dir $@)
+	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -c $< -o $@
+
+
+.PHONY: clean
+
+clean:
+	$(RM) -r $(BUILD_DIR)
+
+-include $(DEPS)
+
+MKDIR_P ?= mkdir -p
+
