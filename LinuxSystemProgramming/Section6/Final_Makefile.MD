@@ -58,7 +58,7 @@ clean:
 ```
 
 ## Handle both C and C++ together Makefile snipped
-Here is a simple Makefile that will do all these things and works with C, C++, and assembly:
+If your requirements for building c/c++ programs were:
 + Out-of-source builds (object files get dumped in a separate directory from the source)
 + Automatic (and accurate!) header dependencies
 + Automatic determination of list of object/source files
@@ -107,7 +107,7 @@ And then prefix them with a -I:
 INC_FLAGS := $(addprefix -I,$(INC_DIRS))
 ```
 
-
+### Here is a simple Makefile that will do all these things and works with C, C++, and assembly:
 ```make
 TARGET_EXEC ?= a.out
 
