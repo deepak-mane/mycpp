@@ -107,7 +107,8 @@ And then prefix them with a -I:
 INC_FLAGS := $(addprefix -I,$(INC_DIRS))
 ```
 
-### Here is a simple Makefile that will do all these things and works with C, C++, and assembly:
+## Here is a simple Makefile that will do all these things and works with C, C++, and assembly:
+
 ```make
 TARGET_EXEC ?= a.out
 
@@ -124,7 +125,7 @@ INC_FLAGS := $(addprefix -I,$(INC_DIRS))
 CPPFLAGS ?= $(INC_FLAGS) -MMD -MP
 
 $(BUILD_DIR)/$(TARGET_EXEC): $(OBJS)
-	$(CC) $(OBJS) -o $@ $(LDFLAGS)
+	$(CXX) $(OBJS) -o $@ $(LDFLAGS)
 
 # assembly
 $(BUILD_DIR)/%.s.o: %.s
