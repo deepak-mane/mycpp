@@ -58,6 +58,13 @@ clean:
 ```
 
 ## Handle both C and C++ together Makefile snipped
+Here is a simple Makefile that will do all these things and works with C, C++, and assembly:
++ Out-of-source builds (object files get dumped in a separate directory from the source)
++ Automatic (and accurate!) header dependencies
++ Automatic determination of list of object/source files
++ Automatic generation of include directory flags
+
+
 ```make
 TARGET_EXEC ?= a.out
 
@@ -100,4 +107,46 @@ clean:
 -include $(DEPS)
 
 MKDIR_P ?= mkdir -p
+```
+### Out-of-Source Builds
+Artifacts from a build to end up in some directory (I usually name it “./build”) that’s separate from the source. This makes is easy to do a clean (just rm -rf ./build) even if other artifacts besides the ones generated via Make end up there. It also makes a lot of other things, such as grep’ing the source, a lot nicer.
 
+To do this in Make, you mostly just need to prepend your output directory to the beginning of your pattern rules. For example, instead of a pattern like: %.o: %.c, which would map your .c files for .o files in the same directory, you can use $(BUILD_DIR)%.o: %.c.
+
+### Automatic Header Dependencies
+Handling the header dependencies is perhaps the most tedious thing about using the classic Make technique. Especially since, if you mess it up, you don’t get any explicit errors–things just don’t get re-compiled when they ought to be. This can lead to .o files having different ideas about what types or prototypes look like.
+
+There is documentation for this here. However, the docs seem to assume that the dependency files are generated in a separate step from the compile step, which complicates things.
+
+If you generate the dependency files as part of the compilation step, things get much simpler. To generate the dependency files, all you have to do is add some flags to the compile command (supported by both Clang and GCC):
+```
+-MMD -MP
+which will generate a .d file next to the .o file. Then to use the .d files, you just need to find them all:
+DEPS := $(OBJS:.o=.d)
+and then -include them:
+-include $(DEPS)
+```
+### Automatic Determination of List of Object/Source Files
+First, find all of the source files in the given source directories. The simplest and fastest way to do this was to just shell out and use find.
+```
+SRCS := $(shell find $(SRC_DIRS) -name *.cpp -or -name *.c -or -name *.s)
+```
+But because Make works backward from the object files to the source, we need to compute all the object files we want from our source files. Just prepend a $(BUILD_DIR)/ and append a .o to every source file path:
+```
+OBJS := $(SRCS:%=$(BUILD_DIR)/%.o)
+```
+And then you can make your target depend on the objects files:
+```
+MAKEFILE
+$(BUILD_DIR)/$(TARGET_EXEC): $(OBJS)
+  $(CC) $(OBJS) -o $@ $(LDFLAGS)
+```
+Automatic Generation of Include Directory Flags
+I used a similar technique to generate include directory flags. Find all the directories under the given source directories:
+```
+INC_DIRS := $(shell find $(SRC_DIRS) -type d)
+```
+And then prefix them with a -I:
+```
+INC_FLAGS := $(addprefix -I,$(INC_DIRS))
+```
