@@ -6,3 +6,9 @@
 - Create a login session with putty, make sure that in Connections/SSH/Auth is pointing to your private key.
 - Modify eclipse make command to plink.exe -load "saved_session" make -C /remote/path/project (This setting is in Project/Properties/C++Build/Builder Settings/Build command). You can automate this with a batch/shell file if you have to pass more parameters and/or your setup is more complex.
 - If you have stored a passphrase with your private key then you can use pageant.exe to load your key only once, so you dont have to type your passphrase every time.
+
+
+## Using Eclipse to develope on remote Linux server from Windows Host
+- [Remote C Development Using Eclipse](http://www.madirish.net/190)
+
+
