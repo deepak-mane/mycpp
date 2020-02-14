@@ -6,7 +6,7 @@ My Learnt C++ Example Snippets
 - [Part2 : Modern C++ in embedded systems](Part2_ModernC++_in_embedded_systems.md)
 - [Practical Makefiles, by example](http://nuclear.mutantstargoat.com/articles/make/) | [Using make and writing Makefile ( in C++ or C )](https://www.youtube.com/watch?v=aw9wHbFTnAQ)
 - [tutorial-make-vim-as-your-cc-ide-using-cvim-plugin](https://www.thegeekstuff.com/2009/01/tutorial-make-vim-as-your-cc-ide-using-cvim-plugin/)
-- [Sources - ](https://github.com/deepak-mane/my-job-descriptions/blob/master/QuickApply.md)
+- [Sources - Gaurav Sen,Rachit Jain - competitive programming ](https://github.com/deepak-mane/my-job-descriptions/blob/master/QuickApply.md)
 
 
 ### Reading Sequence of this github repository
