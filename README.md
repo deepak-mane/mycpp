@@ -48,5 +48,24 @@ My Learnt C++ Example Snippets
 1. []()
 1. []()
 
+## C++ Developer duties and responsibilities
+1. Design, build, and maintain efficient and reliable C++ code
+1. Work closely with other engineers to develop new products
+1. Work on extensions of existing products
+1. Suggest and implement improvements on current products
+1. Plan, design, develop, manage, document, test, deploy, and support new and existing modules
+1. Hands on of algorithm complexities
+1. Development of the next generation software
+1. Basic Database systems - indexes, filters
+## C++ Developer requirements
+1. X+ years of experience in C++
+1. BS degree in Computer Science or Engineering
+1. Experience with algorithms/data structures knowledge
+1. Good OOP knowledge
+1. Software development lifecycle experience
+1. Experience with Android/ OS X/ IOS, Windows  and LINUX
+1. Good understanding of TCP/IP protocol
+1. Coordination with other developers for cross-functional requirements implementation and tests
+1. Resolve issues proactively to deliver high quality products 
 
 # END
