@@ -14,14 +14,17 @@ Connecting Signals to Slots: 3 Different Ways
     /*Functor Nototation :  Regular slots */
     connect(ui->pushButton,&QPushButton::clicked,
             this,&Widget::changeText);
+
 ```
 
 ## Functor Lambda Notation
 ```cpp
-connect(ui->pushButton,QPushButton::clicked,[=]{
-        ui->label->setText("Get Lost");
-});
+    /*Functor Nototation :  Lambdas */
+    connect(ui->pushButton,&QPushButton::clicked,
+            [=](){ui->label->setText("Lambda");}
+            );
 ```
+
 ![Alt text](./images/Qt_SignalsAndSlots.PNG?raw=true "Title")
 ```cpp
 #include "widget.h"
