@@ -24,8 +24,6 @@ Connecting Signals to Slots: 3 Different Ways
             [=](){ui->label->setText("Lambda");}
             );
 ```
-
-![Alt text](./images/Qt_SignalsAndSlots.PNG?raw=true "Title")
 ```cpp
 #include "widget.h"
 #include "ui_widget.h"
@@ -62,5 +60,28 @@ void Widget::changeText()
 {
     qDebug() << "User Clicked on the button";
     ui->label->setText("Hello there");
+}
+```
+![Alt text](./images/Qt_SignalsAndSlots.PNG?raw=true "Title")
+```cpp
+
+#include "widget.h"
+#include "ui_widget.h"
+
+Widget::Widget(QWidget *parent)
+    : QWidget(parent)
+    , ui(new Ui::Widget)
+{
+    ui->setupUi(this);
+
+    // String notation
+    connect(ui->horizontalSlider,SIGNAL(valueChanged(int)),
+            ui->progressBar,SLOT(setValue(int)));
+
+}
+
+Widget::~Widget()
+{
+    delete ui;
 }
 ```
