@@ -26,7 +26,7 @@ Connecting Signals to Slots: 3 Different Ways
 ```
 
 ![Alt text](./images/Qt_SignalsAndSlots.PNG?raw=true "Title")
-```qt
+```cpp
 #include "widget.h"
 #include "ui_widget.h"
 #include <QDebug>
