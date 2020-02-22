@@ -4,12 +4,16 @@ Connecting Signals to Slots: 3 Different Ways
 
 ## String Notation
 ```cpp
-connect(ui->pushButton,SIGNAL(clicked()),this,SLOT(changeText()));
+/* String Notation          */
+   connect(ui->pushButton,SIGNAL(clicked()),
+          this,SLOT(changeText()));
 ```
 
 ## Functor Notation
 ```cpp
-connect(ui->pushButton,QPushButton::clicked,this,&MyWidget::changeText);
+    /*Functor Nototation :  Regular slots */
+    connect(ui->pushButton,&QPushButton::clicked,
+            this,&Widget::changeText);
 ```
 
 ## Functor Lambda Notation
