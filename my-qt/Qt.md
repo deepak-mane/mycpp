@@ -19,6 +19,15 @@ Project ERROR: Cannot run compiler 'cl'. Output:
 Added Qt Home in PATH variable
 D:\APP\Qt
 
+2. Can you configure Qt Creator to kill the running application before building or running?:
+- <b>Issue:</b>
+- <b>Solution:</b>
+There is an option to do that in Qt Creator:
+
+Open the Preferences => Build & Run => General
+Change “Stop application before building” from “None” to “Same Project”
+
+
 ### Qt Clases
 1. QWidget Class
    + template
