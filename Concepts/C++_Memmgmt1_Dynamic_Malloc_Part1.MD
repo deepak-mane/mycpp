@@ -27,3 +27,16 @@ Dynamic Memory Allocation - malloc function
    + <b>free</b>: deallocates/releases the memory allocated through the above functions. 
    
 
+```c
+#include <stdlib.h>
+#include <stdio.h>
+
+int main() {
+    int* p = malloc(sizeof(int));
+    *p = 5;
+    printf("%d", *p);
+    free(p);
+    return 0;
+}
+
+```
