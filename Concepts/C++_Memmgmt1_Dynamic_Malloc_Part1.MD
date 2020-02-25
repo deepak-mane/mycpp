@@ -28,15 +28,26 @@ Dynamic Memory Allocation - malloc function
    
 
 ```c
+// MemoryManagement.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
 #include <stdlib.h>
 #include <stdio.h>
 
 int main() {
-    int* p = malloc(sizeof(int));
+    //int* p = (int *)calloc(5, sizeof(int));
+    int* p = (int *)malloc(5 * sizeof(int));
+    if (p == NULL) {
+        printf("Failed to allocate memory\n");
+        return -1;
+    }
     *p = 5;
     printf("%d", *p);
-    free(p);
+    //free(p);
+    p = NULL;
+    //free(p);
     return 0;
 }
 
 ```
+
