@@ -12,3 +12,41 @@
   int *p = new int(value);
   delete p;
 ```
+
+
+```cpp
+// MemoryManagement.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <stdlib.h>
+#include <stdio.h>
+#include <iostream>
+
+void Malloc() {
+    //int* p = (int *)calloc(5, sizeof(int));
+    int* p = (int*)malloc(5 * sizeof(int));
+    if (p == NULL) {
+        printf("Failed to allocate memory\n");
+        return ;
+    }
+    *p = 5;
+    printf("%d", *p);
+    //free(p);
+    p = NULL;
+    //free(p);
+}
+
+void NewM() {
+    int* p = new int; // This statement allocates memory for the integer pointer.
+    *p = 6;
+    std::cout << *p << std::endl;
+    delete p;
+}
+int main() {
+    NewM();
+    return 0;
+}
+
+
+
+```
