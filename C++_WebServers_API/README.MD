@@ -3,7 +3,7 @@
 ## Building Docker Images
 1. Installing Docker
 
-1. Creating Docker Container
+2. Creating Docker Container
    - Create below Dockerfile
 
 ```sh
@@ -1372,7 +1372,7 @@ drwxr-xr-x 2 deeps deeps 4096 Feb 26 22:38 .
 <deeps@sdcndub:/home/deeps/Desktop/cppweb/cppbox
 ```
 
-1. Adding Volume to Docker Image
+3. Adding Volume to Docker Image
 ```sh
 <deeps@sdcndub:/home/deeps/Desktop/cppweb
 >docker run -v ~/Desktop/cppweb:/usr/src/cppweb -ti cppbox:latest bash
