@@ -4,8 +4,8 @@
 1. Installing Docker
 
 1. Creating Docker Container
-
    - Create below Dockerfile
+
 ```sh
 FROM gcc:7.3.0
 
@@ -1151,10 +1151,12 @@ Successfully tagged cppbox:latest
 
    - Valiate build image
      + Login to the docker image
+     + Find under /usr libboost files
+     
 ```sh
 >docker run -ti cppbox:latest bash
 ```
-     + Login to the docker image
+
 ```sh
 root@a90f6f102ede:/# find /usr -name libboost*.*
 /usr/lib/x86_64-linux-gnu/libboost_unit_test_framework.so
