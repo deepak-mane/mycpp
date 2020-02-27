@@ -1386,3 +1386,9 @@ root@ec971e533dd7:/usr/src/cppweb# touch MY_FILE.txt
 ```sh
 docker run -v ~/Desktop/cppweb:/usr/src/cppweb -ti cppbox:latest bash
 ```
+4. To Open the port on the Docker Image and start the webserver, run the below command. After running the command navigate to web browser on your host and type: http://localhost:8080
+
+```sh
+<deeps@sdcndub:/home/deeps/Desktop/cppweb
+>docker run -v ~/Desktop/cppweb:/usr/src/cppweb -p 8080:8080 -e PORT=8080 cppbox:latest /usr/src/cppweb/hello_crow/build/hello_crow
+```
