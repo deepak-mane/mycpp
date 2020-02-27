@@ -1381,3 +1381,8 @@ root@ec971e533dd7:/usr/src/cppweb# ls
 cppbox
 root@ec971e533dd7:/usr/src/cppweb# touch MY_FILE.txt
 ```
+4. You can add the current Host directory to Any number of Docker Images. Each time you need you can run the below command
+
+```sh
+docker run -v ~/Desktop/cppweb:/usr/src/cppweb -ti cppbox:latest bash
+```
