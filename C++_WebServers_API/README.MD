@@ -1150,8 +1150,12 @@ Successfully tagged cppbox:latest
 ```
 
    - Valiate build image
+     + Login to the docker image
 ```sh
 >docker run -ti cppbox:latest bash
+```
+     + Login to the docker image
+```sh
 root@a90f6f102ede:/# find /usr -name libboost*.*
 /usr/lib/x86_64-linux-gnu/libboost_unit_test_framework.so
 /usr/lib/x86_64-linux-gnu/libboost_random.so
